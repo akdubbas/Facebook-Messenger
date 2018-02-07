@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "a80a4e1d8635162800ff9dd56bd0b90c"
+build_time: [1518010588, 661148000]
+inputs:
+  "/Users/amithdubbasi/Desktop/Git/Facebook Messenger/Facebook Messenger/ViewController.swift": [1518010119, 0]
+  "/Users/amithdubbasi/Desktop/Git/Facebook Messenger/Facebook Messenger/AppDelegate.swift": [1518010119, 0]
