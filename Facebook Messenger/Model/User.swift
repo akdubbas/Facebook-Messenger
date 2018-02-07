@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+//User model
 class User: NSObject {
     
     var id: String?
