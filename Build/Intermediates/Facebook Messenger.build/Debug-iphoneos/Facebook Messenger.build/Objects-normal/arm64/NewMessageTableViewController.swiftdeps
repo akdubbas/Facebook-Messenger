@@ -1,0 +1,1119 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NewMessageTableViewController"
+- "UserCell"
+provides-nominal:
+- "18Facebook_Messenger29NewMessageTableViewControllerC"
+- "18Facebook_Messenger8UserCellC"
+provides-member:
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", ""]
+- ["18Facebook_Messenger8UserCellC", ""]
+provides-dynamic-lookup:
+- "handleCancel"
+- "tableView"
+- "viewDidLoad"
+depends-top-level:
+- !private "AnyObject"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "Database"
+- !private "DispatchQueue"
+- "IndexPath"
+- "Int"
+- "NSCoder"
+- "NewMessageTableViewController"
+- "String"
+- "StringLiteralType"
+- !private "UIBarButtonItem"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewCellStyle"
+- "UITableViewController"
+- "User"
+- "UserCell"
+- !private "fatalError"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "row"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "detailTextLabel"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "register"]
+- !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textLabel"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "Database"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "UIBarButtonItem"]
+- ["s7CVarArgP", "User"]
+- !private ["s7CVarArgP", "UserCell"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "cellId"]
+- !private ["s7CVarArgP", "child"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "database"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "detailTextLabel"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "email"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "fetchUsers"]
+- !private ["s7CVarArgP", "handleCancel"]
+- !private ["s7CVarArgP", "id"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "key"]
+- !private ["s7CVarArgP", "leftBarButtonItem"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "observe"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "reference"]
+- !private ["s7CVarArgP", "register"]
+- !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textLabel"]
+- !private ["s7CVarArgP", "users"]
+- !private ["s7CVarArgP", "value"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "row"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "Database"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItem"]
+- ["s28CustomDebugStringConvertibleP", "User"]
+- !private ["s28CustomDebugStringConvertibleP", "UserCell"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "cellId"]
+- !private ["s28CustomDebugStringConvertibleP", "child"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "database"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "detailTextLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "email"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchUsers"]
+- !private ["s28CustomDebugStringConvertibleP", "handleCancel"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "key"]
+- !private ["s28CustomDebugStringConvertibleP", "leftBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "observe"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "reference"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "users"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Database"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "UIBarButtonItem"]
+- ["s23CustomStringConvertibleP", "User"]
+- !private ["s23CustomStringConvertibleP", "UserCell"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "cellId"]
+- !private ["s23CustomStringConvertibleP", "child"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "database"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "detailTextLabel"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "email"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "fetchUsers"]
+- !private ["s23CustomStringConvertibleP", "handleCancel"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- !private ["s23CustomStringConvertibleP", "leftBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "observe"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "reference"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textLabel"]
+- !private ["s23CustomStringConvertibleP", "users"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["SC13DataEventTypeO", "childAdded"]
+- !private ["So12DataSnapshotC", "key"]
+- !private ["So12DataSnapshotC", "value"]
+- !private ["So8DatabaseC", "database"]
+- !private ["So8DatabaseC", "reference"]
+- !private ["So13DatabaseQueryC", "child"]
+- !private ["So13DatabaseQueryC", "observe"]
+- !private ["So17DatabaseReferenceC", "child"]
+- !private ["So17DatabaseReferenceC", "observe"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "row"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "row"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Database"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "UIBarButtonItem"]
+- ["s9EquatableP", "User"]
+- !private ["s9EquatableP", "UserCell"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "cellId"]
+- !private ["s9EquatableP", "child"]
+- !private ["s9EquatableP", "childAdded"]
+- !private ["s9EquatableP", "database"]
+- !private ["s9EquatableP", "dequeueReusableCell"]
+- !private ["s9EquatableP", "detailTextLabel"]
+- !private ["s9EquatableP", "dismiss"]
+- !private ["s9EquatableP", "email"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "fetchUsers"]
+- !private ["s9EquatableP", "handleCancel"]
+- !private ["s9EquatableP", "id"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "key"]
+- !private ["s9EquatableP", "leftBarButtonItem"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "navigationItem"]
+- !private ["s9EquatableP", "observe"]
+- !private ["s9EquatableP", "plain"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "reference"]
+- !private ["s9EquatableP", "register"]
+- !private ["s9EquatableP", "reloadData"]
+- !private ["s9EquatableP", "row"]
+- !private ["s9EquatableP", "subtitle"]
+- !private ["s9EquatableP", "tableView"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "textLabel"]
+- !private ["s9EquatableP", "users"]
+- !private ["s9EquatableP", "value"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Database"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "UIBarButtonItem"]
+- ["s8HashableP", "User"]
+- !private ["s8HashableP", "UserCell"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "cellId"]
+- !private ["s8HashableP", "child"]
+- !private ["s8HashableP", "childAdded"]
+- !private ["s8HashableP", "database"]
+- !private ["s8HashableP", "dequeueReusableCell"]
+- !private ["s8HashableP", "detailTextLabel"]
+- !private ["s8HashableP", "dismiss"]
+- !private ["s8HashableP", "email"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "fetchUsers"]
+- !private ["s8HashableP", "handleCancel"]
+- !private ["s8HashableP", "id"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "key"]
+- !private ["s8HashableP", "leftBarButtonItem"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "navigationItem"]
+- !private ["s8HashableP", "observe"]
+- !private ["s8HashableP", "plain"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "reference"]
+- !private ["s8HashableP", "register"]
+- !private ["s8HashableP", "reloadData"]
+- !private ["s8HashableP", "row"]
+- !private ["s8HashableP", "subtitle"]
+- !private ["s8HashableP", "tableView"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "textLabel"]
+- !private ["s8HashableP", "users"]
+- !private ["s8HashableP", "value"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["10Foundation9IndexPathV", "row"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "row"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "Database"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "UIBarButtonItem"]
+- ["So8NSCodingP", "User"]
+- !private ["So8NSCodingP", "UserCell"]
+- !private ["So8NSCodingP", "cellId"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "detailTextLabel"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "fetchUsers"]
+- !private ["So8NSCodingP", "handleCancel"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "leftBarButtonItem"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "register"]
+- !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textLabel"]
+- !private ["So8NSCodingP", "users"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "Database"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItem"]
+- ["So26NSExtensionRequestHandlingP", "User"]
+- !private ["So26NSExtensionRequestHandlingP", "UserCell"]
+- !private ["So26NSExtensionRequestHandlingP", "cellId"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "fetchUsers"]
+- !private ["So26NSExtensionRequestHandlingP", "handleCancel"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "users"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Database"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIBarButtonItem"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UITableViewCell"]
+- ["So8NSObjectC", "UITableViewCellStyle"]
+- ["So8NSObjectC", "User"]
+- !private ["So8NSObjectC", "UserCell"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "cellId"]
+- !private ["So8NSObjectC", "child"]
+- !private ["So8NSObjectC", "database"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- !private ["So8NSObjectC", "detailTextLabel"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "email"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "fetchUsers"]
+- ["So8NSObjectC", "handleCancel"]
+- !private ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "key"]
+- !private ["So8NSObjectC", "leftBarButtonItem"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "observe"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "reference"]
+- !private ["So8NSObjectC", "register"]
+- !private ["So8NSObjectC", "reloadData"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textLabel"]
+- ["So8NSObjectC", "users"]
+- !private ["So8NSObjectC", "value"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "Database"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "UIBarButtonItem"]
+- ["So16NSObjectProtocolP", "User"]
+- !private ["So16NSObjectProtocolP", "UserCell"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "cellId"]
+- !private ["So16NSObjectProtocolP", "child"]
+- !private ["So16NSObjectProtocolP", "database"]
+- !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
+- !private ["So16NSObjectProtocolP", "detailTextLabel"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
+- !private ["So16NSObjectProtocolP", "email"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "fetchUsers"]
+- !private ["So16NSObjectProtocolP", "handleCancel"]
+- !private ["So16NSObjectProtocolP", "id"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "key"]
+- !private ["So16NSObjectProtocolP", "leftBarButtonItem"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "navigationItem"]
+- !private ["So16NSObjectProtocolP", "observe"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "reference"]
+- !private ["So16NSObjectProtocolP", "register"]
+- !private ["So16NSObjectProtocolP", "reloadData"]
+- !private ["So16NSObjectProtocolP", "tableView"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "textLabel"]
+- !private ["So16NSObjectProtocolP", "users"]
+- !private ["So16NSObjectProtocolP", "value"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["18Facebook_Messenger29NewMessageTableViewControllerC", "AnyObject"]
+- !private ["18Facebook_Messenger29NewMessageTableViewControllerC", "Database"]
+- !private ["18Facebook_Messenger29NewMessageTableViewControllerC", "DispatchQueue"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "IndexPath"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "Int"]
+- !private ["18Facebook_Messenger29NewMessageTableViewControllerC", "String"]
+- !private ["18Facebook_Messenger29NewMessageTableViewControllerC", "UIBarButtonItem"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "UITableView"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "UITableViewCell"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "User"]
+- !private ["18Facebook_Messenger29NewMessageTableViewControllerC", "UserCell"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "cellId"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "deinit"]
+- !private ["18Facebook_Messenger29NewMessageTableViewControllerC", "dismiss"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "fetchUsers"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "handleCancel"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "init"]
+- !private ["18Facebook_Messenger29NewMessageTableViewControllerC", "navigationItem"]
+- !private ["18Facebook_Messenger29NewMessageTableViewControllerC", "print"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "tableView"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "users"]
+- ["18Facebook_Messenger29NewMessageTableViewControllerC", "viewDidLoad"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "row"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "childAdded"]
+- !private ["s16RawRepresentableP", "plain"]
+- !private ["s16RawRepresentableP", "subtitle"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "row"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "detailTextLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "register"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textLabel"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "detailTextLabel"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "register"]
+- !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textLabel"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "Database"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- !private ["So21UIAppearanceContainerP", "UIBarButtonItem"]
+- ["So21UIAppearanceContainerP", "User"]
+- !private ["So21UIAppearanceContainerP", "UserCell"]
+- !private ["So21UIAppearanceContainerP", "cellId"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "detailTextLabel"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "fetchUsers"]
+- !private ["So21UIAppearanceContainerP", "handleCancel"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "register"]
+- !private ["So21UIAppearanceContainerP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "users"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So15UIBarButtonItemC", "init"]
+- !private ["SC20UIBarButtonItemStyleO", "plain"]
+- !private ["So9UIBarItemC", "init"]
+- !private ["So18UIContentContainerP", "Database"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- !private ["So18UIContentContainerP", "UIBarButtonItem"]
+- ["So18UIContentContainerP", "User"]
+- !private ["So18UIContentContainerP", "UserCell"]
+- !private ["So18UIContentContainerP", "cellId"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "fetchUsers"]
+- !private ["So18UIContentContainerP", "handleCancel"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "users"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "detailTextLabel"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "register"]
+- !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textLabel"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "register"]
+- !private ["So23UIDataSourceTranslatingP", "reloadData"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "detailTextLabel"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "register"]
+- !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textLabel"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "Database"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- !private ["So18UIFocusEnvironmentP", "UIBarButtonItem"]
+- ["So18UIFocusEnvironmentP", "User"]
+- !private ["So18UIFocusEnvironmentP", "UserCell"]
+- !private ["So18UIFocusEnvironmentP", "cellId"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "detailTextLabel"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "fetchUsers"]
+- !private ["So18UIFocusEnvironmentP", "handleCancel"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "register"]
+- !private ["So18UIFocusEnvironmentP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textLabel"]
+- !private ["So18UIFocusEnvironmentP", "users"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "detailTextLabel"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "register"]
+- !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textLabel"]
+- ["So11UIFocusItemP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "detailTextLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "fatalError"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "textLabel"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So7UILabelC", "text"]
+- !private ["So16UINavigationItemC", "leftBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "Database"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
+- ["So30UIPasteConfigurationSupportingP", "User"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "cellId"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "detailTextLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "fetchUsers"]
+- !private ["So30UIPasteConfigurationSupportingP", "handleCancel"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "register"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "users"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "AnyObject"]
+- !private ["So11UIResponderC", "Database"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- ["So11UIResponderC", "IndexPath"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIBarButtonItem"]
+- ["So11UIResponderC", "UITableView"]
+- ["So11UIResponderC", "UITableViewCell"]
+- ["So11UIResponderC", "UITableViewCellStyle"]
+- ["So11UIResponderC", "User"]
+- !private ["So11UIResponderC", "UserCell"]
+- ["So11UIResponderC", "cellId"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- !private ["So11UIResponderC", "detailTextLabel"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "fetchUsers"]
+- ["So11UIResponderC", "handleCancel"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "navigationItem"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "register"]
+- !private ["So11UIResponderC", "reloadData"]
+- ["So11UIResponderC", "tableView"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textLabel"]
+- ["So11UIResponderC", "users"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Database"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
+- ["So30UIResponderStandardEditActionsP", "User"]
+- !private ["So30UIResponderStandardEditActionsP", "UserCell"]
+- !private ["So30UIResponderStandardEditActionsP", "cellId"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "detailTextLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "fetchUsers"]
+- !private ["So30UIResponderStandardEditActionsP", "handleCancel"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "register"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- !private ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "users"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "register"]
+- !private ["So12UIScrollViewC", "reloadData"]
+- !private ["So20UIScrollViewDelegateP", "Database"]
+- !private ["So20UIScrollViewDelegateP", "DispatchQueue"]
+- !private ["So20UIScrollViewDelegateP", "UIBarButtonItem"]
+- ["So20UIScrollViewDelegateP", "User"]
+- !private ["So20UIScrollViewDelegateP", "UserCell"]
+- !private ["So20UIScrollViewDelegateP", "cellId"]
+- !private ["So20UIScrollViewDelegateP", "dismiss"]
+- !private ["So20UIScrollViewDelegateP", "fetchUsers"]
+- !private ["So20UIScrollViewDelegateP", "handleCancel"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "navigationItem"]
+- !private ["So20UIScrollViewDelegateP", "print"]
+- !private ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So20UIScrollViewDelegateP", "users"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "register"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- !private ["So16UIStateRestoringP", "Database"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- !private ["So16UIStateRestoringP", "UIBarButtonItem"]
+- ["So16UIStateRestoringP", "User"]
+- !private ["So16UIStateRestoringP", "UserCell"]
+- !private ["So16UIStateRestoringP", "cellId"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "fetchUsers"]
+- !private ["So16UIStateRestoringP", "handleCancel"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "users"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So11UITableViewC", "dequeueReusableCell"]
+- !private ["So11UITableViewC", "register"]
+- !private ["So11UITableViewC", "reloadData"]
+- ["So15UITableViewCellC", "NSCoder"]
+- ["So15UITableViewCellC", "String"]
+- ["So15UITableViewCellC", "UITableViewCellStyle"]
+- !private ["So15UITableViewCellC", "detailTextLabel"]
+- !private ["So15UITableViewCellC", "fatalError"]
+- ["So15UITableViewCellC", "init"]
+- !private ["So15UITableViewCellC", "textLabel"]
+- ["So15UITableViewCellC", ""]
+- !private ["SC20UITableViewCellStyleO", "subtitle"]
+- !private ["So21UITableViewControllerC", "AnyObject"]
+- !private ["So21UITableViewControllerC", "Database"]
+- !private ["So21UITableViewControllerC", "DispatchQueue"]
+- ["So21UITableViewControllerC", "IndexPath"]
+- ["So21UITableViewControllerC", "Int"]
+- !private ["So21UITableViewControllerC", "String"]
+- !private ["So21UITableViewControllerC", "UIBarButtonItem"]
+- ["So21UITableViewControllerC", "UITableView"]
+- ["So21UITableViewControllerC", "UITableViewCell"]
+- ["So21UITableViewControllerC", "User"]
+- !private ["So21UITableViewControllerC", "UserCell"]
+- ["So21UITableViewControllerC", "cellId"]
+- !private ["So21UITableViewControllerC", "dismiss"]
+- ["So21UITableViewControllerC", "fetchUsers"]
+- ["So21UITableViewControllerC", "handleCancel"]
+- ["So21UITableViewControllerC", "init"]
+- !private ["So21UITableViewControllerC", "navigationItem"]
+- !private ["So21UITableViewControllerC", "print"]
+- ["So21UITableViewControllerC", "tableView"]
+- ["So21UITableViewControllerC", "users"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewControllerC", ""]
+- !private ["So21UITableViewDataSourceP", "Database"]
+- !private ["So21UITableViewDataSourceP", "DispatchQueue"]
+- !private ["So21UITableViewDataSourceP", "UIBarButtonItem"]
+- ["So21UITableViewDataSourceP", "User"]
+- !private ["So21UITableViewDataSourceP", "UserCell"]
+- !private ["So21UITableViewDataSourceP", "cellId"]
+- !private ["So21UITableViewDataSourceP", "dismiss"]
+- !private ["So21UITableViewDataSourceP", "fetchUsers"]
+- !private ["So21UITableViewDataSourceP", "handleCancel"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "navigationItem"]
+- !private ["So21UITableViewDataSourceP", "print"]
+- !private ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So21UITableViewDataSourceP", "users"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So19UITableViewDelegateP", "Database"]
+- !private ["So19UITableViewDelegateP", "DispatchQueue"]
+- !private ["So19UITableViewDelegateP", "UIBarButtonItem"]
+- ["So19UITableViewDelegateP", "User"]
+- !private ["So19UITableViewDelegateP", "UserCell"]
+- !private ["So19UITableViewDelegateP", "cellId"]
+- !private ["So19UITableViewDelegateP", "dismiss"]
+- !private ["So19UITableViewDelegateP", "fetchUsers"]
+- !private ["So19UITableViewDelegateP", "handleCancel"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "navigationItem"]
+- !private ["So19UITableViewDelegateP", "print"]
+- !private ["So19UITableViewDelegateP", "tableView"]
+- !private ["So19UITableViewDelegateP", "users"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So18UITraitEnvironmentP", "Database"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- !private ["So18UITraitEnvironmentP", "UIBarButtonItem"]
+- ["So18UITraitEnvironmentP", "User"]
+- !private ["So18UITraitEnvironmentP", "UserCell"]
+- !private ["So18UITraitEnvironmentP", "cellId"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "detailTextLabel"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "fetchUsers"]
+- !private ["So18UITraitEnvironmentP", "handleCancel"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "register"]
+- !private ["So18UITraitEnvironmentP", "reloadData"]
+- !private ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textLabel"]
+- !private ["So18UITraitEnvironmentP", "users"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", "UITableViewCellStyle"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "detailTextLabel"]
+- !private ["So6UIViewC", "fatalError"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "register"]
+- !private ["So6UIViewC", "reloadData"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textLabel"]
+- !private ["So16UIViewControllerC", "AnyObject"]
+- !private ["So16UIViewControllerC", "Database"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- ["So16UIViewControllerC", "IndexPath"]
+- ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIBarButtonItem"]
+- ["So16UIViewControllerC", "UITableView"]
+- ["So16UIViewControllerC", "UITableViewCell"]
+- ["So16UIViewControllerC", "User"]
+- !private ["So16UIViewControllerC", "UserCell"]
+- ["So16UIViewControllerC", "cellId"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "fetchUsers"]
+- ["So16UIViewControllerC", "handleCancel"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "tableView"]
+- ["So16UIViewControllerC", "users"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["18Facebook_Messenger4UserC", "email"]
+- !private ["18Facebook_Messenger4UserC", "id"]
+- !private ["18Facebook_Messenger4UserC", "init"]
+- !private ["18Facebook_Messenger4UserC", "name"]
+- ["18Facebook_Messenger8UserCellC", "NSCoder"]
+- ["18Facebook_Messenger8UserCellC", "String"]
+- ["18Facebook_Messenger8UserCellC", "UITableViewCellStyle"]
+- ["18Facebook_Messenger8UserCellC", "deinit"]
+- !private ["18Facebook_Messenger8UserCellC", "fatalError"]
+- ["18Facebook_Messenger8UserCellC", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "row"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "detailTextLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "register"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textLabel"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "count"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "row"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "count"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "row"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Database"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItem"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "User"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cellId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "child"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "database"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "detailTextLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "email"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchUsers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleCancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "key"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "users"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "count"]
+- ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "row"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "row"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "SC13DataEventTypeO"
+- !private "So12DataSnapshotC"
+- !private "So8DatabaseC"
+- !private "So13DatabaseQueryC"
+- !private "So17DatabaseReferenceC"
+- "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation9IndexPathV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "18Facebook_Messenger29NewMessageTableViewControllerC"
+- !private "So9OS_objectC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So15UIBarButtonItemC"
+- !private "SC20UIBarButtonItemStyleO"
+- !private "So9UIBarItemC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So11UITableViewC"
+- "So15UITableViewCellC"
+- !private "SC20UITableViewCellStyleO"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "18Facebook_Messenger4UserC"
+- "18Facebook_Messenger8UserCellC"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+interface-hash: "093889296a44ce48d21c109d41786ed4"

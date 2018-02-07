@@ -11,16 +11,19 @@ import Firebase
 
 class LoginViewController: UIViewController {
     
+    var messagesController: MessagesController?
     
-    
-    let uploadPhoto : UIImageView = {
+    lazy var uploadPhoto : UIImageView = {
         let imageView  = UIImageView()
         imageView.image = UIImage(named : "gameofthrones_splash")
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFill
+        imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleSelectProfilePicture)))
+        imageView.isUserInteractionEnabled = true
         return imageView
     }()
     
+   
     
     lazy var loginRegisterSegmentedControl : UISegmentedControl = {
         let control = UISegmentedControl(items : ["Login", "Register"])
@@ -252,55 +255,14 @@ class LoginViewController: UIViewController {
             {
                 print("Invalid Login : Error \(error!)")
             }
-            self.dismiss(animated: true, completion: nil)
+           
+           self.dismiss(animated: true, completion: nil)
 
             
         })
     }
   
-    @objc func handleRegister()
-    {
-        guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else {
-            print("Empty email and Password")
-            return
-        }
-        
-        Auth.auth().createUser(withEmail: email, password: password, completion: { (user, error) in
-            
-            if error != nil{
-                print(error!)
-                return
-            }
-            print("Successfully Registered User")
-            
-            guard let user = user?.uid else {
-                print("User Not found")
-                return
-            }
-            
-            let ref = Database.database().reference(fromURL: "https://chat-messenger-6558a.firebaseio.com/")
-            let userReference = ref.child("users").child(user)
-            let values = ["name":name,"email":email,"password":password]
-            userReference.updateChildValues(values, withCompletionBlock: {(error, ref) in
-                
-                if(error != nil)
-                {
-                    print(error!)
-                    return
-                }
-                
-                print("Saved user in FireBase Database")
-                self.dismiss(animated: true, completion: nil)
-                
-            })
-            
-            
-        })
-        
-        
-        
-    }
-
+    
     
 
 }

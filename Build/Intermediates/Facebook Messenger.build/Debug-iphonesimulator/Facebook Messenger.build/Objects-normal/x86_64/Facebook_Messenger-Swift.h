@@ -173,6 +173,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -209,15 +210,24 @@ SWIFT_CLASS("_TtC18Facebook_Messenger19LoginViewController")
 @property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
 - (void)handleLoginRegisterChange;
 - (void)handleLoginRegister;
-- (void)handleRegister;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImagePickerController;
+
+@interface LoginViewController (SWIFT_EXTENSION(Facebook_Messenger)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+- (void)handleSelectProfilePicture;
+- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+- (void)handleRegister;
 @end
 
 
 SWIFT_CLASS("_TtC18Facebook_Messenger18MessagesController")
 @interface MessagesController : UITableViewController
 - (void)viewDidLoad;
+- (void)handleNewMessage;
 - (void)handleLogout;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -225,13 +235,14 @@ SWIFT_CLASS("_TtC18Facebook_Messenger18MessagesController")
 @end
 
 @class UITableView;
+@class UITableViewCell;
 
-SWIFT_CLASS("_TtC18Facebook_Messenger20NewMessageController")
-@interface NewMessageController : UITableViewController
+SWIFT_CLASS("_TtC18Facebook_Messenger29NewMessageTableViewController")
+@interface NewMessageTableViewController : UITableViewController
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (void)handleCancel;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -242,7 +253,14 @@ SWIFT_CLASS("_TtC18Facebook_Messenger20NewMessageController")
 
 SWIFT_CLASS("_TtC18Facebook_Messenger4User")
 @interface User : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC18Facebook_Messenger8UserCell")
+@interface UserCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 SWIFT_MODULE_NAMESPACE_POP

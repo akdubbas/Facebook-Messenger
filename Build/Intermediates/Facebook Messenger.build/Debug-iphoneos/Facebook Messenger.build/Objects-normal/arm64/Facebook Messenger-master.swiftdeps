@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "95609ac24b1e74ebd41483f3f53d6998"
+build_time: [1518004837, 375463000]
+inputs:
+  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Controller/LoginViewController.swift": [1517962293, 0]
+  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/MessagesController.swift": [1517962401, 0]
+  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Model/User.swift": [9223372036, 854775807]
+  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Controller/LoginController+handlers.swift": [9223372036, 854775807]
+  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/AppDelegate.swift": [1517942851, 0]
+  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Controller/NewMessageTableViewController.swift": [9223372036, 854775807]

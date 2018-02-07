@@ -15,15 +15,25 @@ class MessagesController: UITableViewController  {
         // Do any additional setup after loading the view, typically from a nib.
         
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(handleLogout))
+        let newMessageIcon  = UIImage(named: "new_message_icon")
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: newMessageIcon, style: .plain, target: self, action: #selector(handleNewMessage))
     
         checkIfUserisLoggedIn()
         
+    }
+    
+    @objc func handleNewMessage()
+    {
+        let newMessageController = NewMessageTableViewController()
+        let navController = UINavigationController(rootViewController : newMessageController)
+        present(navController, animated: true, completion: nil)
     }
     
     func checkIfUserisLoggedIn()
     {
         if Auth.auth().currentUser?.uid == nil {
             perform(#selector(handleLogout), with: nil, afterDelay: 0)
+            return 
             
         }
         else
@@ -33,7 +43,8 @@ class MessagesController: UITableViewController  {
                 
                 if let dictionary = snapshot.value as? [String : AnyObject]
                 {
-                    self.navigationItem.title = dictionary["name"] as? String
+                    let user = User(dictionary: dictionary)
+                    //self.setupNavBarWithUser(user)
                 }
                 
                 print(snapshot)
