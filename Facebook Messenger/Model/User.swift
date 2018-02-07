@@ -9,7 +9,7 @@
 import UIKit
 
 
-//User model
+//User model contains id,Name,Email, URL for profile image
 class User: NSObject {
     
     var id: String?
