@@ -6,111 +6,462 @@ provides-nominal:
 provides-member:
 - ["18Facebook_Messenger14ViewControllerC", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
+- "handleLogout"
 - "viewDidLoad"
 depends-top-level:
-- "UIViewController"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Auth"
+- !private "BooleanLiteralType"
+- !private "LoginViewController"
+- !private "StringLiteralType"
+- !private "UIBarButtonItem"
+- "UITableViewController"
 - "ViewController"
+- !private "print"
 depends-member:
-- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["So4AuthC", "auth"]
+- !private ["So4AuthC", "currentUser"]
+- !private ["So4AuthC", "signOut"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Auth"]
+- !private ["s7CVarArgP", "LoginViewController"]
+- !private ["s7CVarArgP", "UIBarButtonItem"]
+- !private ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "currentUser"]
+- !private ["s7CVarArgP", "handleLogout"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "leftBarButtonItem"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "perform"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "signOut"]
+- !private ["s7CVarArgP", "uid"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Auth"]
+- !private ["s28CustomDebugStringConvertibleP", "LoginViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "currentUser"]
+- !private ["s28CustomDebugStringConvertibleP", "handleLogout"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "leftBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "perform"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "signOut"]
+- !private ["s28CustomDebugStringConvertibleP", "uid"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Auth"]
+- !private ["s23CustomStringConvertibleP", "LoginViewController"]
+- !private ["s23CustomStringConvertibleP", "UIBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "currentUser"]
+- !private ["s23CustomStringConvertibleP", "handleLogout"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "leftBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "perform"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "signOut"]
+- !private ["s23CustomStringConvertibleP", "uid"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Auth"]
+- !private ["s9EquatableP", "LoginViewController"]
+- !private ["s9EquatableP", "UIBarButtonItem"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "auth"]
+- !private ["s9EquatableP", "currentUser"]
+- !private ["s9EquatableP", "handleLogout"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "leftBarButtonItem"]
+- !private ["s9EquatableP", "navigationItem"]
+- !private ["s9EquatableP", "perform"]
+- !private ["s9EquatableP", "plain"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "signOut"]
+- !private ["s9EquatableP", "uid"]
 - !private ["s9EquatableP", "viewDidLoad"]
 - ["s9EquatableP", ""]
-- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Auth"]
+- !private ["s8HashableP", "LoginViewController"]
+- !private ["s8HashableP", "UIBarButtonItem"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "auth"]
+- !private ["s8HashableP", "currentUser"]
+- !private ["s8HashableP", "handleLogout"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "leftBarButtonItem"]
+- !private ["s8HashableP", "navigationItem"]
+- !private ["s8HashableP", "perform"]
+- !private ["s8HashableP", "plain"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "signOut"]
+- !private ["s8HashableP", "uid"]
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", ""]
-- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["18Facebook_Messenger19LoginViewControllerC", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Auth"]
+- !private ["So8NSCodingP", "LoginViewController"]
+- !private ["So8NSCodingP", "UIBarButtonItem"]
+- !private ["So8NSCodingP", "handleLogout"]
 - !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "leftBarButtonItem"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "perform"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", ""]
-- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "Auth"]
+- !private ["So26NSExtensionRequestHandlingP", "LoginViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItem"]
+- !private ["So26NSExtensionRequestHandlingP", "handleLogout"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "perform"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
-- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "Auth"]
+- !private ["So8NSObjectC", "LoginViewController"]
+- !private ["So8NSObjectC", "UIBarButtonItem"]
+- !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "currentUser"]
+- ["So8NSObjectC", "handleLogout"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "leftBarButtonItem"]
+- !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "perform"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "signOut"]
+- !private ["So8NSObjectC", "uid"]
 - ["So8NSObjectC", "viewDidLoad"]
-- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "Auth"]
+- !private ["So16NSObjectProtocolP", "LoginViewController"]
+- !private ["So16NSObjectProtocolP", "UIBarButtonItem"]
+- !private ["So16NSObjectProtocolP", "auth"]
+- !private ["So16NSObjectProtocolP", "currentUser"]
+- !private ["So16NSObjectProtocolP", "handleLogout"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "leftBarButtonItem"]
+- !private ["So16NSObjectProtocolP", "navigationItem"]
+- !private ["So16NSObjectProtocolP", "perform"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "signOut"]
+- !private ["So16NSObjectProtocolP", "uid"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", ""]
-- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "plain"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So21UIAppearanceContainerP", "Auth"]
+- !private ["So21UIAppearanceContainerP", "LoginViewController"]
+- !private ["So21UIAppearanceContainerP", "UIBarButtonItem"]
+- !private ["So21UIAppearanceContainerP", "handleLogout"]
 - !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "perform"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", ""]
-- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So15UIBarButtonItemC", "init"]
+- !private ["SC20UIBarButtonItemStyleO", "plain"]
+- !private ["So9UIBarItemC", "init"]
+- !private ["So18UIContentContainerP", "Auth"]
+- !private ["So18UIContentContainerP", "LoginViewController"]
+- !private ["So18UIContentContainerP", "UIBarButtonItem"]
+- !private ["So18UIContentContainerP", "handleLogout"]
 - !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "perform"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", ""]
-- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "Auth"]
+- !private ["So18UIFocusEnvironmentP", "LoginViewController"]
+- !private ["So18UIFocusEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UIFocusEnvironmentP", "handleLogout"]
 - !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "perform"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", ""]
-- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So16UINavigationItemC", "leftBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "Auth"]
+- !private ["So30UIPasteConfigurationSupportingP", "LoginViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "handleLogout"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "perform"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
-- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "Auth"]
+- !private ["So11UIResponderC", "LoginViewController"]
+- !private ["So11UIResponderC", "UIBarButtonItem"]
+- ["So11UIResponderC", "handleLogout"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "navigationItem"]
+- !private ["So11UIResponderC", "perform"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "viewDidLoad"]
-- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "Auth"]
+- !private ["So30UIResponderStandardEditActionsP", "LoginViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
+- !private ["So30UIResponderStandardEditActionsP", "handleLogout"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "perform"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
-- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So20UIScrollViewDelegateP", "Auth"]
+- !private ["So20UIScrollViewDelegateP", "LoginViewController"]
+- !private ["So20UIScrollViewDelegateP", "UIBarButtonItem"]
+- !private ["So20UIScrollViewDelegateP", "handleLogout"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "navigationItem"]
+- !private ["So20UIScrollViewDelegateP", "perform"]
+- !private ["So20UIScrollViewDelegateP", "present"]
+- !private ["So20UIScrollViewDelegateP", "print"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "Auth"]
+- !private ["So16UIStateRestoringP", "LoginViewController"]
+- !private ["So16UIStateRestoringP", "UIBarButtonItem"]
+- !private ["So16UIStateRestoringP", "handleLogout"]
 - !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "perform"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", ""]
-- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So21UITableViewControllerC", "Auth"]
+- !private ["So21UITableViewControllerC", "LoginViewController"]
+- !private ["So21UITableViewControllerC", "UIBarButtonItem"]
+- ["So21UITableViewControllerC", "handleLogout"]
+- ["So21UITableViewControllerC", "init"]
+- !private ["So21UITableViewControllerC", "navigationItem"]
+- !private ["So21UITableViewControllerC", "perform"]
+- !private ["So21UITableViewControllerC", "present"]
+- !private ["So21UITableViewControllerC", "print"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewControllerC", ""]
+- !private ["So21UITableViewDataSourceP", "Auth"]
+- !private ["So21UITableViewDataSourceP", "LoginViewController"]
+- !private ["So21UITableViewDataSourceP", "UIBarButtonItem"]
+- !private ["So21UITableViewDataSourceP", "handleLogout"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "navigationItem"]
+- !private ["So21UITableViewDataSourceP", "perform"]
+- !private ["So21UITableViewDataSourceP", "present"]
+- !private ["So21UITableViewDataSourceP", "print"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So19UITableViewDelegateP", "Auth"]
+- !private ["So19UITableViewDelegateP", "LoginViewController"]
+- !private ["So19UITableViewDelegateP", "UIBarButtonItem"]
+- !private ["So19UITableViewDelegateP", "handleLogout"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "navigationItem"]
+- !private ["So19UITableViewDelegateP", "perform"]
+- !private ["So19UITableViewDelegateP", "present"]
+- !private ["So19UITableViewDelegateP", "print"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So18UITraitEnvironmentP", "Auth"]
+- !private ["So18UITraitEnvironmentP", "LoginViewController"]
+- !private ["So18UITraitEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UITraitEnvironmentP", "handleLogout"]
 - !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "perform"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
-- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- !private ["So16UIViewControllerC", "Auth"]
+- !private ["So16UIViewControllerC", "LoginViewController"]
+- !private ["So16UIViewControllerC", "UIBarButtonItem"]
+- ["So16UIViewControllerC", "handleLogout"]
 - ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- !private ["So16UIViewControllerC", "perform"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "viewDidLoad"]
-- ["So16UIViewControllerC", ""]
+- !private ["So4UserC", "uid"]
+- !private ["So8UserInfoP", "uid"]
+- !private ["18Facebook_Messenger14ViewControllerC", "Auth"]
+- !private ["18Facebook_Messenger14ViewControllerC", "LoginViewController"]
+- !private ["18Facebook_Messenger14ViewControllerC", "UIBarButtonItem"]
 - ["18Facebook_Messenger14ViewControllerC", "deinit"]
-- ["18Facebook_Messenger14ViewControllerC", "didReceiveMemoryWarning"]
+- ["18Facebook_Messenger14ViewControllerC", "handleLogout"]
 - ["18Facebook_Messenger14ViewControllerC", "init"]
+- !private ["18Facebook_Messenger14ViewControllerC", "navigationItem"]
+- !private ["18Facebook_Messenger14ViewControllerC", "perform"]
+- !private ["18Facebook_Messenger14ViewControllerC", "present"]
+- !private ["18Facebook_Messenger14ViewControllerC", "print"]
 - ["18Facebook_Messenger14ViewControllerC", "viewDidLoad"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LoginViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleLogout"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "perform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uid"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "So4AuthC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
 - "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
 - "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
+- !private "18Facebook_Messenger19LoginViewControllerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSCodingP"
+- !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+- !private "So15UIBarButtonItemC"
+- !private "SC20UIBarButtonItemStyleO"
+- !private "So9UIBarItemC"
 - "So18UIContentContainerP"
 - "So18UIFocusEnvironmentP"
+- !private "So16UINavigationItemC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
 - "So18UITraitEnvironmentP"
 - "So16UIViewControllerC"
+- !private "So4UserC"
+- !private "So8UserInfoP"
 - "18Facebook_Messenger14ViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -127,4 +478,71 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "2273e0b6560749631899e82af2412a52"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+interface-hash: "3e5939cd99c16c504b760f82f4935717"

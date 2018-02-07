@@ -202,13 +202,28 @@ SWIFT_CLASS("_TtC18Facebook_Messenger11AppDelegate")
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC18Facebook_Messenger14ViewController")
-@interface ViewController : UIViewController
+SWIFT_CLASS("_TtC18Facebook_Messenger19LoginViewController")
+@interface LoginViewController : UIViewController
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+- (void)handleLoginRegisterChange;
+- (void)handleLoginRegister;
+- (void)handleRegister;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+SWIFT_CLASS("_TtC18Facebook_Messenger18MessagesController")
+@interface MessagesController : UITableViewController
+- (void)viewDidLoad;
+- (void)handleLogout;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 SWIFT_MODULE_NAMESPACE_POP
 #pragma clang diagnostic pop

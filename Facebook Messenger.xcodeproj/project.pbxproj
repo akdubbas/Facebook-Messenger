@@ -7,137 +7,194 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EB6A12A202B368700C21D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6A129202B368700C21D0A /* AppDelegate.swift */; };
-		1EB6A12C202B368700C21D0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6A12B202B368700C21D0A /* ViewController.swift */; };
-		1EB6A12F202B368700C21D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB6A12D202B368700C21D0A /* Main.storyboard */; };
-		1EB6A132202B368700C21D0A /* Facebook_Messenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6A130202B368700C21D0A /* Facebook_Messenger.xcdatamodeld */; };
-		1EB6A134202B368700C21D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB6A133202B368700C21D0A /* Assets.xcassets */; };
-		1EB6A137202B368700C21D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB6A135202B368700C21D0A /* LaunchScreen.storyboard */; };
-		1EB6A142202B368700C21D0A /* Facebook_MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6A141202B368700C21D0A /* Facebook_MessengerTests.swift */; };
-		1EB6A14D202B368800C21D0A /* Facebook_MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6A14C202B368800C21D0A /* Facebook_MessengerUITests.swift */; };
+		1E845B7E20298E1600E17B0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E845B7D20298E1600E17B0B /* GoogleService-Info.plist */; };
+		1EAE9F6120276BED00E950E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F6020276BED00E950E2 /* AppDelegate.swift */; };
+		1EAE9F6320276BED00E950E2 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F6220276BED00E950E2 /* MessagesController.swift */; };
+		1EAE9F6620276BED00E950E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAE9F6420276BED00E950E2 /* Main.storyboard */; };
+		1EAE9F6920276BED00E950E2 /* Facebook_Messenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F6720276BED00E950E2 /* Facebook_Messenger.xcdatamodeld */; };
+		1EAE9F6B20276BED00E950E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAE9F6A20276BED00E950E2 /* Assets.xcassets */; };
+		1EAE9F6E20276BED00E950E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAE9F6C20276BED00E950E2 /* LaunchScreen.storyboard */; };
+		1EAE9F7920276BED00E950E2 /* Facebook_MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F7820276BED00E950E2 /* Facebook_MessengerTests.swift */; };
+		1EAE9F8420276BED00E950E2 /* Facebook_MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F8320276BED00E950E2 /* Facebook_MessengerUITests.swift */; };
+		1EAE9F9320278A2E00E950E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F9220278A2E00E950E2 /* LoginViewController.swift */; };
+		8865AB8D9C907F4A080FAED6 /* Pods_Facebook_MessengerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDC12BC8AC93A1985FC160A /* Pods_Facebook_MessengerUITests.framework */; };
+		D38513DF8D612961625783AF /* Pods_Facebook_MessengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA897FA3308CDDD174FBC516 /* Pods_Facebook_MessengerTests.framework */; };
+		E049628DD82AAB29D58F0545 /* Pods_Facebook_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E632529744F528203CAD3A8 /* Pods_Facebook_Messenger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1EB6A13E202B368700C21D0A /* PBXContainerItemProxy */ = {
+		1EAE9F7520276BED00E950E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1EB6A11E202B368700C21D0A /* Project object */;
+			containerPortal = 1EAE9F5520276BED00E950E2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1EB6A125202B368700C21D0A;
+			remoteGlobalIDString = 1EAE9F5C20276BED00E950E2;
 			remoteInfo = "Facebook Messenger";
 		};
-		1EB6A149202B368700C21D0A /* PBXContainerItemProxy */ = {
+		1EAE9F8020276BED00E950E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1EB6A11E202B368700C21D0A /* Project object */;
+			containerPortal = 1EAE9F5520276BED00E950E2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1EB6A125202B368700C21D0A;
+			remoteGlobalIDString = 1EAE9F5C20276BED00E950E2;
 			remoteInfo = "Facebook Messenger";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1EB6A126202B368700C21D0A /* Facebook Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EB6A129202B368700C21D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1EB6A12B202B368700C21D0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1EB6A12E202B368700C21D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1EB6A131202B368700C21D0A /* Facebook_Messenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Facebook_Messenger.xcdatamodel; sourceTree = "<group>"; };
-		1EB6A133202B368700C21D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1EB6A136202B368700C21D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1EB6A138202B368700C21D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1EB6A13D202B368700C21D0A /* Facebook MessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook MessengerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EB6A141202B368700C21D0A /* Facebook_MessengerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_MessengerTests.swift; sourceTree = "<group>"; };
-		1EB6A143202B368700C21D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1EB6A148202B368700C21D0A /* Facebook MessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook MessengerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EB6A14C202B368800C21D0A /* Facebook_MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_MessengerUITests.swift; sourceTree = "<group>"; };
-		1EB6A14E202B368800C21D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0226C73E32D23EE8A9B2B341 /* Pods-Facebook MessengerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook MessengerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook MessengerTests/Pods-Facebook MessengerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		071ABD7CE0CF28F55D4DEAB8 /* Pods-Facebook MessengerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook MessengerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook MessengerUITests/Pods-Facebook MessengerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E845B7D20298E1600E17B0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1EAE9F5D20276BED00E950E2 /* Facebook Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAE9F6020276BED00E950E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EAE9F6220276BED00E950E2 /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		1EAE9F6520276BED00E950E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EAE9F6820276BED00E950E2 /* Facebook_Messenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Facebook_Messenger.xcdatamodel; sourceTree = "<group>"; };
+		1EAE9F6A20276BED00E950E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EAE9F6D20276BED00E950E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EAE9F6F20276BED00E950E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAE9F7420276BED00E950E2 /* Facebook MessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook MessengerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAE9F7820276BED00E950E2 /* Facebook_MessengerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_MessengerTests.swift; sourceTree = "<group>"; };
+		1EAE9F7A20276BED00E950E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAE9F7F20276BED00E950E2 /* Facebook MessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook MessengerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAE9F8320276BED00E950E2 /* Facebook_MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_MessengerUITests.swift; sourceTree = "<group>"; };
+		1EAE9F8520276BED00E950E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAE9F9220278A2E00E950E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		24067312AAA7A7285653AD58 /* Pods-Facebook Messenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook Messenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook Messenger/Pods-Facebook Messenger.debug.xcconfig"; sourceTree = "<group>"; };
+		4EDC12BC8AC93A1985FC160A /* Pods_Facebook_MessengerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebook_MessengerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E632529744F528203CAD3A8 /* Pods_Facebook_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebook_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		807962D3EB3CC77E6AD655C1 /* Pods-Facebook MessengerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook MessengerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook MessengerTests/Pods-Facebook MessengerTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA897FA3308CDDD174FBC516 /* Pods_Facebook_MessengerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebook_MessengerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E174FD846FD0E332593F60AA /* Pods-Facebook Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook Messenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook Messenger/Pods-Facebook Messenger.release.xcconfig"; sourceTree = "<group>"; };
+		EFF8321D4F4BB5758B6E229A /* Pods-Facebook MessengerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook MessengerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook MessengerUITests/Pods-Facebook MessengerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1EB6A123202B368700C21D0A /* Frameworks */ = {
+		1EAE9F5A20276BED00E950E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E049628DD82AAB29D58F0545 /* Pods_Facebook_Messenger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EB6A13A202B368700C21D0A /* Frameworks */ = {
+		1EAE9F7120276BED00E950E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38513DF8D612961625783AF /* Pods_Facebook_MessengerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EB6A145202B368700C21D0A /* Frameworks */ = {
+		1EAE9F7C20276BED00E950E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8865AB8D9C907F4A080FAED6 /* Pods_Facebook_MessengerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1EB6A11D202B368700C21D0A = {
+		1EAE9F5420276BED00E950E2 = {
 			isa = PBXGroup;
 			children = (
-				1EB6A128202B368700C21D0A /* Facebook Messenger */,
-				1EB6A140202B368700C21D0A /* Facebook MessengerTests */,
-				1EB6A14B202B368700C21D0A /* Facebook MessengerUITests */,
-				1EB6A127202B368700C21D0A /* Products */,
+				1EAE9F5F20276BED00E950E2 /* Facebook Messenger */,
+				1EAE9F7720276BED00E950E2 /* Facebook MessengerTests */,
+				1EAE9F8220276BED00E950E2 /* Facebook MessengerUITests */,
+				1EAE9F5E20276BED00E950E2 /* Products */,
+				5F8EA53D9C7A02FE4831A1A1 /* Pods */,
+				9B27C2722FB58F3BA5273928 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		1EB6A127202B368700C21D0A /* Products */ = {
+		1EAE9F5E20276BED00E950E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1EB6A126202B368700C21D0A /* Facebook Messenger.app */,
-				1EB6A13D202B368700C21D0A /* Facebook MessengerTests.xctest */,
-				1EB6A148202B368700C21D0A /* Facebook MessengerUITests.xctest */,
+				1EAE9F5D20276BED00E950E2 /* Facebook Messenger.app */,
+				1EAE9F7420276BED00E950E2 /* Facebook MessengerTests.xctest */,
+				1EAE9F7F20276BED00E950E2 /* Facebook MessengerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1EB6A128202B368700C21D0A /* Facebook Messenger */ = {
+		1EAE9F5F20276BED00E950E2 /* Facebook Messenger */ = {
 			isa = PBXGroup;
 			children = (
-				1EB6A129202B368700C21D0A /* AppDelegate.swift */,
-				1EB6A12B202B368700C21D0A /* ViewController.swift */,
-				1EB6A12D202B368700C21D0A /* Main.storyboard */,
-				1EB6A133202B368700C21D0A /* Assets.xcassets */,
-				1EB6A135202B368700C21D0A /* LaunchScreen.storyboard */,
-				1EB6A138202B368700C21D0A /* Info.plist */,
-				1EB6A130202B368700C21D0A /* Facebook_Messenger.xcdatamodeld */,
+				1EAE9F9120278A0B00E950E2 /* Controller */,
+				1EAE9F6020276BED00E950E2 /* AppDelegate.swift */,
+				1EAE9F6220276BED00E950E2 /* MessagesController.swift */,
+				1EAE9F6420276BED00E950E2 /* Main.storyboard */,
+				1EAE9F6A20276BED00E950E2 /* Assets.xcassets */,
+				1EAE9F6C20276BED00E950E2 /* LaunchScreen.storyboard */,
+				1EAE9F6F20276BED00E950E2 /* Info.plist */,
+				1E845B7D20298E1600E17B0B /* GoogleService-Info.plist */,
+				1EAE9F6720276BED00E950E2 /* Facebook_Messenger.xcdatamodeld */,
 			);
 			path = "Facebook Messenger";
 			sourceTree = "<group>";
 		};
-		1EB6A140202B368700C21D0A /* Facebook MessengerTests */ = {
+		1EAE9F7720276BED00E950E2 /* Facebook MessengerTests */ = {
 			isa = PBXGroup;
 			children = (
-				1EB6A141202B368700C21D0A /* Facebook_MessengerTests.swift */,
-				1EB6A143202B368700C21D0A /* Info.plist */,
+				1EAE9F7820276BED00E950E2 /* Facebook_MessengerTests.swift */,
+				1EAE9F7A20276BED00E950E2 /* Info.plist */,
 			);
 			path = "Facebook MessengerTests";
 			sourceTree = "<group>";
 		};
-		1EB6A14B202B368700C21D0A /* Facebook MessengerUITests */ = {
+		1EAE9F8220276BED00E950E2 /* Facebook MessengerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1EB6A14C202B368800C21D0A /* Facebook_MessengerUITests.swift */,
-				1EB6A14E202B368800C21D0A /* Info.plist */,
+				1EAE9F8320276BED00E950E2 /* Facebook_MessengerUITests.swift */,
+				1EAE9F8520276BED00E950E2 /* Info.plist */,
 			);
 			path = "Facebook MessengerUITests";
+			sourceTree = "<group>";
+		};
+		1EAE9F9120278A0B00E950E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1EAE9F9220278A2E00E950E2 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F8EA53D9C7A02FE4831A1A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24067312AAA7A7285653AD58 /* Pods-Facebook Messenger.debug.xcconfig */,
+				E174FD846FD0E332593F60AA /* Pods-Facebook Messenger.release.xcconfig */,
+				0226C73E32D23EE8A9B2B341 /* Pods-Facebook MessengerTests.debug.xcconfig */,
+				807962D3EB3CC77E6AD655C1 /* Pods-Facebook MessengerTests.release.xcconfig */,
+				071ABD7CE0CF28F55D4DEAB8 /* Pods-Facebook MessengerUITests.debug.xcconfig */,
+				EFF8321D4F4BB5758B6E229A /* Pods-Facebook MessengerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B27C2722FB58F3BA5273928 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E632529744F528203CAD3A8 /* Pods_Facebook_Messenger.framework */,
+				AA897FA3308CDDD174FBC516 /* Pods_Facebook_MessengerTests.framework */,
+				4EDC12BC8AC93A1985FC160A /* Pods_Facebook_MessengerUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1EB6A125202B368700C21D0A /* Facebook Messenger */ = {
+		1EAE9F5C20276BED00E950E2 /* Facebook Messenger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EB6A151202B368800C21D0A /* Build configuration list for PBXNativeTarget "Facebook Messenger" */;
+			buildConfigurationList = 1EAE9F8820276BED00E950E2 /* Build configuration list for PBXNativeTarget "Facebook Messenger" */;
 			buildPhases = (
-				1EB6A122202B368700C21D0A /* Sources */,
-				1EB6A123202B368700C21D0A /* Frameworks */,
-				1EB6A124202B368700C21D0A /* Resources */,
+				5DCCCA386E86E79474569461 /* [CP] Check Pods Manifest.lock */,
+				1EAE9F5920276BED00E950E2 /* Sources */,
+				1EAE9F5A20276BED00E950E2 /* Frameworks */,
+				1EAE9F5B20276BED00E950E2 /* Resources */,
+				2C0AAD842D5E152F26FA4FE5 /* [CP] Embed Pods Frameworks */,
+				A1D9C18B2CB331B3BCA3E831 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,72 +202,78 @@
 			);
 			name = "Facebook Messenger";
 			productName = "Facebook Messenger";
-			productReference = 1EB6A126202B368700C21D0A /* Facebook Messenger.app */;
+			productReference = 1EAE9F5D20276BED00E950E2 /* Facebook Messenger.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1EB6A13C202B368700C21D0A /* Facebook MessengerTests */ = {
+		1EAE9F7320276BED00E950E2 /* Facebook MessengerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EB6A154202B368800C21D0A /* Build configuration list for PBXNativeTarget "Facebook MessengerTests" */;
+			buildConfigurationList = 1EAE9F8B20276BED00E950E2 /* Build configuration list for PBXNativeTarget "Facebook MessengerTests" */;
 			buildPhases = (
-				1EB6A139202B368700C21D0A /* Sources */,
-				1EB6A13A202B368700C21D0A /* Frameworks */,
-				1EB6A13B202B368700C21D0A /* Resources */,
+				BB01E275E46DD061A9D26F27 /* [CP] Check Pods Manifest.lock */,
+				1EAE9F7020276BED00E950E2 /* Sources */,
+				1EAE9F7120276BED00E950E2 /* Frameworks */,
+				1EAE9F7220276BED00E950E2 /* Resources */,
+				855D0A96B8B773D9AFE9F935 /* [CP] Embed Pods Frameworks */,
+				CEA8DC6BFDAD179495017635 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1EB6A13F202B368700C21D0A /* PBXTargetDependency */,
+				1EAE9F7620276BED00E950E2 /* PBXTargetDependency */,
 			);
 			name = "Facebook MessengerTests";
 			productName = "Facebook MessengerTests";
-			productReference = 1EB6A13D202B368700C21D0A /* Facebook MessengerTests.xctest */;
+			productReference = 1EAE9F7420276BED00E950E2 /* Facebook MessengerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1EB6A147202B368700C21D0A /* Facebook MessengerUITests */ = {
+		1EAE9F7E20276BED00E950E2 /* Facebook MessengerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EB6A157202B368800C21D0A /* Build configuration list for PBXNativeTarget "Facebook MessengerUITests" */;
+			buildConfigurationList = 1EAE9F8E20276BED00E950E2 /* Build configuration list for PBXNativeTarget "Facebook MessengerUITests" */;
 			buildPhases = (
-				1EB6A144202B368700C21D0A /* Sources */,
-				1EB6A145202B368700C21D0A /* Frameworks */,
-				1EB6A146202B368700C21D0A /* Resources */,
+				28E53CD3AC988BA360CDC7EB /* [CP] Check Pods Manifest.lock */,
+				1EAE9F7B20276BED00E950E2 /* Sources */,
+				1EAE9F7C20276BED00E950E2 /* Frameworks */,
+				1EAE9F7D20276BED00E950E2 /* Resources */,
+				46AF831852E2CEEB4A76E46F /* [CP] Embed Pods Frameworks */,
+				426D9E5A283C44A4495CE185 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1EB6A14A202B368700C21D0A /* PBXTargetDependency */,
+				1EAE9F8120276BED00E950E2 /* PBXTargetDependency */,
 			);
 			name = "Facebook MessengerUITests";
 			productName = "Facebook MessengerUITests";
-			productReference = 1EB6A148202B368700C21D0A /* Facebook MessengerUITests.xctest */;
+			productReference = 1EAE9F7F20276BED00E950E2 /* Facebook MessengerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1EB6A11E202B368700C21D0A /* Project object */ = {
+		1EAE9F5520276BED00E950E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = iDiscover;
 				TargetAttributes = {
-					1EB6A125202B368700C21D0A = {
+					1EAE9F5C20276BED00E950E2 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
-					1EB6A13C202B368700C21D0A = {
+					1EAE9F7320276BED00E950E2 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 1EB6A125202B368700C21D0A;
+						TestTargetID = 1EAE9F5C20276BED00E950E2;
 					};
-					1EB6A147202B368700C21D0A = {
+					1EAE9F7E20276BED00E950E2 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 1EB6A125202B368700C21D0A;
+						TestTargetID = 1EAE9F5C20276BED00E950E2;
 					};
 				};
 			};
-			buildConfigurationList = 1EB6A121202B368700C21D0A /* Build configuration list for PBXProject "Facebook Messenger" */;
+			buildConfigurationList = 1EAE9F5820276BED00E950E2 /* Build configuration list for PBXProject "Facebook Messenger" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +281,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 1EB6A11D202B368700C21D0A;
-			productRefGroup = 1EB6A127202B368700C21D0A /* Products */;
+			mainGroup = 1EAE9F5420276BED00E950E2;
+			productRefGroup = 1EAE9F5E20276BED00E950E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1EB6A125202B368700C21D0A /* Facebook Messenger */,
-				1EB6A13C202B368700C21D0A /* Facebook MessengerTests */,
-				1EB6A147202B368700C21D0A /* Facebook MessengerUITests */,
+				1EAE9F5C20276BED00E950E2 /* Facebook Messenger */,
+				1EAE9F7320276BED00E950E2 /* Facebook MessengerTests */,
+				1EAE9F7E20276BED00E950E2 /* Facebook MessengerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1EB6A124202B368700C21D0A /* Resources */ = {
+		1EAE9F5B20276BED00E950E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB6A137202B368700C21D0A /* LaunchScreen.storyboard in Resources */,
-				1EB6A134202B368700C21D0A /* Assets.xcassets in Resources */,
-				1EB6A12F202B368700C21D0A /* Main.storyboard in Resources */,
+				1EAE9F6E20276BED00E950E2 /* LaunchScreen.storyboard in Resources */,
+				1E845B7E20298E1600E17B0B /* GoogleService-Info.plist in Resources */,
+				1EAE9F6B20276BED00E950E2 /* Assets.xcassets in Resources */,
+				1EAE9F6620276BED00E950E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EB6A13B202B368700C21D0A /* Resources */ = {
+		1EAE9F7220276BED00E950E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EB6A146202B368700C21D0A /* Resources */ = {
+		1EAE9F7D20276BED00E950E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,61 +321,218 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28E53CD3AC988BA360CDC7EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Facebook MessengerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C0AAD842D5E152F26FA4FE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Facebook Messenger/Pods-Facebook Messenger-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Facebook Messenger/Pods-Facebook Messenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		426D9E5A283C44A4495CE185 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Facebook MessengerUITests/Pods-Facebook MessengerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46AF831852E2CEEB4A76E46F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Facebook MessengerUITests/Pods-Facebook MessengerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCCCA386E86E79474569461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Facebook Messenger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		855D0A96B8B773D9AFE9F935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Facebook MessengerTests/Pods-Facebook MessengerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D9C18B2CB331B3BCA3E831 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Facebook Messenger/Pods-Facebook Messenger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB01E275E46DD061A9D26F27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Facebook MessengerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA8DC6BFDAD179495017635 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Facebook MessengerTests/Pods-Facebook MessengerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1EB6A122202B368700C21D0A /* Sources */ = {
+		1EAE9F5920276BED00E950E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB6A12C202B368700C21D0A /* ViewController.swift in Sources */,
-				1EB6A132202B368700C21D0A /* Facebook_Messenger.xcdatamodeld in Sources */,
-				1EB6A12A202B368700C21D0A /* AppDelegate.swift in Sources */,
+				1EAE9F9320278A2E00E950E2 /* LoginViewController.swift in Sources */,
+				1EAE9F6320276BED00E950E2 /* MessagesController.swift in Sources */,
+				1EAE9F6920276BED00E950E2 /* Facebook_Messenger.xcdatamodeld in Sources */,
+				1EAE9F6120276BED00E950E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EB6A139202B368700C21D0A /* Sources */ = {
+		1EAE9F7020276BED00E950E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB6A142202B368700C21D0A /* Facebook_MessengerTests.swift in Sources */,
+				1EAE9F7920276BED00E950E2 /* Facebook_MessengerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EB6A144202B368700C21D0A /* Sources */ = {
+		1EAE9F7B20276BED00E950E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB6A14D202B368800C21D0A /* Facebook_MessengerUITests.swift in Sources */,
+				1EAE9F8420276BED00E950E2 /* Facebook_MessengerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1EB6A13F202B368700C21D0A /* PBXTargetDependency */ = {
+		1EAE9F7620276BED00E950E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1EB6A125202B368700C21D0A /* Facebook Messenger */;
-			targetProxy = 1EB6A13E202B368700C21D0A /* PBXContainerItemProxy */;
+			target = 1EAE9F5C20276BED00E950E2 /* Facebook Messenger */;
+			targetProxy = 1EAE9F7520276BED00E950E2 /* PBXContainerItemProxy */;
 		};
-		1EB6A14A202B368700C21D0A /* PBXTargetDependency */ = {
+		1EAE9F8120276BED00E950E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1EB6A125202B368700C21D0A /* Facebook Messenger */;
-			targetProxy = 1EB6A149202B368700C21D0A /* PBXContainerItemProxy */;
+			target = 1EAE9F5C20276BED00E950E2 /* Facebook Messenger */;
+			targetProxy = 1EAE9F8020276BED00E950E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1EB6A12D202B368700C21D0A /* Main.storyboard */ = {
+		1EAE9F6420276BED00E950E2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1EB6A12E202B368700C21D0A /* Base */,
+				1EAE9F6520276BED00E950E2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1EB6A135202B368700C21D0A /* LaunchScreen.storyboard */ = {
+		1EAE9F6C20276BED00E950E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1EB6A136202B368700C21D0A /* Base */,
+				1EAE9F6D20276BED00E950E2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +540,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1EB6A14F202B368800C21D0A /* Debug */ = {
+		1EAE9F8620276BED00E950E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +597,7 @@
 			};
 			name = Debug;
 		};
-		1EB6A150202B368800C21D0A /* Release */ = {
+		1EAE9F8720276BED00E950E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,38 +647,48 @@
 			};
 			name = Release;
 		};
-		1EB6A152202B368800C21D0A /* Debug */ = {
+		1EAE9F8920276BED00E950E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24067312AAA7A7285653AD58 /* Pods-Facebook Messenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = M67H5Z9NQV;
 				INFOPLIST_FILE = "Facebook Messenger/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iDiscover.chatmessenger.Facebook-Messenger";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iDiscover.chatmessenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e153260d-9c43-47ab-9430-675e2b893938";
+				PROVISIONING_PROFILE_SPECIFIER = "Chat Messenger - Developer";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1EB6A153202B368800C21D0A /* Release */ = {
+		1EAE9F8A20276BED00E950E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E174FD846FD0E332593F60AA /* Pods-Facebook Messenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = M67H5Z9NQV;
 				INFOPLIST_FILE = "Facebook Messenger/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iDiscover.chatmessenger.Facebook-Messenger";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iDiscover.chatmessenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9606464b-6524-42c8-868d-5487439c2e18";
+				PROVISIONING_PROFILE_SPECIFIER = "Chat Messenger - Distribution";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		1EB6A155202B368800C21D0A /* Debug */ = {
+		1EAE9F8C20276BED00E950E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0226C73E32D23EE8A9B2B341 /* Pods-Facebook MessengerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,8 +703,9 @@
 			};
 			name = Debug;
 		};
-		1EB6A156202B368800C21D0A /* Release */ = {
+		1EAE9F8D20276BED00E950E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807962D3EB3CC77E6AD655C1 /* Pods-Facebook MessengerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,8 +720,9 @@
 			};
 			name = Release;
 		};
-		1EB6A158202B368800C21D0A /* Debug */ = {
+		1EAE9F8F20276BED00E950E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 071ABD7CE0CF28F55D4DEAB8 /* Pods-Facebook MessengerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,8 +736,9 @@
 			};
 			name = Debug;
 		};
-		1EB6A159202B368800C21D0A /* Release */ = {
+		1EAE9F9020276BED00E950E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF8321D4F4BB5758B6E229A /* Pods-Facebook MessengerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,38 +755,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EB6A121202B368700C21D0A /* Build configuration list for PBXProject "Facebook Messenger" */ = {
+		1EAE9F5820276BED00E950E2 /* Build configuration list for PBXProject "Facebook Messenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EB6A14F202B368800C21D0A /* Debug */,
-				1EB6A150202B368800C21D0A /* Release */,
+				1EAE9F8620276BED00E950E2 /* Debug */,
+				1EAE9F8720276BED00E950E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1EB6A151202B368800C21D0A /* Build configuration list for PBXNativeTarget "Facebook Messenger" */ = {
+		1EAE9F8820276BED00E950E2 /* Build configuration list for PBXNativeTarget "Facebook Messenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EB6A152202B368800C21D0A /* Debug */,
-				1EB6A153202B368800C21D0A /* Release */,
+				1EAE9F8920276BED00E950E2 /* Debug */,
+				1EAE9F8A20276BED00E950E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1EB6A154202B368800C21D0A /* Build configuration list for PBXNativeTarget "Facebook MessengerTests" */ = {
+		1EAE9F8B20276BED00E950E2 /* Build configuration list for PBXNativeTarget "Facebook MessengerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EB6A155202B368800C21D0A /* Debug */,
-				1EB6A156202B368800C21D0A /* Release */,
+				1EAE9F8C20276BED00E950E2 /* Debug */,
+				1EAE9F8D20276BED00E950E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1EB6A157202B368800C21D0A /* Build configuration list for PBXNativeTarget "Facebook MessengerUITests" */ = {
+		1EAE9F8E20276BED00E950E2 /* Build configuration list for PBXNativeTarget "Facebook MessengerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EB6A158202B368800C21D0A /* Debug */,
-				1EB6A159202B368800C21D0A /* Release */,
+				1EAE9F8F20276BED00E950E2 /* Debug */,
+				1EAE9F9020276BED00E950E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -560,17 +794,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1EB6A130202B368700C21D0A /* Facebook_Messenger.xcdatamodeld */ = {
+		1EAE9F6720276BED00E950E2 /* Facebook_Messenger.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1EB6A131202B368700C21D0A /* Facebook_Messenger.xcdatamodel */,
+				1EAE9F6820276BED00E950E2 /* Facebook_Messenger.xcdatamodel */,
 			);
-			currentVersion = 1EB6A131202B368700C21D0A /* Facebook_Messenger.xcdatamodel */;
+			currentVersion = 1EAE9F6820276BED00E950E2 /* Facebook_Messenger.xcdatamodel */;
 			path = Facebook_Messenger.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 1EB6A11E202B368700C21D0A /* Project object */;
+	rootObject = 1EAE9F5520276BED00E950E2 /* Project object */;
 }
