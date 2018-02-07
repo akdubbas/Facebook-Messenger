@@ -43,7 +43,7 @@ extension LoginViewController : UIImagePickerControllerDelegate, UINavigationCon
         
         dismiss(animated: true, completion: nil)
     }
-    
+    //Handle the user Registration to the Firebase cloud
     @objc func handleRegister()
     {
         guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else {
@@ -69,6 +69,7 @@ extension LoginViewController : UIImagePickerControllerDelegate, UINavigationCon
             
             if let profileImage = self.uploadPhoto.image, let uploadData = UIImageJPEGRepresentation(profileImage, 0.1) {
                 
+                //upload image with unique name
                 storageRef.putData(uploadData, metadata: nil, completion: { (metadata,error) in
                     
                     if(error != nil)
