@@ -12,6 +12,7 @@
 		1E6FC774202A623500FC81DE /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6FC773202A623500FC81DE /* LoginController+handlers.swift */; };
 		1E845B7E20298E1600E17B0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E845B7D20298E1600E17B0B /* GoogleService-Info.plist */; };
 		1E94CBAE202BB15E00B9E359 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E94CBAD202BB15E00B9E359 /* Extensions.swift */; };
+		1E94CBB0202BE11900B9E359 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E94CBAF202BE11900B9E359 /* AsyncOperation.swift */; };
 		1EAE9F6120276BED00E950E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F6020276BED00E950E2 /* AppDelegate.swift */; };
 		1EAE9F6320276BED00E950E2 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F6220276BED00E950E2 /* MessagesController.swift */; };
 		1EAE9F6620276BED00E950E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAE9F6420276BED00E950E2 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		1E6FC773202A623500FC81DE /* LoginController+handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
 		1E845B7D20298E1600E17B0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1E94CBAD202BB15E00B9E359 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1E94CBAF202BE11900B9E359 /* AsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
 		1EAE9F5D20276BED00E950E2 /* Facebook Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EAE9F6020276BED00E950E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EAE9F6220276BED00E950E2 /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				1E94CBAD202BB15E00B9E359 /* Extensions.swift */,
+				1E94CBAF202BE11900B9E359 /* AsyncOperation.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -517,6 +520,7 @@
 				1EAE9F6920276BED00E950E2 /* Facebook_Messenger.xcdatamodeld in Sources */,
 				1E6FC774202A623500FC81DE /* LoginController+handlers.swift in Sources */,
 				1EAE9F6120276BED00E950E2 /* AppDelegate.swift in Sources */,
+				1E94CBB0202BE11900B9E359 /* AsyncOperation.swift in Sources */,
 				1E6FC76F202A478200FC81DE /* NewMessageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
