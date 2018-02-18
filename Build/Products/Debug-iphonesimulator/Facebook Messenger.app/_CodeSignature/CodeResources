@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.gitattributes</key>
+		<data>
+		YoFrtOdrDQOnuJ3ht8ZRAhGotqI=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		TD1wUCnOyRlX48lgI8zH0iUW0Ps=
+		uJ4C6T8wkVHQzz6iDaQRNcqETdQ=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		yZGHMR9H84EfbI2ZJBwV6k0P2ls=
+		2rio2rEvNb642cBFOJvb/X7Ydzk=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,11 +22,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		7e7UuodvAheTp0KhdKu3OGYHPGU=
+		Gu761WX/zI0FEhaK2jfDAnrxo2M=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		seKGZg43ROGMJSt5p1wVg4525MA=
+		ll3uitNn8Vg8yVAtUiDgonCkC8k=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -30,7 +34,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		jPzwiXmkMQQ689/nt2FOzcMFCLU=
+		6/MMOf3l41suNZydNkQ3M5fUp+E=
 		</data>
 		<key>Facebook_Messenger.momd/Facebook_Messenger.mom</key>
 		<data>
@@ -46,7 +50,7 @@
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<data>
-		IKNEqR1RmIfiHcsckTmubc3E+dk=
+		hkbjCtuEQTZGhV0ZHsjRJkocQo4=
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
 		<data>
@@ -58,7 +62,7 @@
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
 		<data>
-		RD/EaYa8ENfNdErv6ah7XDJwb4g=
+		23miq+O6K4Mrtvo02YDQdGza6/8=
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
 		<data>
@@ -78,7 +82,7 @@
 		</data>
 		<key>Frameworks/leveldb.framework/leveldb</key>
 		<data>
-		74Tjwi4SomgtCY0z6WsKPPXMxNg=
+		jzP5W9upK6xKfL0jqL6B6yIGAY4=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -146,7 +150,7 @@
 		</data>
 		<key>Frameworks/nanopb.framework/nanopb</key>
 		<data>
-		oY3KBhnKbsAF1ovPN0N5U1TJ34Q=
+		iMrpp/vvQGExqyX4iZfs6JDeBRM=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -167,26 +171,37 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>.gitattributes</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YoFrtOdrDQOnuJ3ht8ZRAhGotqI=
+			</data>
+			<key>hash2</key>
+			<data>
+			O6G4TV2mtxAbUSq/Ig6xkjTBzKS8Scl0/KyCOUejYyo=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TD1wUCnOyRlX48lgI8zH0iUW0Ps=
+			uJ4C6T8wkVHQzz6iDaQRNcqETdQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			kcdBUHwwM65wNNAyhXwJoFzWz8Lxl6eB+B0l6/h5QGU=
+			L4yTKSnBjY7HPFXd1r71SdF0FbEVnsMDsSRat3FkiRQ=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yZGHMR9H84EfbI2ZJBwV6k0P2ls=
+			2rio2rEvNb642cBFOJvb/X7Ydzk=
 			</data>
 			<key>hash2</key>
 			<data>
-			/870/wr0xa3W9vRF3f1ahfiviLGKg14o9GulfjX59uI=
+			Mh0lH3N+Nb8E9nA9mWrSm3kxtQTMWk45+KC5d5Xvwb4=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -204,22 +219,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7e7UuodvAheTp0KhdKu3OGYHPGU=
+			Gu761WX/zI0FEhaK2jfDAnrxo2M=
 			</data>
 			<key>hash2</key>
 			<data>
-			gdT0DWegdHaYWgeGBHd+TfBOphM5WqIQXp9FQN/Yl80=
+			Fqe1Xzm2trrPzxgg+NsSQlMRjihMqOhysT0b0e8eqS8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			seKGZg43ROGMJSt5p1wVg4525MA=
+			ll3uitNn8Vg8yVAtUiDgonCkC8k=
 			</data>
 			<key>hash2</key>
 			<data>
-			vIJ8erq+an+62rSO+aZxQuxoXK/xsrOYbXdYOabolxo=
+			O8rn/EtNFToEbJ33ol7cbiiHkjmHOOO7133ePT+8kLc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -237,11 +252,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jPzwiXmkMQQ689/nt2FOzcMFCLU=
+			6/MMOf3l41suNZydNkQ3M5fUp+E=
 			</data>
 			<key>hash2</key>
 			<data>
-			+/wAdmKYpNdULKAwcXz2iOCRZSfo9mAcTCRmU3RYBk4=
+			8AaMXeNnqSgwwVv7HlzJmUEkKFaH9sP6zv//G36+JXY=
 			</data>
 		</dict>
 		<key>Facebook_Messenger.momd/Facebook_Messenger.mom</key>
@@ -281,11 +296,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IKNEqR1RmIfiHcsckTmubc3E+dk=
+			hkbjCtuEQTZGhV0ZHsjRJkocQo4=
 			</data>
 			<key>hash2</key>
 			<data>
-			7FtQ2l2NHCVBle06q8nfrhxKLTR4+3gJmL1r2BtaIOQ=
+			doWVG3NJg/Kgai7uTsl4kOSxBui15koCFbKxuhFuk6g=
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
@@ -314,11 +329,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RD/EaYa8ENfNdErv6ah7XDJwb4g=
+			23miq+O6K4Mrtvo02YDQdGza6/8=
 			</data>
 			<key>hash2</key>
 			<data>
-			VJOxOWnOD3+f5D8sYN5WHrRLhZNBr+RdiUIPpm4CA7Q=
+			zK7zElxnFoQeUo50/iFia7G11jLJqdLEkvMKGXcLCXE=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
@@ -369,11 +384,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			74Tjwi4SomgtCY0z6WsKPPXMxNg=
+			jzP5W9upK6xKfL0jqL6B6yIGAY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			r9jRiMTvx+veKkStaP4BxmZuZI2joUjSboTVdBlsb4k=
+			z4yGrnkKhu6CkW3b/5636ReP3jtImmcb06/1szQNDjo=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -556,11 +571,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oY3KBhnKbsAF1ovPN0N5U1TJ34Q=
+			iMrpp/vvQGExqyX4iZfs6JDeBRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			8UJWo2ww5HRmuSrb2Lxnqg0QTy0fJfJo599sK8/NKRU=
+			XfmaID+IdBWjNSgHIYCyqwhXc5UwQo0isK6VESAW5IU=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>

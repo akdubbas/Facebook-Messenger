@@ -13,6 +13,7 @@ class NewMessageTableViewController: UITableViewController {
     
     let cellId = "cellID"
     var users  = [User]()
+    var messageController : MessagesController?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,10 +65,18 @@ class NewMessageTableViewController: UITableViewController {
         if let profileImageUrl = user.profileImageUrl {
             cell.profileImageView.loadImageUsingCacheWithUrlString(profileImageUrl)
         }
-        
-        
-    
+
         return cell
+    }
+    
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        dismiss(animated: true) {
+             print("Dismiss")
+            let user = self.users[indexPath.row]
+            self.messageController?.showChatLogController(user: user)
+            
+        }
     }
 
 }

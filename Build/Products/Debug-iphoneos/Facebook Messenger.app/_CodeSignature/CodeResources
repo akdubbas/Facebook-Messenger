@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.gitattributes</key>
+		<data>
+		YoFrtOdrDQOnuJ3ht8ZRAhGotqI=
+		</data>
 		<key>Assets.car</key>
 		<data>
 		OWoMfAa3nensIi44D/Noth5FG2M=
@@ -171,6 +175,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>.gitattributes</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YoFrtOdrDQOnuJ3ht8ZRAhGotqI=
+			</data>
+			<key>hash2</key>
+			<data>
+			O6G4TV2mtxAbUSq/Ig6xkjTBzKS8Scl0/KyCOUejYyo=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash</key>

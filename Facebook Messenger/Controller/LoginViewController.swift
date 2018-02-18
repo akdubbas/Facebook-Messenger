@@ -247,15 +247,15 @@ class LoginViewController: UIViewController {
             print("Empty email and Password")
             return
         }
-        email = "sample@gmail.com"
-        password = "abcd1234"
+        email = "ab@gmail.com"
+        password = "123456"
         Auth.auth().signIn(withEmail: email, password: password, completion: { (user,error) in
             
             if(error != nil)
             {
                 print("Invalid Login : Error \(error!)")
             }
-           
+           self.messagesController?.fetchUserAndSetUpNavBarTitle()
            self.dismiss(animated: true, completion: nil)
 
             

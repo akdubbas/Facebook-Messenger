@@ -82,6 +82,7 @@ extension LoginViewController : UIImagePickerControllerDelegate, UINavigationCon
                         
                         let values = ["name":name,"email":email,"profileImageUrl" : profileImageUrl]
                         self.registerUserIntoDatabaseWithUID(uid, values: values as [String : AnyObject])
+                        
                     }
                     
                 })
@@ -100,11 +101,8 @@ extension LoginViewController : UIImagePickerControllerDelegate, UINavigationCon
                 print(err!)
                 return
             }
-            
-            //            self.messagesController?.fetchUserAndSetupNavBarTitle()
-            //            self.messagesController?.navigationItem.title = values["name"] as? String
             let user = User(dictionary: values)
-            //self.messagesController?.setupNavBarWithUser(user)
+           self.messagesController?.setNavBarWithUser(user: user)
             
             self.dismiss(animated: true, completion: nil)
         })

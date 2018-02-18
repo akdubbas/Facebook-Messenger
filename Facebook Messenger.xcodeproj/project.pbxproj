@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0D798F2032C20C008809D4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D798E2032C20C008809D4 /* Message.swift */; };
 		1E6FC76F202A478200FC81DE /* NewMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6FC76E202A478200FC81DE /* NewMessageTableViewController.swift */; };
 		1E6FC772202A50E700FC81DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6FC771202A50E700FC81DE /* User.swift */; };
 		1E6FC774202A623500FC81DE /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6FC773202A623500FC81DE /* LoginController+handlers.swift */; };
@@ -22,6 +23,7 @@
 		1EAE9F7920276BED00E950E2 /* Facebook_MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F7820276BED00E950E2 /* Facebook_MessengerTests.swift */; };
 		1EAE9F8420276BED00E950E2 /* Facebook_MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F8320276BED00E950E2 /* Facebook_MessengerUITests.swift */; };
 		1EAE9F9320278A2E00E950E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F9220278A2E00E950E2 /* LoginViewController.swift */; };
+		1ED217FF2032850800C2AC72 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED217FE2032850800C2AC72 /* ChatLogController.swift */; };
 		8865AB8D9C907F4A080FAED6 /* Pods_Facebook_MessengerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDC12BC8AC93A1985FC160A /* Pods_Facebook_MessengerUITests.framework */; };
 		D38513DF8D612961625783AF /* Pods_Facebook_MessengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA897FA3308CDDD174FBC516 /* Pods_Facebook_MessengerTests.framework */; };
 		E049628DD82AAB29D58F0545 /* Pods_Facebook_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E632529744F528203CAD3A8 /* Pods_Facebook_Messenger.framework */; };
@@ -47,6 +49,7 @@
 /* Begin PBXFileReference section */
 		0226C73E32D23EE8A9B2B341 /* Pods-Facebook MessengerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook MessengerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook MessengerTests/Pods-Facebook MessengerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		071ABD7CE0CF28F55D4DEAB8 /* Pods-Facebook MessengerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook MessengerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook MessengerUITests/Pods-Facebook MessengerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E0D798E2032C20C008809D4 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		1E6FC76E202A478200FC81DE /* NewMessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageTableViewController.swift; sourceTree = "<group>"; };
 		1E6FC771202A50E700FC81DE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1E6FC773202A623500FC81DE /* LoginController+handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
@@ -68,6 +71,7 @@
 		1EAE9F8320276BED00E950E2 /* Facebook_MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_MessengerUITests.swift; sourceTree = "<group>"; };
 		1EAE9F8520276BED00E950E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EAE9F9220278A2E00E950E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1ED217FE2032850800C2AC72 /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
 		24067312AAA7A7285653AD58 /* Pods-Facebook Messenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook Messenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook Messenger/Pods-Facebook Messenger.debug.xcconfig"; sourceTree = "<group>"; };
 		4EDC12BC8AC93A1985FC160A /* Pods_Facebook_MessengerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebook_MessengerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E632529744F528203CAD3A8 /* Pods_Facebook_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebook_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				1E6FC771202A50E700FC81DE /* User.swift */,
+				1E0D798E2032C20C008809D4 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 				1EAE9F9220278A2E00E950E2 /* LoginViewController.swift */,
 				1E6FC76E202A478200FC81DE /* NewMessageTableViewController.swift */,
 				1E6FC773202A623500FC81DE /* LoginController+handlers.swift */,
+				1ED217FE2032850800C2AC72 /* ChatLogController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -514,12 +520,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED217FF2032850800C2AC72 /* ChatLogController.swift in Sources */,
 				1EAE9F9320278A2E00E950E2 /* LoginViewController.swift in Sources */,
 				1EAE9F6320276BED00E950E2 /* MessagesController.swift in Sources */,
 				1E6FC772202A50E700FC81DE /* User.swift in Sources */,
 				1E94CBAE202BB15E00B9E359 /* Extensions.swift in Sources */,
 				1EAE9F6920276BED00E950E2 /* Facebook_Messenger.xcdatamodeld in Sources */,
 				1E6FC774202A623500FC81DE /* LoginController+handlers.swift in Sources */,
+				1E0D798F2032C20C008809D4 /* Message.swift in Sources */,
 				1EAE9F6120276BED00E950E2 /* AppDelegate.swift in Sources */,
 				1E6FC76F202A478200FC81DE /* NewMessageTableViewController.swift in Sources */,
 			);

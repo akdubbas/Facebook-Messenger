@@ -1,6 +1,0 @@
-framework module Pods_Facebook_MessengerUITests {
-  umbrella header "Pods-Facebook MessengerUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
