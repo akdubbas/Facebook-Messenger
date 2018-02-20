@@ -39,46 +39,61 @@ class MessagesController: UITableViewController  {
         let ref = Database.database().reference().child("user-messages").child(uid)
         ref.observe(.childAdded, with: { (snapshot) in
             
-            let messageId = snapshot.key
-            let messageReference = Database.database().reference().child("messages").child(messageId)
+            let userId = snapshot.key
             
-            messageReference.observeSingleEvent(of: .value, with: { (snapshot) in
-                if let dictionary = snapshot.value as? [String :AnyObject] {
-                    let message = Message()
-                    message.fromId = dictionary["fromId"] as? String
-                    message.text = dictionary["text"] as? String
-                    message.timeStamp = dictionary["timeStamp"] as? NSNumber
-                    message.toId = dictionary["toId"] as? String
-                    
-                    if let chatPartnerId = message.chatPartnerId() {
-                        self.messagesDictionary[chatPartnerId] = message
-                        self.messages = Array(self.messagesDictionary.values)
-                        self.messages.sort(by: {
-                            (m1,m2) -> Bool in
-                            
-                            guard let t1 = m1.timeStamp?.intValue, let t2 = m2.timeStamp?.intValue else{
-                                return false
-                            }
-                            return t1 >  t2
-                        })
-                    }
-                    
-                    //we just cancelled our timer
-                    self.timer?.invalidate()
-                    self.timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(self.handleReloadTable), userInfo: nil, repeats: false)
-                    print("Schedule a table reload in 0.1 sec")
-                }
-                
-                
+            Database.database().reference().child("user-messages").child(uid).child(userId).observe(.childAdded, with: { (snapshot) in
+                let messageId = snapshot.key
+                self.fetchMessageWithMessageId(messageId: messageId)
             }, withCancel: nil)
-
+            
         }, withCancel: nil)
+    }
+    
+    private func fetchMessageWithMessageId(messageId : String)
+    {
+        let messageReference = Database.database().reference().child("messages").child(messageId)
+        
+        messageReference.observeSingleEvent(of: .value, with: { (snapshot) in
+            if let dictionary = snapshot.value as? [String :AnyObject] {
+                let message = Message()
+                message.fromId = dictionary["fromId"] as? String
+                message.text = dictionary["text"] as? String
+                message.timeStamp = dictionary["timeStamp"] as? NSNumber
+                message.toId = dictionary["toId"] as? String
+                
+                if let chatPartnerId = message.chatPartnerId() {
+                    self.messagesDictionary[chatPartnerId] = message
+                    
+                }
+                self.attemptReloadOfTimer()
+                //we just cancelled our timer
+                
+            }
+            
+            
+        }, withCancel: nil)
+    }
+    
+    private func attemptReloadOfTimer()
+    {
+        self.timer?.invalidate()
+        self.timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(self.handleReloadTable), userInfo: nil, repeats: false)
+        print("Schedule a table reload in 0.1 sec")
     }
     
     var timer :Timer?
     //This has to be done to reduce number of relaods and to show the correct Profile user images
     @objc func handleReloadTable()
     {
+        self.messages = Array(self.messagesDictionary.values)
+        self.messages.sort(by: {
+            (m1,m2) -> Bool in
+            
+            guard let t1 = m1.timeStamp?.intValue, let t2 = m2.timeStamp?.intValue else{
+                return false
+            }
+            return t1 >  t2
+        })
         DispatchQueue.main.async(execute: {
             print("We reloaded the table")
             self.tableView.reloadData()
