@@ -32,15 +32,103 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        collectionView?.contentInset = UIEdgeInsets(top: 8, left: 0, bottom: 58, right: 0)
-        collectionView?.scrollIndicatorInsets = UIEdgeInsets(top: 0, left: 0, bottom: 50, right: 0)
+        collectionView?.contentInset = UIEdgeInsets(top: 8, left: 0, bottom: 8, right: 0)
+        //collectionView?.scrollIndicatorInsets = UIEdgeInsets(top: 0, left: 0, bottom: 50, right: 0)
         collectionView?.backgroundColor = UIColor.white
         collectionView?.alwaysBounceVertical = true
         collectionView?.register(ChatMessageCell.self, forCellWithReuseIdentifier: cellId)
-        setUpInputComponents()
+        collectionView?.keyboardDismissMode = .interactive
+        //setUpInputComponents()
+        setKeyBoardObservers()
     }
     
+    lazy var inputContainerView : UIView = {
+        let containerView = UIView()
+        containerView.backgroundColor = UIColor.white
+        containerView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 50)
+        
+        
+        
+        let sendButton = UIButton(type : .system)
+        sendButton.setTitle("Send", for: .normal)
+        sendButton.translatesAutoresizingMaskIntoConstraints = false
+        sendButton.addTarget(self, action: #selector(handleSendMessage), for: .touchUpInside)
+        containerView.addSubview(sendButton)
+        
+        //x,y,w,h
+        sendButton.rightAnchor.constraint(equalTo: containerView.rightAnchor).isActive = true
+        sendButton.centerYAnchor.constraint(equalTo: containerView.centerYAnchor).isActive = true
+        sendButton.widthAnchor.constraint(equalToConstant: 80).isActive = true
+        sendButton.heightAnchor.constraint(equalTo: containerView.heightAnchor).isActive = true
+        
+        
+        containerView.addSubview(self.inputTextField)
+        
+        //x,y,w,h
+        self.inputTextField.leftAnchor.constraint(equalTo: containerView.leftAnchor,constant : 8).isActive = true
+        self.inputTextField.centerYAnchor.constraint(equalTo: containerView.centerYAnchor).isActive = true
+        self.inputTextField.rightAnchor.constraint(equalTo: sendButton.leftAnchor).isActive = true
+        self.inputTextField.heightAnchor.constraint(equalTo: containerView.heightAnchor).isActive = true
+        
+        let seperatorLine = UIView()
+        seperatorLine.backgroundColor = UIColor(r: 220, g: 220, b: 220)
+        seperatorLine.translatesAutoresizingMaskIntoConstraints = false
+        containerView.addSubview(seperatorLine)
+        
+        //x,y,w,h
+        seperatorLine.leftAnchor.constraint(equalTo: containerView.leftAnchor).isActive = true
+        seperatorLine.topAnchor.constraint(equalTo: containerView.topAnchor).isActive = true
+        seperatorLine.widthAnchor.constraint(equalTo: containerView.widthAnchor).isActive = true
+        seperatorLine.heightAnchor.constraint(equalToConstant: 1).isActive = true
+        
+        return containerView
+    }()
+
+    override var inputAccessoryView: UIView? {
+        get {
+            return inputContainerView
+        }
+    }
     
+    override var canBecomeFirstResponder : Bool {
+        return true
+    }
+    func setKeyBoardObservers()
+    {
+        NotificationCenter.default.addObserver(self, selector: #selector(handleKeyBoardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(handleKeyBoardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        NotificationCenter.default.removeObserver(self)
+    }
+    @objc func handleKeyBoardWillShow(notification : NSNotification)
+    {
+        //print(notification.userInfo!)
+        //Get the height of Keyboard from userInfo
+        
+        let keyboardFrame = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as AnyObject).cgRectValue
+        let keyboardDuration = (notification.userInfo?[UIKeyboardAnimationDurationUserInfoKey] as AnyObject).doubleValue
+        
+        containerViewBottomAnchor?.constant = -keyboardFrame!.height
+        UIView.animate(withDuration: keyboardDuration!, animations: {
+            self.view.layoutIfNeeded()
+        })
+        
+    }
+    
+    @objc func handleKeyBoardWillHide(notification : NSNotification)
+    {
+        containerViewBottomAnchor?.constant = 0
+        let keyboardDuration = (notification.userInfo?[UIKeyboardAnimationDurationUserInfoKey] as AnyObject).doubleValue
+        
+        containerViewBottomAnchor?.constant = 0
+        UIView.animate(withDuration: keyboardDuration!, animations: {
+            self.view.layoutIfNeeded()
+        })
+    
+    }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return messages.count
@@ -89,8 +177,8 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
         if let text = messages[indexPath.row].text {
             height = estimateFrameForText(text: text).height + 28
         }
-        
-        return CGSize(width : view.frame.width, height : height)
+        let width = UIScreen.main.bounds.width
+        return CGSize(width :  width, height : height)
     }
     private func estimateFrameForText(text:String) -> CGRect
     {
@@ -140,6 +228,8 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
         
     }
     
+    var containerViewBottomAnchor : NSLayoutConstraint?
+    
     func setUpInputComponents()
     {
         let containerView = UIView()
@@ -150,7 +240,8 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
         
     //x,y,w,h
         containerView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
-        containerView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        containerViewBottomAnchor = containerView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        containerViewBottomAnchor?.isActive = true
         containerView.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         containerView.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
