@@ -202,6 +202,7 @@ SWIFT_CLASS("_TtC18Facebook_Messenger11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSNotification;
 @class UICollectionView;
 @class UICollectionViewCell;
 @protocol UIViewControllerTransitionCoordinator;
@@ -213,6 +214,9 @@ SWIFT_CLASS("_TtC18Facebook_Messenger11AppDelegate")
 SWIFT_CLASS("_TtC18Facebook_Messenger17ChatLogController")
 @interface ChatLogController : UICollectionViewController <UICollectionViewDelegateFlowLayout, UITextFieldDelegate>
 - (void)viewDidLoad;
+- (void)viewDidDisappear:(BOOL)animated;
+- (void)handleKeyBoardWillShowWithNotification:(NSNotification * _Nonnull)notification;
+- (void)handleKeyBoardWillHideWithNotification:(NSNotification * _Nonnull)notification;
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
