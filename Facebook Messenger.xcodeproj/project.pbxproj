@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1E0D798F2032C20C008809D4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0D798E2032C20C008809D4 /* Message.swift */; };
+		1E54C3A8203A167A001D5B13 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E54C3A7203A167A001D5B13 /* UserCell.swift */; };
+		1E54C3AA203B84BB001D5B13 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E54C3A9203B84BB001D5B13 /* ChatMessageCell.swift */; };
 		1E6FC76F202A478200FC81DE /* NewMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6FC76E202A478200FC81DE /* NewMessageTableViewController.swift */; };
 		1E6FC772202A50E700FC81DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6FC771202A50E700FC81DE /* User.swift */; };
 		1E6FC774202A623500FC81DE /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6FC773202A623500FC81DE /* LoginController+handlers.swift */; };
@@ -50,6 +52,8 @@
 		0226C73E32D23EE8A9B2B341 /* Pods-Facebook MessengerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook MessengerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook MessengerTests/Pods-Facebook MessengerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		071ABD7CE0CF28F55D4DEAB8 /* Pods-Facebook MessengerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook MessengerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook MessengerUITests/Pods-Facebook MessengerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E0D798E2032C20C008809D4 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		1E54C3A7203A167A001D5B13 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		1E54C3A9203B84BB001D5B13 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 		1E6FC76E202A478200FC81DE /* NewMessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageTableViewController.swift; sourceTree = "<group>"; };
 		1E6FC771202A50E700FC81DE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1E6FC773202A623500FC81DE /* LoginController+handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
@@ -109,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E54C3A6203A1652001D5B13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E54C3A7203A167A001D5B13 /* UserCell.swift */,
+				1E54C3A9203B84BB001D5B13 /* ChatMessageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1E6FC770202A505B00FC81DE /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +165,7 @@
 		1EAE9F5F20276BED00E950E2 /* Facebook Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				1E54C3A6203A1652001D5B13 /* View */,
 				1E94CBAC202BB0DC00B9E359 /* Helpers */,
 				1E6FC770202A505B00FC81DE /* Model */,
 				1EAE9F9120278A0B00E950E2 /* Controller */,
@@ -529,6 +543,8 @@
 				1E6FC774202A623500FC81DE /* LoginController+handlers.swift in Sources */,
 				1E0D798F2032C20C008809D4 /* Message.swift in Sources */,
 				1EAE9F6120276BED00E950E2 /* AppDelegate.swift in Sources */,
+				1E54C3AA203B84BB001D5B13 /* ChatMessageCell.swift in Sources */,
+				1E54C3A8203A167A001D5B13 /* UserCell.swift in Sources */,
 				1E6FC76F202A478200FC81DE /* NewMessageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
