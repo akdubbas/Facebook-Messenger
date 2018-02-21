@@ -10,9 +10,11 @@ import UIKit
 import Firebase
 
 
-class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICollectionViewDelegateFlowLayout
+class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICollectionViewDelegateFlowLayout,UIImagePickerControllerDelegate,UINavigationControllerDelegate
 {
     var messages = [Message]()
+    var containerViewBottomAnchor : NSLayoutConstraint?
+    let cellId = "cellId"
     //the user to which the message should be sent to
     var user : User? {
         didSet {
@@ -28,7 +30,7 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
     return textField
     }()
     
-    let cellId = "cellId"
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +40,7 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
         collectionView?.alwaysBounceVertical = true
         collectionView?.register(ChatMessageCell.self, forCellWithReuseIdentifier: cellId)
         collectionView?.keyboardDismissMode = .interactive
-        //setUpInputComponents()
+        
         setKeyBoardObservers()
     }
     
@@ -46,7 +48,7 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
         let containerView = UIView()
         containerView.backgroundColor = UIColor.white
         containerView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 50)
-        
+        containerView.addSubview(self.inputTextField)
         
         
         let sendButton = UIButton(type : .system)
@@ -55,6 +57,21 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
         sendButton.addTarget(self, action: #selector(handleSendMessage), for: .touchUpInside)
         containerView.addSubview(sendButton)
         
+        let uploadImageView = UIImageView()
+        uploadImageView.isUserInteractionEnabled = true
+        uploadImageView.image = UIImage(named : "upload_image_icon")
+        uploadImageView.translatesAutoresizingMaskIntoConstraints = false
+        uploadImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleUploadTap)))
+        containerView.addSubview(uploadImageView)
+        
+        //x,y,w,h
+        uploadImageView.leftAnchor.constraint(equalTo: containerView.leftAnchor).isActive = true
+        uploadImageView.centerYAnchor.constraint(equalTo: containerView.centerYAnchor).isActive = true
+        
+        uploadImageView.widthAnchor.constraint(equalToConstant: 44).isActive = true
+        uploadImageView.heightAnchor.constraint(equalToConstant: 44).isActive = true
+
+        
         //x,y,w,h
         sendButton.rightAnchor.constraint(equalTo: containerView.rightAnchor).isActive = true
         sendButton.centerYAnchor.constraint(equalTo: containerView.centerYAnchor).isActive = true
@@ -62,10 +79,8 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
         sendButton.heightAnchor.constraint(equalTo: containerView.heightAnchor).isActive = true
         
         
-        containerView.addSubview(self.inputTextField)
-        
         //x,y,w,h
-        self.inputTextField.leftAnchor.constraint(equalTo: containerView.leftAnchor,constant : 8).isActive = true
+        self.inputTextField.leftAnchor.constraint(equalTo: uploadImageView.rightAnchor,constant : 8).isActive = true
         self.inputTextField.centerYAnchor.constraint(equalTo: containerView.centerYAnchor).isActive = true
         self.inputTextField.rightAnchor.constraint(equalTo: sendButton.leftAnchor).isActive = true
         self.inputTextField.heightAnchor.constraint(equalTo: containerView.heightAnchor).isActive = true
@@ -83,6 +98,56 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
         
         return containerView
     }()
+    
+    @objc func handleUploadTap()
+    {
+        let imagePickerController = UIImagePickerController()
+        imagePickerController.allowsEditing = true
+        imagePickerController.delegate = self
+        present(imagePickerController, animated: true, completion: nil)
+    }
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        
+        var selectedImageFromPicker: UIImage?
+        
+        if let editedImage = info["UIImagePickerControllerOrginalImage"] as? UIImage{
+            
+            selectedImageFromPicker = editedImage
+        }
+        else if let originalImage = info["UIImagePickerControllerOriginalImage"] as? UIImage {
+            
+            selectedImageFromPicker = originalImage
+        }
+        
+        if let profileImage = selectedImageFromPicker{
+            uploadToFirebaseStorageUsingImage(image : profileImage)
+        }
+        
+        dismiss(animated: true, completion: nil)
+    }
+    
+    private func uploadToFirebaseStorageUsingImage(image : UIImage)
+    {
+        let imageName = UUID().uuidString
+        let ref = Storage.storage().reference().child("message_images").child(imageName)
+        
+        if let uploadData = UIImageJPEGRepresentation(image, 0.2) {
+            ref.putData(uploadData, metadata: nil, completion: { (metadata, error) in
+                if error != nil{
+                    print(error!)
+                }
+                if let imageUrl = metadata?.downloadURL()?.absoluteString {
+                    self.sendMessageWithImageUrl(imageUrl: imageUrl,image : image)
+                }
+                
+            })
+        }
+    }
 
     override var inputAccessoryView: UIView? {
         get {
@@ -95,9 +160,19 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
     }
     func setKeyBoardObservers()
     {
-        NotificationCenter.default.addObserver(self, selector: #selector(handleKeyBoardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        //Move the container view upside whenever the Keyboard is shown on ChatLogController
+        NotificationCenter.default.addObserver(self, selector: #selector(handleKeyboardDidShow), name: NSNotification.Name.UIKeyboardDidShow, object: nil)
+       // NotificationCenter.default.addObserver(self, selector: #selector(handleKeyBoardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         
-        NotificationCenter.default.addObserver(self, selector: #selector(handleKeyBoardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleKeyBoardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+    }
+    
+    @objc func handleKeyboardDidShow()
+    {
+        if messages.count > 0 {
+        let indexPath  = NSIndexPath(item: self.messages.count - 1, section: 0)
+        collectionView?.scrollToItem(at: indexPath as IndexPath, at: .top, animated: true)
+        }
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -139,7 +214,12 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
         let message = messages[indexPath.row]
         cell.textView.text = message.text
         setUpChatCell(cell: cell,message: message)
-        cell.bubbleWidthAnchor?.constant = estimateFrameForText(text: message.text!).width + 32
+        if let text = message.text {
+        cell.bubbleWidthAnchor?.constant = estimateFrameForText(text: text).width + 32
+        }
+        else if message.imageUrl != nil {
+            cell.bubbleWidthAnchor?.constant = 200
+        }
         return cell
     }
     
@@ -147,6 +227,17 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
     {
         if let profileImageUrl = self.user?.profileImageUrl {
             cell.profileImageView.loadImageUsingCacheWithUrlString(profileImageUrl )
+        }
+        
+        if let messageImageUrl = message.imageUrl {
+            cell.messageImageView.loadImageUsingCacheWithUrlString(messageImageUrl)
+            cell.messageImageView.isHidden = false
+            //hide the bubbleView if image is in
+            cell.bubbleView.backgroundColor = UIColor.clear
+        }
+        else{
+            cell.messageImageView.isHidden = true
+            
         }
         if message.fromId == Auth.auth().currentUser?.uid {
             //outgoing message
@@ -174,8 +265,17 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         var height : CGFloat = 80
-        if let text = messages[indexPath.row].text {
+        
+        let message = messages[indexPath.row]
+        if let text = message.text {
             height = estimateFrameForText(text: text).height + 28
+        }
+        else if message.imageUrl != nil{
+            height = 120
+        }
+        else if let imageWidth = message.imageWidth?.floatValue, let imageHeight = message.imageHeight?.floatValue {
+            
+            height = CGFloat(imageHeight / imageWidth * 200)
         }
         let width = UIScreen.main.bounds.width
         return CGSize(width :  width, height : height)
@@ -207,15 +307,22 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
                 guard let dictionary = snapshot.value as? [String :AnyObject] else {
                     return
                 }
-                let message = Message()
-                message.fromId = dictionary["fromId"] as? String
+                
+                let message = Message(dictionary: dictionary)
+                
+                /*message.fromId = dictionary["fromId"] as? String
                 message.text = dictionary["text"] as? String
                 message.timeStamp = dictionary["timeStamp"] as? NSNumber
                 message.toId = dictionary["toId"] as? String
+                message.imageUrl = dictionary["imageUrl"] as? String*/
                 
                 self.messages.append(message)
                 DispatchQueue.main.async(execute: {
                     self.collectionView?.reloadData()
+                    if self.messages.count > 0 {
+                    let indexPath = NSIndexPath(item: self.messages.count - 1, section: 0)
+                    self.collectionView?.scrollToItem(at: indexPath as IndexPath, at: .bottom, animated: true)
+                    }
                 })
                 
                 
@@ -223,68 +330,34 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
         }, withCancel: nil)
         
     }
-    
-    var containerViewBottomAnchor : NSLayoutConstraint?
-    
-    func setUpInputComponents()
+
+    @objc func handleSendMessage()
     {
-        let containerView = UIView()
         
-        containerView.translatesAutoresizingMaskIntoConstraints = false
-        containerView.backgroundColor = UIColor.white
-        view.addSubview(containerView)
-        
-    //x,y,w,h
-        containerView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
-        containerViewBottomAnchor = containerView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
-        containerViewBottomAnchor?.isActive = true
-        containerView.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
-        containerView.heightAnchor.constraint(equalToConstant: 50).isActive = true
-        
-        let sendButton = UIButton(type : .system)
-        sendButton.setTitle("Send", for: .normal)
-        sendButton.translatesAutoresizingMaskIntoConstraints = false
-        sendButton.addTarget(self, action: #selector(handleSendMessage), for: .touchUpInside)
-        containerView.addSubview(sendButton)
-        
-        //x,y,w,h
-        sendButton.rightAnchor.constraint(equalTo: containerView.rightAnchor).isActive = true
-        sendButton.centerYAnchor.constraint(equalTo: containerView.centerYAnchor).isActive = true
-        sendButton.widthAnchor.constraint(equalToConstant: 80).isActive = true
-        sendButton.heightAnchor.constraint(equalTo: containerView.heightAnchor).isActive = true
-        
-        
-        containerView.addSubview(inputTextField)
-        
-        //x,y,w,h
-        inputTextField.leftAnchor.constraint(equalTo: containerView.leftAnchor,constant : 8).isActive = true
-        inputTextField.centerYAnchor.constraint(equalTo: containerView.centerYAnchor).isActive = true
-        inputTextField.rightAnchor.constraint(equalTo: sendButton.leftAnchor).isActive = true
-        inputTextField.heightAnchor.constraint(equalTo: containerView.heightAnchor).isActive = true
-        
-        let seperatorLine = UIView()
-        seperatorLine.backgroundColor = UIColor(r: 220, g: 220, b: 220)
-        seperatorLine.translatesAutoresizingMaskIntoConstraints = false
-        containerView.addSubview(seperatorLine)
-        
-        //x,y,w,h
-        seperatorLine.leftAnchor.constraint(equalTo: containerView.leftAnchor).isActive = true
-        seperatorLine.topAnchor.constraint(equalTo: containerView.topAnchor).isActive = true
-        seperatorLine.widthAnchor.constraint(equalTo: containerView.widthAnchor).isActive = true
-        seperatorLine.heightAnchor.constraint(equalToConstant: 1).isActive = true
-   
-        
+        let properties : [String :AnyObject] = ["text":inputTextField.text! as AnyObject]
+        sendMessageWithProperties(properties: properties)
     }
     
-    @objc func handleSendMessage()
+    private func sendMessageWithImageUrl(imageUrl : String,image : UIImage)
+    {
+        let properties : [String : AnyObject] = ["imageUrl": imageUrl as AnyObject,"imageWidth" : image.size.width as AnyObject,"imageHeight" : image.size.height as AnyObject]
+        sendMessageWithProperties(properties: properties)
+       
+    }
+    
+    private func sendMessageWithProperties(properties : [String : AnyObject])
     {
         let ref = Database.database().reference().child("messages")
         let childRef = ref.childByAutoId()
         let toId = user?.id
         let fromId = Auth.auth().currentUser!.uid
         let timeStamp  = Int(Date().timeIntervalSince1970)
-        let values : [String :AnyObject] = ["text":inputTextField.text! as AnyObject,"toId" : toId as AnyObject,"fromId" : fromId as AnyObject,"timeStamp":timeStamp as AnyObject]
-        //childRef.updateChildValues(values)
+        
+        var values : [String :AnyObject] = ["toId" : toId as AnyObject,"fromId" : fromId as AnyObject,"timeStamp":timeStamp as AnyObject]
+        
+        //append properties to dictionary on to values (When image is sent)
+        properties.forEach ({ values[$0] = $1})
+    
         childRef.updateChildValues(values) { (error, ref) in
             if error != nil{
                 print(error!)
@@ -307,24 +380,4 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
         return true
         
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }

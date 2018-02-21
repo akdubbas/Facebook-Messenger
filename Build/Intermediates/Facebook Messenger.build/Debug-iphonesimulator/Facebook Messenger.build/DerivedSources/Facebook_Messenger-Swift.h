@@ -202,6 +202,8 @@ SWIFT_CLASS("_TtC18Facebook_Messenger11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImagePickerController;
+@class UIView;
 @class NSNotification;
 @class UICollectionView;
 @class UICollectionViewCell;
@@ -212,8 +214,14 @@ SWIFT_CLASS("_TtC18Facebook_Messenger11AppDelegate")
 @class NSCoder;
 
 SWIFT_CLASS("_TtC18Facebook_Messenger17ChatLogController")
-@interface ChatLogController : UICollectionViewController <UICollectionViewDelegateFlowLayout, UITextFieldDelegate>
+@interface ChatLogController : UICollectionViewController <UICollectionViewDelegateFlowLayout, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate>
 - (void)viewDidLoad;
+- (void)handleUploadTap;
+- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+@property (nonatomic, readonly, strong) UIView * _Nullable inputAccessoryView;
+@property (nonatomic, readonly) BOOL canBecomeFirstResponder;
+- (void)handleKeyboardDidShow;
 - (void)viewDidDisappear:(BOOL)animated;
 - (void)handleKeyBoardWillShowWithNotification:(NSNotification * _Nonnull)notification;
 - (void)handleKeyBoardWillHideWithNotification:(NSNotification * _Nonnull)notification;
@@ -246,7 +254,6 @@ SWIFT_CLASS("_TtC18Facebook_Messenger19LoginViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImagePickerController;
 
 @interface LoginViewController (SWIFT_EXTENSION(Facebook_Messenger)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 - (void)handleSelectProfilePicture;
@@ -258,7 +265,7 @@ SWIFT_CLASS("_TtC18Facebook_Messenger19LoginViewController")
 
 SWIFT_CLASS("_TtC18Facebook_Messenger7Message")
 @interface Message : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
 @class UITableView;
