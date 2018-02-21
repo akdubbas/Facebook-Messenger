@@ -13,6 +13,7 @@ import Firebase
 class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICollectionViewDelegateFlowLayout,UIImagePickerControllerDelegate,UINavigationControllerDelegate
 {
     var messages = [Message]()
+    var textAndImage : Bool?
     var containerViewBottomAnchor : NSLayoutConstraint?
     let cellId = "cellId"
     //the user to which the message should be sent to
@@ -335,18 +336,23 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
     {
         
         let properties : [String :AnyObject] = ["text":inputTextField.text! as AnyObject]
+        if let text = inputTextField.text{
+                textAndImage = text.isEmpty
+        }
         sendMessageWithProperties(properties: properties)
     }
     
     private func sendMessageWithImageUrl(imageUrl : String,image : UIImage)
     {
         let properties : [String : AnyObject] = ["imageUrl": imageUrl as AnyObject,"imageWidth" : image.size.width as AnyObject,"imageHeight" : image.size.height as AnyObject]
+        textAndImage = imageUrl.isEmpty
         sendMessageWithProperties(properties: properties)
        
     }
     
     private func sendMessageWithProperties(properties : [String : AnyObject])
     {
+        if(!(textAndImage!)){
         let ref = Database.database().reference().child("messages")
         let childRef = ref.childByAutoId()
         let toId = user?.id
@@ -372,7 +378,10 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
             recipientUserMessagesRef.updateChildValues([messageId:1])
             
         }
-        
+        }
+        else{
+            return
+        }
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
