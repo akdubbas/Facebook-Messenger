@@ -3,10 +3,26 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "ChatLogController.sendMessageWithImageUrl(imageUrl:image:):ChatLogController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textAndImage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "ChatLogController.currentUser.didset:ChatLogController.swift">
          <PersistentStrings>
             <PersistentString
                value = "currentUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MessagesController.observeMessages():MessagesController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "message">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -25,10 +41,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "closure #1 in MessagesController.observeMessages():MessagesController.swift">
+         contextName = "ChatLogController.handleSendMessage():ChatLogController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "message">
+               value = "textAndImage">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
