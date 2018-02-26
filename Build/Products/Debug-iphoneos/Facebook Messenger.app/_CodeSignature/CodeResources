@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		CwYnqLRA4xHA+JHROs6gnfw15Eg=
+		q1d1yqokQPlNMtKUVez9t7IdSsM=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<data>
-		tiXKBP7k433Ts2kfAZzAfTDCsfA=
+		6IyzkNw1pBfJC0rChEcAUmzvEuY=
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
 		<data>
-		e6/d2OtcfZKdjRFatPgocwiH98c=
+		xStz+yJ7bMdm7G2QUBKnn4ChQgM=
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
 		<data>
@@ -82,11 +82,19 @@
 		</data>
 		<key>Frameworks/leveldb.framework/leveldb</key>
 		<data>
-		dnFbqfWRy+4vN59iHD0bYHhk27c=
+		umIeHYbjOkTDmCAleIJzy6iOS4M=
+		</data>
+		<key>Frameworks/libswiftAVFoundation.dylib</key>
+		<data>
+		q0S2He+ecJqm4+uZuC8UL3uci5g=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
 		1RTQk4N82kQfurczB9ozGHTSeUw=
+		</data>
+		<key>Frameworks/libswiftCoreAudio.dylib</key>
+		<data>
+		tVCsp1Zux2uPWIylDVJwCLQteiM=
 		</data>
 		<key>Frameworks/libswiftCoreData.dylib</key>
 		<data>
@@ -103,6 +111,10 @@
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
 		xSNOtR74e7ydQZpsWUVEW1AT9fw=
+		</data>
+		<key>Frameworks/libswiftCoreMedia.dylib</key>
+		<data>
+		JHqxNoKckz491RxgA4Wuimzbqx4=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
@@ -140,6 +152,10 @@
 		<data>
 		+qI3Gxot03rOvnIHmWUuly3mFSE=
 		</data>
+		<key>Frameworks/libswiftsimd.dylib</key>
+		<data>
+		3Ytc/GL0obYnxlAAFVEDKeDum4c=
+		</data>
 		<key>Frameworks/nanopb.framework/Info.plist</key>
 		<data>
 		G3ta5gXH6z5iW0yAA/JbD6X7liU=
@@ -150,7 +166,7 @@
 		</data>
 		<key>Frameworks/nanopb.framework/nanopb</key>
 		<data>
-		MnLHtpK72tEKQyKdfEP/tWEfL5g=
+		SAo6Nw1pTDDC2qCRlgGFL7vurVY=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -190,11 +206,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CwYnqLRA4xHA+JHROs6gnfw15Eg=
+			q1d1yqokQPlNMtKUVez9t7IdSsM=
 			</data>
 			<key>hash2</key>
 			<data>
-			3nBaW8MAL/arnWxNX5c2Gxdzab+Yxw3Dk5DmqOp4e84=
+			RPCk22UsfLEtTg4HIbZ7+7U1+bbNr0n+pkR15eJ0zNQ=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -300,11 +316,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tiXKBP7k433Ts2kfAZzAfTDCsfA=
+			6IyzkNw1pBfJC0rChEcAUmzvEuY=
 			</data>
 			<key>hash2</key>
 			<data>
-			f9h1XVJDCJ95u2CZm9gyvRlFPT7tm8C76dxYFASSBnA=
+			NMEISpTPoyjjx12Lh1cljuM8qMdIzeonNFw60rH0HZ4=
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
@@ -333,11 +349,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e6/d2OtcfZKdjRFatPgocwiH98c=
+			xStz+yJ7bMdm7G2QUBKnn4ChQgM=
 			</data>
 			<key>hash2</key>
 			<data>
-			J3OcP29/1EsSduyRQaBotZYasvbQ1UMzVRDkcOaLA6Q=
+			Dis+PdO5WpE0u/09TbBTmWnESYiSd4X9E94WmPBnb+E=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
@@ -388,11 +404,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dnFbqfWRy+4vN59iHD0bYHhk27c=
+			umIeHYbjOkTDmCAleIJzy6iOS4M=
 			</data>
 			<key>hash2</key>
 			<data>
-			z2wznBalzuCFbj0qRmjjjwVlqPtjUY248ErkZQk/Xxo=
+			5XmOa7DJa19EybtvY0uHSLnW3wByp53CuyWlzw/b6qg=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftAVFoundation.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			q0S2He+ecJqm4+uZuC8UL3uci5g=
+			</data>
+			<key>hash2</key>
+			<data>
+			uA3NgHoAKMqTXCPu+Ko+Rfv3HxliABbWHxWEK5XK1u8=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -404,6 +431,17 @@
 			<key>hash2</key>
 			<data>
 			mPHyWTD6HMZh2tal83n+EGDsZYvgPNFO54r82VMofG8=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftCoreAudio.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tVCsp1Zux2uPWIylDVJwCLQteiM=
+			</data>
+			<key>hash2</key>
+			<data>
+			w3l0AN49nSzC5bzF5XzUeBQsyq+2tu+nHAg4RRyTYYQ=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreData.dylib</key>
@@ -448,6 +486,17 @@
 			<key>hash2</key>
 			<data>
 			LoCvnAO2ThTQ5Goik2wKSIMrGPM2htvpI7XIarGrTFE=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftCoreMedia.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JHqxNoKckz491RxgA4Wuimzbqx4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Bct/OkF7g3Q1TYo/wZFf0PXO4wQvbBgqRUW9GO3YDgk=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
@@ -549,6 +598,17 @@
 			IfRevpw6B4HrL7B8frI+3y3EVVcja3GHUjAuFS/WY0w=
 			</data>
 		</dict>
+		<key>Frameworks/libswiftsimd.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3Ytc/GL0obYnxlAAFVEDKeDum4c=
+			</data>
+			<key>hash2</key>
+			<data>
+			+BlOB7B7ntYo2LWo6fRjJdroB0GQgOo+wiazDod7KBg=
+			</data>
+		</dict>
 		<key>Frameworks/nanopb.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -575,11 +635,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MnLHtpK72tEKQyKdfEP/tWEfL5g=
+			SAo6Nw1pTDDC2qCRlgGFL7vurVY=
 			</data>
 			<key>hash2</key>
 			<data>
-			YuwXfdWAx50jLeXqjqp2Q1JSXSYoFZwsT1OhNo5BUME=
+			QupEdoSLgHG88b/23woWS8fKjwiZHkW8QCOVpIDhyRY=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
