@@ -25,6 +25,7 @@
 		1EAE9F7920276BED00E950E2 /* Facebook_MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F7820276BED00E950E2 /* Facebook_MessengerTests.swift */; };
 		1EAE9F8420276BED00E950E2 /* Facebook_MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F8320276BED00E950E2 /* Facebook_MessengerUITests.swift */; };
 		1EAE9F9320278A2E00E950E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F9220278A2E00E950E2 /* LoginViewController.swift */; };
+		1EC6A9E52043A5DD008D492A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1EC6A9E42043A5DD008D492A /* .gitignore */; };
 		1ED217FF2032850800C2AC72 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED217FE2032850800C2AC72 /* ChatLogController.swift */; };
 		8865AB8D9C907F4A080FAED6 /* Pods_Facebook_MessengerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDC12BC8AC93A1985FC160A /* Pods_Facebook_MessengerUITests.framework */; };
 		D38513DF8D612961625783AF /* Pods_Facebook_MessengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA897FA3308CDDD174FBC516 /* Pods_Facebook_MessengerTests.framework */; };
@@ -75,6 +76,7 @@
 		1EAE9F8320276BED00E950E2 /* Facebook_MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_MessengerUITests.swift; sourceTree = "<group>"; };
 		1EAE9F8520276BED00E950E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EAE9F9220278A2E00E950E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1EC6A9E42043A5DD008D492A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1ED217FE2032850800C2AC72 /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
 		24067312AAA7A7285653AD58 /* Pods-Facebook Messenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook Messenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook Messenger/Pods-Facebook Messenger.debug.xcconfig"; sourceTree = "<group>"; };
 		4EDC12BC8AC93A1985FC160A /* Pods_Facebook_MessengerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebook_MessengerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +144,7 @@
 		1EAE9F5420276BED00E950E2 = {
 			isa = PBXGroup;
 			children = (
+				1EC6A9E42043A5DD008D492A /* .gitignore */,
 				1E94CBB1202BE5EE00B9E359 /* .gitattributes */,
 				1EAE9F5F20276BED00E950E2 /* Facebook Messenger */,
 				1EAE9F7720276BED00E950E2 /* Facebook MessengerTests */,
@@ -353,6 +356,7 @@
 				1EAE9F6E20276BED00E950E2 /* LaunchScreen.storyboard in Resources */,
 				1E845B7E20298E1600E17B0B /* GoogleService-Info.plist in Resources */,
 				1EAE9F6B20276BED00E950E2 /* Assets.xcassets in Resources */,
+				1EC6A9E52043A5DD008D492A /* .gitignore in Resources */,
 				1EAE9F6620276BED00E950E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

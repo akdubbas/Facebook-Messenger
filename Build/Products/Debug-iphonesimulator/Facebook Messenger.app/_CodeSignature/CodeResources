@@ -8,6 +8,10 @@
 		<data>
 		YoFrtOdrDQOnuJ3ht8ZRAhGotqI=
 		</data>
+		<key>.gitignore</key>
+		<data>
+		ks+JOq5JFD7HARlZlD1nBYBaiD4=
+		</data>
 		<key>Assets.car</key>
 		<data>
 		fZSGsR4dbIBO3WrUAA3VkTJ1ZVE=
@@ -50,7 +54,7 @@
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<data>
-		w6Fd76thg5Lhs70suzJE7RS71Qs=
+		gvxDf3KF9N6lDB75zSvYHlUY4bs=
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
 		<data>
@@ -62,7 +66,7 @@
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
 		<data>
-		BE08lzmGvvqfuHT4IRnNCDGOdtQ=
+		eDiDZu9z96BthIMWvPvUvnhacOM=
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
 		<data>
@@ -82,7 +86,7 @@
 		</data>
 		<key>Frameworks/leveldb.framework/leveldb</key>
 		<data>
-		U3sbqL97BQANRxTeFJGnBHAeTUI=
+		eybSYSGfgjVA+tOQiXiL9bIq/vY=
 		</data>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
 		<data>
@@ -166,7 +170,7 @@
 		</data>
 		<key>Frameworks/nanopb.framework/nanopb</key>
 		<data>
-		Qs9m8xbUYMI5rRBOsl5crpP1Y3I=
+		ymApv9Ma1qoOXl5RFPEH57sJFXE=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -196,6 +200,17 @@
 			<key>hash2</key>
 			<data>
 			O6G4TV2mtxAbUSq/Ig6xkjTBzKS8Scl0/KyCOUejYyo=
+			</data>
+		</dict>
+		<key>.gitignore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ks+JOq5JFD7HARlZlD1nBYBaiD4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Z27mRrauAAFlrET218gdH/bqG4hQPYxan7NL4ucxs5c=
 			</data>
 		</dict>
 		<key>Assets.car</key>
@@ -312,11 +327,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w6Fd76thg5Lhs70suzJE7RS71Qs=
+			gvxDf3KF9N6lDB75zSvYHlUY4bs=
 			</data>
 			<key>hash2</key>
 			<data>
-			gEfBTr3xV3dXUB/9D3sml9atmdjH0qCJaYU7ttk+Qeg=
+			QOzd7cYxOaS2yfKHpQn09KF8JxdIJ5lHM11q6cGscz0=
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
@@ -345,11 +360,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BE08lzmGvvqfuHT4IRnNCDGOdtQ=
+			eDiDZu9z96BthIMWvPvUvnhacOM=
 			</data>
 			<key>hash2</key>
 			<data>
-			dy5nunSpEk1cHWNcpVLwtG2BVspcmiQPZjD6XdvUaD0=
+			RABfLNR1OqaScim/I46Y7K6/m1qLHDCLtHRvPLv1FHU=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
@@ -400,11 +415,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U3sbqL97BQANRxTeFJGnBHAeTUI=
+			eybSYSGfgjVA+tOQiXiL9bIq/vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			LAQY/A+Gy2gW13VOPa/YFf7URqjg6/qR/TJZorWR5tk=
+			2OF4Nyk4pKb2PRifqYMt0kLDcEiSB1KEUZKZ1XQJ6fc=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
@@ -631,11 +646,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qs9m8xbUYMI5rRBOsl5crpP1Y3I=
+			ymApv9Ma1qoOXl5RFPEH57sJFXE=
 			</data>
 			<key>hash2</key>
 			<data>
-			1VxqYWI2t/8P9/9OWbZztzxF1mhpu2CIXREJBIW/Kfs=
+			H+ldhOzaM0Y4lAOpu6e6RQoMKDAhdiOLvzB3Yn23mSc=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
