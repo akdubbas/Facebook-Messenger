@@ -210,6 +210,7 @@ SWIFT_CLASS("_TtC18Facebook_Messenger11AppDelegate")
 @protocol UIViewControllerTransitionCoordinator;
 @class UICollectionViewLayout;
 @class UITextField;
+@class UITapGestureRecognizer;
 @class NSBundle;
 @class NSCoder;
 
@@ -231,6 +232,7 @@ SWIFT_CLASS("_TtC18Facebook_Messenger17ChatLogController")
 - (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)handleSendMessage;
 - (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+- (void)handleZoomOutWithTapGesture:(UITapGestureRecognizer * _Nonnull)tapGesture;
 - (nonnull instancetype)initWithCollectionViewLayout:(UICollectionViewLayout * _Nonnull)layout OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -241,6 +243,7 @@ SWIFT_CLASS("_TtC18Facebook_Messenger15ChatMessageCell")
 @interface ChatMessageCell : UICollectionViewCell
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)handleZoomTapWithTapGesture:(UITapGestureRecognizer * _Nonnull)tapGesture;
 @end
 
 

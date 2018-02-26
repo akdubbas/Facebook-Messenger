@@ -9,6 +9,8 @@
 import UIKit
 
 class ChatMessageCell: UICollectionViewCell {
+    
+    var chatLogController : ChatLogController?
 
     let textView : UITextView = {
        let tv = UITextView()
@@ -38,15 +40,19 @@ class ChatMessageCell: UICollectionViewCell {
         imageView.layer.cornerRadius = 16
         imageView.layer.masksToBounds = true
         imageView.contentMode = .scaleAspectFill
+        
+        
         return imageView
     }()
     
-    let messageImageView : UIImageView = {
+    lazy var messageImageView : UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.layer.cornerRadius = 16
         imageView.layer.masksToBounds = true
         imageView.contentMode = .scaleAspectFill
+        imageView.isUserInteractionEnabled = true
+        imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleZoomTap)))
         return imageView
     }()
     
@@ -97,6 +103,14 @@ class ChatMessageCell: UICollectionViewCell {
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    @objc func handleZoomTap(tapGesture : UITapGestureRecognizer)
+    {
+        print("handle zoom")
+        if let imageView = tapGesture.view as? UIImageView{
+        chatLogController?.performZoomInForStartingImageView(startingImageView: imageView)
+        }
     }
     
 }
