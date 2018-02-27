@@ -1,10 +1,10 @@
 # Facebook-Messenger
 
-*Developed in Swift 4.0
+# Developed in Swift 4.0
 
 Facebook Messenger is a social industry real time chat application which lets people to connect across the globe.
 
-*Features :
+# Features :
 Send and Receive images per user
 Group images per User
 Load entire chat per user
@@ -15,7 +15,7 @@ Image Zoom
 Send and Play Videos in Messages
 Swipe to Delete Chat Messages
 
-*Functionality and Implementation
+# Functionality and Implementation
 
 Installed required SDK's using CocoaPods
 Login and Register users by E-mail and profile picture
