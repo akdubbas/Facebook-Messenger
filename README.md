@@ -7,11 +7,10 @@
 # Features:
 - Registering User along with the ability to set profile picture
 - Login to Send and Receive Text messages
-- Send and Receive images per user
+- Send and Receive images in chat messages
+- Image Zoom
 - Created Chat Bubbles using Constraints
 - Implemented interactive keyboard
-- Send Image messages
-- Image Zoom
 - Send and Play Videos in Messages
 - Swipe to Delete Chat Messages
 - Expertised in using Google's Firebase Cloud
