@@ -173,8 +173,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
-@import Foundation;
 @import CoreGraphics;
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -202,17 +202,24 @@ SWIFT_CLASS("_TtC18Facebook_Messenger11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSCoder;
+@class UITextField;
+
+SWIFT_CLASS("_TtC18Facebook_Messenger22ChatInputContainerView")
+@interface ChatInputContainerView : UIView <UITextFieldDelegate>
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UIImagePickerController;
-@class UIView;
 @class NSNotification;
 @class UICollectionView;
 @class UICollectionViewCell;
 @protocol UIViewControllerTransitionCoordinator;
 @class UICollectionViewLayout;
-@class UITextField;
 @class UITapGestureRecognizer;
 @class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC18Facebook_Messenger17ChatLogController")
 @interface ChatLogController : UICollectionViewController <UICollectionViewDelegateFlowLayout, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate>
@@ -231,7 +238,6 @@ SWIFT_CLASS("_TtC18Facebook_Messenger17ChatLogController")
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)handleSendMessage;
-- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 - (void)handleZoomOutWithTapGesture:(UITapGestureRecognizer * _Nonnull)tapGesture;
 - (nonnull instancetype)initWithCollectionViewLayout:(UICollectionViewLayout * _Nonnull)layout OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

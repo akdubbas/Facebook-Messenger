@@ -27,6 +27,7 @@
 		1EAE9F9320278A2E00E950E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE9F9220278A2E00E950E2 /* LoginViewController.swift */; };
 		1EC6A9E52043A5DD008D492A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1EC6A9E42043A5DD008D492A /* .gitignore */; };
 		1ED217FF2032850800C2AC72 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED217FE2032850800C2AC72 /* ChatLogController.swift */; };
+		1EE916A82045E55100BD6700 /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE916A72045E55100BD6700 /* ChatInputContainerView.swift */; };
 		8865AB8D9C907F4A080FAED6 /* Pods_Facebook_MessengerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDC12BC8AC93A1985FC160A /* Pods_Facebook_MessengerUITests.framework */; };
 		D38513DF8D612961625783AF /* Pods_Facebook_MessengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA897FA3308CDDD174FBC516 /* Pods_Facebook_MessengerTests.framework */; };
 		E049628DD82AAB29D58F0545 /* Pods_Facebook_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E632529744F528203CAD3A8 /* Pods_Facebook_Messenger.framework */; };
@@ -78,6 +79,8 @@
 		1EAE9F9220278A2E00E950E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1EC6A9E42043A5DD008D492A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1ED217FE2032850800C2AC72 /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		1EE916A72045E55100BD6700 /* ChatInputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
+		1EE916A92045EFBA00BD6700 /* Facebook Messenger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Facebook Messenger.entitlements"; sourceTree = "<group>"; };
 		24067312AAA7A7285653AD58 /* Pods-Facebook Messenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook Messenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook Messenger/Pods-Facebook Messenger.debug.xcconfig"; sourceTree = "<group>"; };
 		4EDC12BC8AC93A1985FC160A /* Pods_Facebook_MessengerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebook_MessengerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E632529744F528203CAD3A8 /* Pods_Facebook_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebook_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +123,7 @@
 			children = (
 				1E54C3A7203A167A001D5B13 /* UserCell.swift */,
 				1E54C3A9203B84BB001D5B13 /* ChatMessageCell.swift */,
+				1EE916A72045E55100BD6700 /* ChatInputContainerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +172,7 @@
 		1EAE9F5F20276BED00E950E2 /* Facebook Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				1EE916A92045EFBA00BD6700 /* Facebook Messenger.entitlements */,
 				1E54C3A6203A1652001D5B13 /* View */,
 				1E94CBAC202BB0DC00B9E359 /* Helpers */,
 				1E6FC770202A505B00FC81DE /* Model */,
@@ -314,6 +319,14 @@
 					1EAE9F5C20276BED00E950E2 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					1EAE9F7320276BED00E950E2 = {
 						CreatedOnToolsVersion = 9.2;
@@ -548,6 +561,7 @@
 				1E0D798F2032C20C008809D4 /* Message.swift in Sources */,
 				1EAE9F6120276BED00E950E2 /* AppDelegate.swift in Sources */,
 				1E54C3AA203B84BB001D5B13 /* ChatMessageCell.swift in Sources */,
+				1EE916A82045E55100BD6700 /* ChatInputContainerView.swift in Sources */,
 				1E54C3A8203A167A001D5B13 /* UserCell.swift in Sources */,
 				1E6FC76F202A478200FC81DE /* NewMessageTableViewController.swift in Sources */,
 			);
@@ -716,6 +730,7 @@
 			baseConfigurationReference = 24067312AAA7A7285653AD58 /* Pods-Facebook Messenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Facebook Messenger/Facebook Messenger.entitlements";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = M67H5Z9NQV;
 				INFOPLIST_FILE = "Facebook Messenger/Info.plist";
@@ -735,6 +750,7 @@
 			baseConfigurationReference = E174FD846FD0E332593F60AA /* Pods-Facebook Messenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Facebook Messenger/Facebook Messenger.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = M67H5Z9NQV;
