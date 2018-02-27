@@ -4,33 +4,30 @@
 
 - Facebook Messenger is a social industry real time chat application which lets people to connect across the globe.
 
-# Features :
+# Features:
+- Registering User along with the ability to set profile picture
+- Login to Send and Receive Text messages
 - Send and Receive images per user
-- Group images per User
-- Load entire chat per user
 - Created Chat Bubbles using Constraints
 - Implemented interactive keyboard
 - Send Image messages
 - Image Zoom
 - Send and Play Videos in Messages
 - Swipe to Delete Chat Messages
+- Expertised in using Google's Firebase Cloud
 
-# Functionality and Implementation
+# Requirements and Implementation
 
-Installed required SDK's using CocoaPods
-Login and Register users by E-mail and profile picture
-Authenticate users by registered email and password, sending requests to Google's Firebase 
-Cloud and Fetching users from Database
+- Installed required SDK's using CocoaPods
+- Authenticate users by registered email and password, sending requests to Google's Firebase Cloud and Fetching users from    Database
 
-Support for Text messages to sent between users
-Added support  to send images in messages
-Added support to send and play videos in messages
+- Upload text messages to Firebase cloud database which is a connected Object graph and not a Relational Database
+- Upload Images to Firebase cloud by Image compression using JPEG format and caching images to minimize network usage and to avoid downloading of images for every tableView reload.
+- Upload Videos to Firebase by implementing AVFoundation and MobileCore Services
+- Added custom layouts in a TableView Cell to list users information like name, email and profile picture
 
-Upload Images to Firebase cloud by Image compression using JPEG format and caching images to minimize network usage and to avoid downloading of images for every tableView 
-reload.
 
-Added custom layouts in a TableView Cell to list users information like name, email and profile picture
-
+#PS:
 ** OS_ACTIVITY_MODE is set to disable unnecessary noise in Console
 
 
