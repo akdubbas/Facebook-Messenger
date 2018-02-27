@@ -5,8 +5,8 @@
 Facebook Messenger is a social industry real time chat application which lets people to connect across the globe.
 
 # Features :
-Send and Receive images per user
-Group images per User
+- Send and Receive images per user
+- Group images per User
 Load entire chat per user
 Created Chat Bubbles using Constraints
 Implemented interactive keyboard
