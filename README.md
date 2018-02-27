@@ -26,7 +26,7 @@
 - Added custom layouts in a TableView Cell to list users information like name, email and profile picture
 
 
-#PS:
+# PS:
 ** OS_ACTIVITY_MODE is set to disable unnecessary noise in Console
 
 
