@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Facebook Messenger/View/ChatMessageCell.swift"
-            timestampString = "541412214.64845"
+            timestampString = "541450376.42733"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
             landmarkName = "handlePlay(tapGesture:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Facebook Messenger/View/ChatMessageCell.swift"
-            timestampString = "541412214.649109"
+            timestampString = "541450376.4274"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "158"
-            endingLineNumber = "158"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
             landmarkName = "handlePlay(tapGesture:)"
             landmarkType = "7">
          </BreakpointContent>

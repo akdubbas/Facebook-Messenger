@@ -11,6 +11,9 @@ import Firebase
 class MessagesController: UITableViewController  {
     
     let cellId = "cellId"
+    
+    var messages = [Message]()
+    var messagesDictionary = [String : Message]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,11 +26,43 @@ class MessagesController: UITableViewController  {
         checkIfUserisLoggedIn()
         tableView.register(UserCell.self, forCellReuseIdentifier: "cellId")
         //observeUserMessages()
+        tableView.allowsMultipleSelectionDuringEditing = true
         
     }
     
-    var messages = [Message]()
-    var messagesDictionary = [String : Message]()
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        
+        guard let uid = Auth.auth().currentUser?.uid else {
+            return
+        }
+        
+        let message = self.messages[indexPath.row]
+        
+        if let chatPartnerId = message.chatPartnerId() {
+            Database.database().reference().child("user-messages").child(uid).child(chatPartnerId).removeValue(completionBlock: { (error, ref) in
+                
+                if error != nil {
+                    print("Failed to delete message:", error!)
+                    return
+                }
+                
+                self.messagesDictionary.removeValue(forKey: chatPartnerId)
+                self.attemptReloadOfTimer()
+                
+                //                //this is one way of updating the table, but its actually not that safe, may cause reloading of deleted messages again
+                //                self.messages.removeAtIndex(indexPath.row)
+                //                self.tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+                
+            })
+        }
+        
+    }
+    
+    
+   
     
     
     func observeUserMessages()
@@ -45,6 +80,15 @@ class MessagesController: UITableViewController  {
                 let messageId = snapshot.key
                 self.fetchMessageWithMessageId(messageId: messageId)
             }, withCancel: nil)
+            
+        }, withCancel: nil)
+        
+        ref.observe(.childRemoved, with: { (snapshot) in
+            print(snapshot.key)
+            print(self.messagesDictionary)
+            
+            self.messagesDictionary.removeValue(forKey: snapshot.key)
+            self.attemptReloadOfTimer()
             
         }, withCancel: nil)
     }

@@ -23,8 +23,7 @@ class ChatMessageCell: UICollectionViewCell {
         return aiv
     }()
     
-    
-    
+
     lazy var playButton : UIButton = {
         let button = UIButton(type : .system)
         button.translatesAutoresizingMaskIntoConstraints = false
