@@ -199,6 +199,7 @@ SWIFT_CLASS("_TtC18Facebook_Messenger11AppDelegate")
 - (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
+- (UIInterfaceOrientationMask)application:(UIApplication * _Nonnull)application supportedInterfaceOrientationsForWindow:(UIWindow * _Nullable)window SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -256,11 +257,13 @@ SWIFT_CLASS("_TtC18Facebook_Messenger15ChatMessageCell")
 
 
 SWIFT_CLASS("_TtC18Facebook_Messenger19LoginViewController")
-@interface LoginViewController : UIViewController
+@interface LoginViewController : UIViewController <UITextFieldDelegate>
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+- (void)handleLoginRegister;
+- (void)displayActionSheet;
+- (void)handleLoginRegisterChange;
 - (void)viewDidLoad;
 @property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
-- (void)handleLoginRegisterChange;
-- (void)handleLoginRegister;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -270,6 +273,7 @@ SWIFT_CLASS("_TtC18Facebook_Messenger19LoginViewController")
 - (void)handleSelectProfilePicture;
 - (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+- (void)openCamera;
 - (void)handleRegister;
 @end
 

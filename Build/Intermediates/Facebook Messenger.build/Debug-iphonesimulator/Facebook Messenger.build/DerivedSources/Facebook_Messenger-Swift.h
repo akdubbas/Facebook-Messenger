@@ -173,8 +173,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
-@import Foundation;
 @import CoreGraphics;
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -199,20 +199,28 @@ SWIFT_CLASS("_TtC18Facebook_Messenger11AppDelegate")
 - (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
+- (UIInterfaceOrientationMask)application:(UIApplication * _Nonnull)application supportedInterfaceOrientationsForWindow:(UIWindow * _Nullable)window SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSCoder;
+@class UITextField;
+
+SWIFT_CLASS("_TtC18Facebook_Messenger22ChatInputContainerView")
+@interface ChatInputContainerView : UIView <UITextFieldDelegate>
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UIImagePickerController;
-@class UIView;
 @class NSNotification;
 @class UICollectionView;
 @class UICollectionViewCell;
 @protocol UIViewControllerTransitionCoordinator;
 @class UICollectionViewLayout;
-@class UITextField;
 @class UITapGestureRecognizer;
 @class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC18Facebook_Messenger17ChatLogController")
 @interface ChatLogController : UICollectionViewController <UICollectionViewDelegateFlowLayout, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate>
@@ -231,7 +239,6 @@ SWIFT_CLASS("_TtC18Facebook_Messenger17ChatLogController")
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)handleSendMessage;
-- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 - (void)handleZoomOutWithTapGesture:(UITapGestureRecognizer * _Nonnull)tapGesture;
 - (nonnull instancetype)initWithCollectionViewLayout:(UICollectionViewLayout * _Nonnull)layout OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -250,11 +257,13 @@ SWIFT_CLASS("_TtC18Facebook_Messenger15ChatMessageCell")
 
 
 SWIFT_CLASS("_TtC18Facebook_Messenger19LoginViewController")
-@interface LoginViewController : UIViewController
+@interface LoginViewController : UIViewController <UITextFieldDelegate>
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+- (void)handleLoginRegister;
+- (void)displayActionSheet;
+- (void)handleLoginRegisterChange;
 - (void)viewDidLoad;
 @property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
-- (void)handleLoginRegisterChange;
-- (void)handleLoginRegister;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -264,6 +273,7 @@ SWIFT_CLASS("_TtC18Facebook_Messenger19LoginViewController")
 - (void)handleSelectProfilePicture;
 - (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+- (void)openCamera;
 - (void)handleRegister;
 @end
 

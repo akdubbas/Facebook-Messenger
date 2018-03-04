@@ -38,12 +38,23 @@ extension LoginViewController : UIImagePickerControllerDelegate, UINavigationCon
         }
         
         if let profileImage = selectedImageFromPicker{
-            uploadPhoto.image = profileImage
+            profileImageView.image = profileImage
         }
         
         dismiss(animated: true, completion: nil)
     }
     //Handle the user Registration to the Firebase cloud
+    
+    @objc func openCamera()
+    {
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.camera){
+            let imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.sourceType = UIImagePickerControllerSourceType.camera
+            imagePicker.allowsEditing = true
+            self.present(imagePicker,animated: true, completion : nil)
+        }
+    }
     @objc func handleRegister()
     {
         guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else {
@@ -67,7 +78,7 @@ extension LoginViewController : UIImagePickerControllerDelegate, UINavigationCon
             let imageName = UUID().uuidString
             let storageRef = Storage.storage().reference().child("profile_images").child("\(imageName).jpg")
             
-            if let profileImage = self.uploadPhoto.image, let uploadData = UIImageJPEGRepresentation(profileImage, 0.1) {
+            if let profileImage = self.profileImageView.image, let uploadData = UIImageJPEGRepresentation(profileImage, 0.1) {
                 
                 //upload image with unique name
                 storageRef.putData(uploadData, metadata: nil, completion: { (metadata,error) in

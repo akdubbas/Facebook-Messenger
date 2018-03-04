@@ -1941,6 +1941,7 @@ depends-member:
 - !private ["So19UITableViewDelegateP", "viewDidLoad"]
 - ["So19UITableViewDelegateP", ""]
 - !private ["So19UITextFieldDelegateP", "init"]
+- !private ["So19UITextFieldDelegateP", "messagesController"]
 - !private ["So19UITextFieldDelegateP", "user"]
 - !private ["So18UITraitEnvironmentP", "Array"]
 - !private ["So18UITraitEnvironmentP", "Auth"]

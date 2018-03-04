@@ -53,7 +53,7 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
         let imagePickerController = UIImagePickerController()
         imagePickerController.allowsEditing = true
         imagePickerController.delegate = self
-        imagePickerController.mediaTypes = [kUTTypeImage as String,kUTTypeMovie as String]
+        //imagePickerController.mediaTypes = [kUTTypeImage as String,kUTTypeMovie as String]
         present(imagePickerController, animated: true, completion: nil)
     }
     

@@ -12,9 +12,13 @@
 		<data>
 		ra1Eop0JSoOCpJ0aw+PqyE57OFg=
 		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		lG2Df0jXm4a6NzgW3k3DPTyEp/0=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		DhKtjXaWzKiGq5I5jHH1o3Zh57E=
+		8EA3lmZxJmF4t8ZS47YmLAjGgJI=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -54,7 +58,7 @@
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<data>
-		zQKb6p1n1rwIdRFhi3M0YdPJgQ4=
+		DcUdHE3w/5nkXy/zFNEBHTtnUd4=
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
 		<data>
@@ -66,7 +70,7 @@
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
 		<data>
-		W44zN2egTUEgjB3POYmmd8ZcE6g=
+		2Kz86dsnf1/wEwTujpaPyUPnZIQ=
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
 		<data>
@@ -86,7 +90,7 @@
 		</data>
 		<key>Frameworks/leveldb.framework/leveldb</key>
 		<data>
-		Et9X0xjbxO/hCEYyItne92DYjXY=
+		DWN1k8J31KUkHkQt1GRiM0dUAoQ=
 		</data>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
 		<data>
@@ -170,7 +174,7 @@
 		</data>
 		<key>Frameworks/nanopb.framework/nanopb</key>
 		<data>
-		xFITUR0rgl4KeyF3e8R2O4+fwIw=
+		wG2a/kIqB2f7WCMTC0Pe0H46nd0=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -178,7 +182,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9VK/8mv4NQa0xgsY9pRXkoLo4Ac=
+		6/lDLhqck/WMrROayjO3WPhtxbQ=
+		</data>
+		<key>LaunchImage-2-700-568h@2x.png</key>
+		<data>
+		jUzAVDZErJq8r4xRQMYF5Kc4BgE=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -217,15 +225,26 @@
 			wEfejADzeU2uyuWhwQQAEJO2+A5Pcpt4p+KRgYIDWLE=
 			</data>
 		</dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lG2Df0jXm4a6NzgW3k3DPTyEp/0=
+			</data>
+			<key>hash2</key>
+			<data>
+			4/p40oSCQ0Iqc0ZQd5g256O9GEPBj9moP5B95zUpAgo=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DhKtjXaWzKiGq5I5jHH1o3Zh57E=
+			8EA3lmZxJmF4t8ZS47YmLAjGgJI=
 			</data>
 			<key>hash2</key>
 			<data>
-			5Gv4KywlUxuxA4bJ7w3Z2hrEP+laR6TnxjpsgfQ4kHI=
+			xXW/Fp4AWCJlKpWr2RGmWcISR9sTAZ2GRljZY4Bw5uM=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -331,11 +350,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zQKb6p1n1rwIdRFhi3M0YdPJgQ4=
+			DcUdHE3w/5nkXy/zFNEBHTtnUd4=
 			</data>
 			<key>hash2</key>
 			<data>
-			+dgmkHfdKQJwe9RgDNBU6SzhB2wFv/trV89C8PeGVls=
+			5Y3E7lLOexWXvpx/bZMeDm1+IpjleBrS+rH5MwRF7Ms=
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
@@ -364,11 +383,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W44zN2egTUEgjB3POYmmd8ZcE6g=
+			2Kz86dsnf1/wEwTujpaPyUPnZIQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			42O2Ua8+MXyMmtiz+bVCMrx0Gj2qGmcvOHfwnPFYcoU=
+			ljlezWWxAx+cCE9+UgwU6DQJH4pQEOCegCpKZvho0Wo=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
@@ -419,11 +438,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Et9X0xjbxO/hCEYyItne92DYjXY=
+			DWN1k8J31KUkHkQt1GRiM0dUAoQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			UMJSnwqdJAQwEJyr+UlDNixRQmpQvtoii1Ljdlvbqac=
+			Wch0+tUEkbgYLisNqvJEJRXp7K+6Lm5My7UgNOddnR0=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
@@ -650,11 +669,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xFITUR0rgl4KeyF3e8R2O4+fwIw=
+			wG2a/kIqB2f7WCMTC0Pe0H46nd0=
 			</data>
 			<key>hash2</key>
 			<data>
-			KOAxbmbJRQsrTZcVaN55M5e6f0o3cJKaR6nzKadPLJ8=
+			ILkdLug1MNTuHoi/JuyyaUXSl2h/EgZuC4YAv6MkwZ4=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -666,6 +685,17 @@
 			<key>hash2</key>
 			<data>
 			Sfg/xRIf/Do8PyIy/WY2ESqvP/cT+sgYgwiDPAm/xw4=
+			</data>
+		</dict>
+		<key>LaunchImage-2-700-568h@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jUzAVDZErJq8r4xRQMYF5Kc4BgE=
+			</data>
+			<key>hash2</key>
+			<data>
+			zk4M8Nt4RUdrZyscD2Fls3DuhrSZpwnGFwXIWTdHmrw=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
