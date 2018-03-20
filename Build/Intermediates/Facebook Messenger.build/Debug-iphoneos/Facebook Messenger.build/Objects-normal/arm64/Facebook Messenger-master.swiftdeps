@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "95609ac24b1e74ebd41483f3f53d6998"
-build_time: [1520146293, 302652000]
+build_time: [1520193816, 586528000]
 inputs:
   "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Controller/ChatLogController.swift": [1520137146, 0]
   "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Controller/LoginViewController.swift": [1520146093, 0]
