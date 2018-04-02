@@ -1,5 +1,11 @@
 # Facebook-Messenger
 
+# Summary
+
+o	Work: A social networking app which lets user to communicate with friends, share images and built with 100% code keeping app size to 12 MB which showed better performance and memory optimization, uses Google’s Firebase cloud as non-relational backend database, Storage and API end point
+o	Technologies & Tools: Swift 4.0, XCode, MVC, Cocoa Framework, Google’s Firebase Cloud, GitHub
+
+
 # Developed in Swift 4.0
 
 - Facebook Messenger is a social industry real time chat application which lets people to connect across the globe.
@@ -26,6 +32,11 @@
 - Added custom layouts in a TableView Cell to list users information like name, email and profile picture
 
 
-# OS_ACTIVITY_MODE is set to disable unnecessary noise in Console
+
+
+# Note:
+OS_ACTIVITY_MODE is set to disable unnecessary noise in Console
+
+
 
 
