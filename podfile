@@ -10,6 +10,7 @@ target 'Facebook Messenger' do
 pod 'Firebase/Database'
 pod 'Firebase/Auth'
 pod 'Firebase/Storage'
+pod 'SVProgressHUD'
 
   target 'Facebook MessengerTests' do
     inherit! :search_paths

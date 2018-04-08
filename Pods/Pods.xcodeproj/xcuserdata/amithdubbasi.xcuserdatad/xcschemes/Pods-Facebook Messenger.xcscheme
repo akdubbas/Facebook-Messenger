@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BB7E142CED855642556927AA6F1E84FD"
+               BlueprintIdentifier = "3CEEA24D1D31D06C34AB5DE52490FC6A"
                BuildableName = "Pods_Facebook_Messenger.framework"
                BlueprintName = "Pods-Facebook Messenger"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BB7E142CED855642556927AA6F1E84FD"
+            BlueprintIdentifier = "3CEEA24D1D31D06C34AB5DE52490FC6A"
             BuildableName = "Pods_Facebook_Messenger.framework"
             BlueprintName = "Pods-Facebook Messenger"
             ReferencedContainer = "container:Pods.xcodeproj">

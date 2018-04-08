@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import SVProgressHUD
 
 extension LoginViewController : UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
@@ -98,6 +99,7 @@ extension LoginViewController : UIImagePickerControllerDelegate, UINavigationCon
                     
                 })
             }
+            
         
         })
     }
@@ -114,7 +116,7 @@ extension LoginViewController : UIImagePickerControllerDelegate, UINavigationCon
             }
             let user = User(dictionary: values)
            self.messagesController?.setNavBarWithUser(user: user)
-            
+            SVProgressHUD.dismiss()
             self.dismiss(animated: true, completion: nil)
         })
     }

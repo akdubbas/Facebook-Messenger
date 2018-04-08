@@ -1,16 +1,16 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "95609ac24b1e74ebd41483f3f53d6998"
-build_time: [1520193816, 586528000]
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "499a50833e51a6ab313c7b937f07794f"
+build_time: [1523221558, 913247000]
 inputs:
-  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Controller/ChatLogController.swift": [1520137146, 0]
-  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Controller/LoginViewController.swift": [1520146093, 0]
-  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/MessagesController.swift": [1519758107, 0]
-  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Model/User.swift": [1518223605, 0]
-  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Helpers/Extensions.swift": [1518041672, 0]
-  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Controller/LoginController+handlers.swift": [1520145892, 0]
-  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Model/Message.swift": [1519615300, 0]
-  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/AppDelegate.swift": [1520146291, 0]
-  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/View/ChatMessageCell.swift": [1519756831, 0]
-  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/View/ChatInputContainerView.swift": [1519762553, 0]
-  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/View/UserCell.swift": [1519075200, 0]
-  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Facebook Messenger/Controller/NewMessageTableViewController.swift": [1518985240, 0]
+  "/Users/amithdubbasi/Desktop/fb/Facebook Messenger/Controller/ChatLogController.swift": [1523219182, 0]
+  "/Users/amithdubbasi/Desktop/fb/Facebook Messenger/Controller/LoginViewController.swift": [1523221506, 0]
+  "/Users/amithdubbasi/Desktop/fb/Facebook Messenger/MessagesController.swift": [1523219182, 0]
+  "/Users/amithdubbasi/Desktop/fb/Facebook Messenger/Model/User.swift": [1523219182, 0]
+  "/Users/amithdubbasi/Desktop/fb/Facebook Messenger/Helpers/Extensions.swift": [1523219182, 0]
+  "/Users/amithdubbasi/Desktop/fb/Facebook Messenger/Controller/LoginController+handlers.swift": [1523221558, 0]
+  "/Users/amithdubbasi/Desktop/fb/Facebook Messenger/Model/Message.swift": [1523219182, 0]
+  "/Users/amithdubbasi/Desktop/fb/Facebook Messenger/AppDelegate.swift": [1523219182, 0]
+  "/Users/amithdubbasi/Desktop/fb/Facebook Messenger/View/ChatMessageCell.swift": [1523219182, 0]
+  "/Users/amithdubbasi/Desktop/fb/Facebook Messenger/View/ChatInputContainerView.swift": [1523219182, 0]
+  "/Users/amithdubbasi/Desktop/fb/Facebook Messenger/View/UserCell.swift": [1523219182, 0]
+  "/Users/amithdubbasi/Desktop/fb/Facebook Messenger/Controller/NewMessageTableViewController.swift": [1523219182, 0]

@@ -8,6 +8,8 @@
 
 import UIKit
 import Firebase
+import SVProgressHUD
+
 
 class LoginViewController: UIViewController, UITextFieldDelegate {
     
@@ -46,8 +48,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     @objc func handleLoginRegister() {
         if loginRegisterSegmentedControl.selectedSegmentIndex == 0 {
+            SVProgressHUD.show(withStatus: "Logging in..")
             handleLogin()
         } else {
+            SVProgressHUD.show(withStatus: "Registering the user")
             handleRegister()
         }
     }
@@ -68,7 +72,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             //successfully logged in our user
             
             self.messagesController?.fetchUserAndSetUpNavBarTitle()
-            
+            SVProgressHUD.dismiss()
             self.dismiss(animated: true, completion: nil)
             
         })
