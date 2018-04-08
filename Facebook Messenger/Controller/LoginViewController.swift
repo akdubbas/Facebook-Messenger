@@ -51,12 +51,14 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             SVProgressHUD.show(withStatus: "Logging in..")
             handleLogin()
         } else {
+            profileImageView.isHidden = true
             SVProgressHUD.show(withStatus: "Registering the user")
             handleRegister()
         }
     }
     
     func handleLogin() {
+        profileImageView.isHidden = true
         guard let email = emailTextField.text, let password = passwordTextField.text else {
             print("Form is not valid")
             return
@@ -171,6 +173,15 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }()
     
     @objc func handleLoginRegisterChange() {
+        
+        if(loginRegisterSegmentedControl.selectedSegmentIndex == 0)
+        {
+            profileImageView.isHidden = true
+        }
+        else{
+            profileImageView.isHidden = false
+        }
+        
         let title = loginRegisterSegmentedControl.titleForSegment(at: loginRegisterSegmentedControl.selectedSegmentIndex)
         loginRegisterButton.setTitle(title, for: UIControlState())
         
@@ -199,7 +210,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         
         view.addSubview(inputsContainerView)
         view.addSubview(loginRegisterButton)
+        
         view.addSubview(profileImageView)
+        
         view.addSubview(loginRegisterSegmentedControl)
         
         self.nameTextField.delegate = self
@@ -221,6 +234,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     func setupProfileImageView() {
+        
+        
         //need x, y, width, height constraints
         profileImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         profileImageView.bottomAnchor.constraint(equalTo: loginRegisterSegmentedControl.topAnchor, constant: -20).isActive = true

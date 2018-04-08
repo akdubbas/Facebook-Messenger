@@ -62,7 +62,7 @@
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<data>
-		VYWU+7ygzfTdOlBQcZd4sB902W8=
+		fyjY03+TSXbSuB5b6uB3pKy+gy0=
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
 		<data>
-		hSSt+ApfBwCA6iKlf8Dbjr6lfXo=
+		VgxoPKWngUufXZorFy5SGRwe49E=
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Frameworks/SVProgressHUD.framework/SVProgressHUD</key>
 		<data>
-		tIvyyW08gYkNJozdfoglj45nWBo=
+		hXO/GS28NKQZmVLJ7olU3Z4ttCA=
 		</data>
 		<key>Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>Frameworks/leveldb.framework/leveldb</key>
 		<data>
-		N5woWCqHysWCbGZ9Z33rAWvf9fc=
+		RPYlUYV2apg6GV95LucZPOFdXKo=
 		</data>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>Frameworks/nanopb.framework/nanopb</key>
 		<data>
-		J+hz8s/UqX1scoVrFC+PYL3Udrw=
+		HcTXdljPjn+8sPtiUHW8coeBNd8=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -425,11 +425,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VYWU+7ygzfTdOlBQcZd4sB902W8=
+			fyjY03+TSXbSuB5b6uB3pKy+gy0=
 			</data>
 			<key>hash2</key>
 			<data>
-			n3gzg8M5gWldXVAeI3dy2NGsmLEYj08SDHydlKO9LEw=
+			hr7H2gCXkgxNHZrT7MWQIfTydsCRoB+3iq/e661Sv4c=
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
@@ -458,11 +458,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hSSt+ApfBwCA6iKlf8Dbjr6lfXo=
+			VgxoPKWngUufXZorFy5SGRwe49E=
 			</data>
 			<key>hash2</key>
 			<data>
-			RJMc/Vmv3O/qW7vGMZXpghzwMDIn4r3v6/PQOgNli3E=
+			QcPP2NjosunsuIEcYygXMi+OINraTBuEl7ma0YaWFeU=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
@@ -502,11 +502,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tIvyyW08gYkNJozdfoglj45nWBo=
+			hXO/GS28NKQZmVLJ7olU3Z4ttCA=
 			</data>
 			<key>hash2</key>
 			<data>
-			7U+9Mnhalnm/wxspBb45UcOnk7gESLNBrvB551s/jl4=
+			Gdy6raN/tDeCOrTG2ThP7DI2IAJrk3VKHuUHckI0lsM=
 			</data>
 		</dict>
 		<key>Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png</key>
@@ -678,11 +678,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N5woWCqHysWCbGZ9Z33rAWvf9fc=
+			RPYlUYV2apg6GV95LucZPOFdXKo=
 			</data>
 			<key>hash2</key>
 			<data>
-			FlJkis2mMDEmqkEqKGDYiJpMpTkKTfZXSqlqon8pNls=
+			WWipDlpB48/vNSkY25dQG+oZzT+F/GZu8zMmZlSzEZw=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
@@ -909,11 +909,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J+hz8s/UqX1scoVrFC+PYL3Udrw=
+			HcTXdljPjn+8sPtiUHW8coeBNd8=
 			</data>
 			<key>hash2</key>
 			<data>
-			xjiohDGTOXfrO2suBHbeWD6mnf7OUa7J4/3/z6fo3zs=
+			fTmKJG6CZXmLnfuXcI+mT0Nwx/c7NuRpoUuVBTZVtN8=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
