@@ -51,11 +51,13 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             SVProgressHUD.show(withStatus: "Logging in..")
             handleLogin()
         } else {
-            profileImageView.isHidden = true
+            
             SVProgressHUD.show(withStatus: "Registering the user")
             handleRegister()
         }
     }
+    
+    
     
     func handleLogin() {
         profileImageView.isHidden = true
@@ -67,7 +69,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         Auth.auth().signIn(withEmail: email, password: password, completion: { (user, error) in
             
             if error != nil {
+                SVProgressHUD.dismiss()
                 print(error ?? "")
+                self.customAlert(title: "Invalid Email id or Password",message: "")
                 return
             }
             

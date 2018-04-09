@@ -28,6 +28,7 @@ depends-top-level:
 - "LoginViewController"
 - "MessagesController"
 - "NSLayoutConstraint"
+- !private "SVProgressHUD"
 - "StringLiteralType"
 - "TernaryPrecedence"
 - !private "UIAlertAction"
@@ -64,6 +65,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "centerYAnchor"]
 - !private ["So15CALayerDelegateP", "contentMode"]
 - !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "dismiss"]
 - !private ["So15CALayerDelegateP", "endEditing"]
 - !private ["So15CALayerDelegateP", "font"]
 - !private ["So15CALayerDelegateP", "heightAnchor"]
@@ -78,6 +80,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "selectedSegmentIndex"]
 - !private ["So15CALayerDelegateP", "setTitle"]
 - !private ["So15CALayerDelegateP", "setTitleColor"]
+- !private ["So15CALayerDelegateP", "show"]
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["So15CALayerDelegateP", "tintColor"]
 - !private ["So15CALayerDelegateP", "titleForSegment"]
@@ -88,6 +91,7 @@ depends-member:
 - ["So13CAMediaTimingP", "cornerRadius"]
 - ["So13CAMediaTimingP", "masksToBounds"]
 - !private ["s7CVarArgP", "Auth"]
+- !private ["s7CVarArgP", "SVProgressHUD"]
 - !private ["s7CVarArgP", "UIAlertAction"]
 - !private ["s7CVarArgP", "UIAlertController"]
 - !private ["s7CVarArgP", "UIAlertControllerStyle"]
@@ -101,6 +105,8 @@ depends-member:
 - !private ["s7CVarArgP", "UITapGestureRecognizer"]
 - ["s7CVarArgP", "UITextField"]
 - ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addAction"]
 - !private ["s7CVarArgP", "addGestureRecognizer"]
 - !private ["s7CVarArgP", "addSubview"]
@@ -115,6 +121,7 @@ depends-member:
 - !private ["s7CVarArgP", "constraint"]
 - !private ["s7CVarArgP", "contentMode"]
 - ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "customAlert"]
 - !private ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "dismiss"]
 - !private ["s7CVarArgP", "displayActionSheet"]
@@ -161,6 +168,7 @@ depends-member:
 - !private ["s7CVarArgP", "setupLoginRegisterButton"]
 - !private ["s7CVarArgP", "setupLoginRegisterSegmentedControl"]
 - !private ["s7CVarArgP", "setupProfileImageView"]
+- !private ["s7CVarArgP", "show"]
 - !private ["s7CVarArgP", "signIn"]
 - !private ["s7CVarArgP", "text"]
 - ["s7CVarArgP", "textField"]
@@ -179,10 +187,10 @@ depends-member:
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", "white"]
 - !private ["s7CVarArgP", "widthAnchor"]
-- ["s7CVarArgP", ""]
 - ["s10CollectionP", "init"]
 - ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "Auth"]
+- !private ["s28CustomDebugStringConvertibleP", "SVProgressHUD"]
 - !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
 - !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
 - !private ["s28CustomDebugStringConvertibleP", "UIAlertControllerStyle"]
@@ -196,6 +204,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "UITapGestureRecognizer"]
 - ["s28CustomDebugStringConvertibleP", "UITextField"]
 - ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addAction"]
 - !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
 - !private ["s28CustomDebugStringConvertibleP", "addSubview"]
@@ -210,6 +219,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "constraint"]
 - !private ["s28CustomDebugStringConvertibleP", "contentMode"]
 - ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "customAlert"]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "dismiss"]
 - !private ["s28CustomDebugStringConvertibleP", "displayActionSheet"]
@@ -256,6 +266,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "setupLoginRegisterButton"]
 - !private ["s28CustomDebugStringConvertibleP", "setupLoginRegisterSegmentedControl"]
 - !private ["s28CustomDebugStringConvertibleP", "setupProfileImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "show"]
 - !private ["s28CustomDebugStringConvertibleP", "signIn"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
 - ["s28CustomDebugStringConvertibleP", "textField"]
@@ -274,12 +285,12 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", "white"]
 - !private ["s28CustomDebugStringConvertibleP", "widthAnchor"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "Auth"]
+- !private ["s23CustomStringConvertibleP", "SVProgressHUD"]
 - !private ["s23CustomStringConvertibleP", "UIAlertAction"]
 - !private ["s23CustomStringConvertibleP", "UIAlertController"]
 - !private ["s23CustomStringConvertibleP", "UIAlertControllerStyle"]
@@ -293,6 +304,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
 - ["s23CustomStringConvertibleP", "UITextField"]
 - ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addAction"]
 - !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
@@ -308,6 +320,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "constraint"]
 - !private ["s23CustomStringConvertibleP", "contentMode"]
 - ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "customAlert"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "dismiss"]
 - !private ["s23CustomStringConvertibleP", "displayActionSheet"]
@@ -354,6 +367,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "setupLoginRegisterButton"]
 - !private ["s23CustomStringConvertibleP", "setupLoginRegisterSegmentedControl"]
 - !private ["s23CustomStringConvertibleP", "setupProfileImageView"]
+- !private ["s23CustomStringConvertibleP", "show"]
 - !private ["s23CustomStringConvertibleP", "signIn"]
 - !private ["s23CustomStringConvertibleP", "text"]
 - ["s23CustomStringConvertibleP", "textField"]
@@ -372,12 +386,12 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", "white"]
 - !private ["s23CustomStringConvertibleP", "widthAnchor"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - ["s9DecodableP", "init"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - ["s9EncodableP", "init"]
 - !private ["s9EquatableP", "Auth"]
+- !private ["s9EquatableP", "SVProgressHUD"]
 - !private ["s9EquatableP", "UIAlertAction"]
 - !private ["s9EquatableP", "UIAlertController"]
 - !private ["s9EquatableP", "UIAlertControllerStyle"]
@@ -391,6 +405,7 @@ depends-member:
 - !private ["s9EquatableP", "UITapGestureRecognizer"]
 - ["s9EquatableP", "UITextField"]
 - ["s9EquatableP", "UIView"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "actionSheet"]
 - !private ["s9EquatableP", "addAction"]
@@ -408,6 +423,7 @@ depends-member:
 - !private ["s9EquatableP", "constraint"]
 - !private ["s9EquatableP", "contentMode"]
 - ["s9EquatableP", "cornerRadius"]
+- !private ["s9EquatableP", "customAlert"]
 - !private ["s9EquatableP", "default"]
 - !private ["s9EquatableP", "delegate"]
 - !private ["s9EquatableP", "destructive"]
@@ -458,6 +474,7 @@ depends-member:
 - !private ["s9EquatableP", "setupLoginRegisterButton"]
 - !private ["s9EquatableP", "setupLoginRegisterSegmentedControl"]
 - !private ["s9EquatableP", "setupProfileImageView"]
+- !private ["s9EquatableP", "show"]
 - !private ["s9EquatableP", "signIn"]
 - !private ["s9EquatableP", "system"]
 - !private ["s9EquatableP", "text"]
@@ -479,7 +496,6 @@ depends-member:
 - !private ["s9EquatableP", "viewDidLoad"]
 - ["s9EquatableP", "white"]
 - !private ["s9EquatableP", "widthAnchor"]
-- ["s9EquatableP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
 - !private ["s25ExpressibleByArrayLiteralP", "valueChanged"]
@@ -488,6 +504,7 @@ depends-member:
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s8HashableP", "Auth"]
+- !private ["s8HashableP", "SVProgressHUD"]
 - !private ["s8HashableP", "UIAlertAction"]
 - !private ["s8HashableP", "UIAlertController"]
 - !private ["s8HashableP", "UIAlertControllerStyle"]
@@ -501,6 +518,7 @@ depends-member:
 - !private ["s8HashableP", "UITapGestureRecognizer"]
 - ["s8HashableP", "UITextField"]
 - ["s8HashableP", "UIView"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "actionSheet"]
 - !private ["s8HashableP", "addAction"]
@@ -518,6 +536,7 @@ depends-member:
 - !private ["s8HashableP", "constraint"]
 - !private ["s8HashableP", "contentMode"]
 - ["s8HashableP", "cornerRadius"]
+- !private ["s8HashableP", "customAlert"]
 - !private ["s8HashableP", "default"]
 - !private ["s8HashableP", "delegate"]
 - !private ["s8HashableP", "destructive"]
@@ -568,6 +587,7 @@ depends-member:
 - !private ["s8HashableP", "setupLoginRegisterButton"]
 - !private ["s8HashableP", "setupLoginRegisterSegmentedControl"]
 - !private ["s8HashableP", "setupProfileImageView"]
+- !private ["s8HashableP", "show"]
 - !private ["s8HashableP", "signIn"]
 - !private ["s8HashableP", "system"]
 - !private ["s8HashableP", "text"]
@@ -587,11 +607,11 @@ depends-member:
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", "white"]
 - !private ["s8HashableP", "widthAnchor"]
-- ["s8HashableP", ""]
 - !private ["18Facebook_Messenger19LoginViewControllerC", "Auth"]
 - ["18Facebook_Messenger19LoginViewControllerC", "Bool"]
 - ["18Facebook_Messenger19LoginViewControllerC", "MessagesController"]
 - ["18Facebook_Messenger19LoginViewControllerC", "NSLayoutConstraint"]
+- !private ["18Facebook_Messenger19LoginViewControllerC", "SVProgressHUD"]
 - !private ["18Facebook_Messenger19LoginViewControllerC", "UIAlertAction"]
 - !private ["18Facebook_Messenger19LoginViewControllerC", "UIAlertController"]
 - !private ["18Facebook_Messenger19LoginViewControllerC", "UIAlertControllerStyle"]
@@ -607,6 +627,7 @@ depends-member:
 - ["18Facebook_Messenger19LoginViewControllerC", "UITextField"]
 - ["18Facebook_Messenger19LoginViewControllerC", "UIView"]
 - !private ["18Facebook_Messenger19LoginViewControllerC", "Void"]
+- !private ["18Facebook_Messenger19LoginViewControllerC", "customAlert"]
 - ["18Facebook_Messenger19LoginViewControllerC", "deinit"]
 - !private ["18Facebook_Messenger19LoginViewControllerC", "dismiss"]
 - ["18Facebook_Messenger19LoginViewControllerC", "displayActionSheet"]
@@ -655,6 +676,7 @@ depends-member:
 - !private ["18Facebook_Messenger18MessagesControllerC", "fetchUserAndSetUpNavBarTitle"]
 - ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "Auth"]
+- !private ["So8NSCodingP", "SVProgressHUD"]
 - !private ["So8NSCodingP", "UIAlertAction"]
 - !private ["So8NSCodingP", "UIAlertController"]
 - !private ["So8NSCodingP", "UIAlertControllerStyle"]
@@ -668,6 +690,7 @@ depends-member:
 - !private ["So8NSCodingP", "UITapGestureRecognizer"]
 - ["So8NSCodingP", "UITextField"]
 - ["So8NSCodingP", "UIView"]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addAction"]
 - !private ["So8NSCodingP", "addGestureRecognizer"]
 - !private ["So8NSCodingP", "addSubview"]
@@ -678,6 +701,7 @@ depends-member:
 - !private ["So8NSCodingP", "centerYAnchor"]
 - !private ["So8NSCodingP", "contentMode"]
 - ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "customAlert"]
 - !private ["So8NSCodingP", "delegate"]
 - !private ["So8NSCodingP", "dismiss"]
 - !private ["So8NSCodingP", "displayActionSheet"]
@@ -723,6 +747,7 @@ depends-member:
 - !private ["So8NSCodingP", "setupLoginRegisterButton"]
 - !private ["So8NSCodingP", "setupLoginRegisterSegmentedControl"]
 - !private ["So8NSCodingP", "setupProfileImageView"]
+- !private ["So8NSCodingP", "show"]
 - !private ["So8NSCodingP", "text"]
 - ["So8NSCodingP", "textField"]
 - ["So8NSCodingP", "textFieldDidBeginEditing"]
@@ -740,11 +765,11 @@ depends-member:
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", "white"]
 - !private ["So8NSCodingP", "widthAnchor"]
-- ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "boldSystemFont"]
 - ["So9NSCopyingP", "init"]
 - ["So9NSCopyingP", "white"]
 - !private ["So26NSExtensionRequestHandlingP", "Auth"]
+- !private ["So26NSExtensionRequestHandlingP", "SVProgressHUD"]
 - !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
 - !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
 - !private ["So26NSExtensionRequestHandlingP", "UIAlertControllerStyle"]
@@ -758,7 +783,9 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "UITapGestureRecognizer"]
 - ["So26NSExtensionRequestHandlingP", "UITextField"]
 - ["So26NSExtensionRequestHandlingP", "UIView"]
+- ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "customAlert"]
 - !private ["So26NSExtensionRequestHandlingP", "dismiss"]
 - !private ["So26NSExtensionRequestHandlingP", "displayActionSheet"]
 - !private ["So26NSExtensionRequestHandlingP", "emailSeparatorView"]
@@ -798,7 +825,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "textFieldShouldReturn"]
 - !private ["So26NSExtensionRequestHandlingP", "view"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
-- ["So26NSExtensionRequestHandlingP", ""]
 - ["So21NSItemProviderReadingP", "init"]
 - ["So21NSItemProviderReadingP", "white"]
 - ["So21NSItemProviderWritingP", "init"]
@@ -809,12 +835,12 @@ depends-member:
 - !private ["So17NSLayoutDimensionC", "constraint"]
 - !private ["So19NSLayoutXAxisAnchorC", "constraint"]
 - !private ["So19NSLayoutYAxisAnchorC", "constraint"]
-- ["So16NSMutableCopyingP", "init"]
 - !private ["So8NSObjectC", "Auth"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "CGFloat"]
 - ["So8NSObjectC", "MessagesController"]
 - ["So8NSObjectC", "NSLayoutConstraint"]
+- !private ["So8NSObjectC", "SVProgressHUD"]
 - !private ["So8NSObjectC", "UIAlertAction"]
 - !private ["So8NSObjectC", "UIAlertController"]
 - !private ["So8NSObjectC", "UIAlertControllerStyle"]
@@ -844,6 +870,7 @@ depends-member:
 - !private ["So8NSObjectC", "constraint"]
 - !private ["So8NSObjectC", "contentMode"]
 - ["So8NSObjectC", "cornerRadius"]
+- !private ["So8NSObjectC", "customAlert"]
 - !private ["So8NSObjectC", "delegate"]
 - !private ["So8NSObjectC", "dismiss"]
 - ["So8NSObjectC", "displayActionSheet"]
@@ -894,6 +921,7 @@ depends-member:
 - ["So8NSObjectC", "setupLoginRegisterButton"]
 - ["So8NSObjectC", "setupLoginRegisterSegmentedControl"]
 - ["So8NSObjectC", "setupProfileImageView"]
+- !private ["So8NSObjectC", "show"]
 - !private ["So8NSObjectC", "signIn"]
 - !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "textField"]
@@ -913,6 +941,7 @@ depends-member:
 - ["So8NSObjectC", "white"]
 - !private ["So8NSObjectC", "widthAnchor"]
 - !private ["So16NSObjectProtocolP", "Auth"]
+- !private ["So16NSObjectProtocolP", "SVProgressHUD"]
 - !private ["So16NSObjectProtocolP", "UIAlertAction"]
 - !private ["So16NSObjectProtocolP", "UIAlertController"]
 - !private ["So16NSObjectProtocolP", "UIAlertControllerStyle"]
@@ -926,6 +955,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "UITapGestureRecognizer"]
 - ["So16NSObjectProtocolP", "UITextField"]
 - ["So16NSObjectProtocolP", "UIView"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "addAction"]
 - !private ["So16NSObjectProtocolP", "addGestureRecognizer"]
 - !private ["So16NSObjectProtocolP", "addSubview"]
@@ -940,6 +970,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "constraint"]
 - !private ["So16NSObjectProtocolP", "contentMode"]
 - ["So16NSObjectProtocolP", "cornerRadius"]
+- !private ["So16NSObjectProtocolP", "customAlert"]
 - !private ["So16NSObjectProtocolP", "delegate"]
 - !private ["So16NSObjectProtocolP", "dismiss"]
 - !private ["So16NSObjectProtocolP", "displayActionSheet"]
@@ -986,6 +1017,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "setupLoginRegisterButton"]
 - !private ["So16NSObjectProtocolP", "setupLoginRegisterSegmentedControl"]
 - !private ["So16NSObjectProtocolP", "setupProfileImageView"]
+- !private ["So16NSObjectProtocolP", "show"]
 - !private ["So16NSObjectProtocolP", "signIn"]
 - !private ["So16NSObjectProtocolP", "text"]
 - ["So16NSObjectProtocolP", "textField"]
@@ -1004,12 +1036,10 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", "white"]
 - !private ["So16NSObjectProtocolP", "widthAnchor"]
-- ["So16NSObjectProtocolP", ""]
 - ["So14NSSecureCodingP", "cornerRadius"]
 - ["So14NSSecureCodingP", "init"]
 - ["So14NSSecureCodingP", "masksToBounds"]
 - ["So14NSSecureCodingP", "white"]
-- ["So8NSStringC", "init"]
 - !private ["s9OptionSetP", "init"]
 - !private ["s9OptionSetP", "touchUpInside"]
 - !private ["s9OptionSetP", "valueChanged"]
@@ -1024,6 +1054,8 @@ depends-member:
 - !private ["s16RawRepresentableP", "system"]
 - !private ["s16RawRepresentableP", "touchUpInside"]
 - !private ["s16RawRepresentableP", "valueChanged"]
+- !private ["So13SVProgressHUDC", "dismiss"]
+- !private ["So13SVProgressHUDC", "show"]
 - ["s8SequenceP", "init"]
 - !private ["s10SetAlgebraP", "init"]
 - !private ["s10SetAlgebraP", "touchUpInside"]
@@ -1041,6 +1073,7 @@ depends-member:
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "heightAnchor"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isHidden"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isUserInteractionEnabled"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layer"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
@@ -1058,6 +1091,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "centerYAnchor"]
 - !private ["So29UIAccessibilityIdentificationP", "contentMode"]
 - !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "dismiss"]
 - !private ["So29UIAccessibilityIdentificationP", "endEditing"]
 - !private ["So29UIAccessibilityIdentificationP", "font"]
 - !private ["So29UIAccessibilityIdentificationP", "heightAnchor"]
@@ -1072,6 +1106,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "selectedSegmentIndex"]
 - !private ["So29UIAccessibilityIdentificationP", "setTitle"]
 - !private ["So29UIAccessibilityIdentificationP", "setTitleColor"]
+- !private ["So29UIAccessibilityIdentificationP", "show"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So29UIAccessibilityIdentificationP", "tintColor"]
 - !private ["So29UIAccessibilityIdentificationP", "titleForSegment"]
@@ -1095,6 +1130,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "centerYAnchor"]
 - !private ["So12UIAppearanceP", "contentMode"]
 - !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "dismiss"]
 - !private ["So12UIAppearanceP", "endEditing"]
 - !private ["So12UIAppearanceP", "font"]
 - !private ["So12UIAppearanceP", "heightAnchor"]
@@ -1109,6 +1145,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "selectedSegmentIndex"]
 - !private ["So12UIAppearanceP", "setTitle"]
 - !private ["So12UIAppearanceP", "setTitleColor"]
+- !private ["So12UIAppearanceP", "show"]
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So12UIAppearanceP", "tintColor"]
 - !private ["So12UIAppearanceP", "titleForSegment"]
@@ -1117,6 +1154,7 @@ depends-member:
 - ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So12UIAppearanceP", "widthAnchor"]
 - !private ["So21UIAppearanceContainerP", "Auth"]
+- !private ["So21UIAppearanceContainerP", "SVProgressHUD"]
 - !private ["So21UIAppearanceContainerP", "UIAlertAction"]
 - !private ["So21UIAppearanceContainerP", "UIAlertController"]
 - !private ["So21UIAppearanceContainerP", "UIAlertControllerStyle"]
@@ -1130,6 +1168,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "UITapGestureRecognizer"]
 - ["So21UIAppearanceContainerP", "UITextField"]
 - ["So21UIAppearanceContainerP", "UIView"]
+- ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "addAction"]
 - !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
 - !private ["So21UIAppearanceContainerP", "addSubview"]
@@ -1139,6 +1178,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "centerXAnchor"]
 - !private ["So21UIAppearanceContainerP", "centerYAnchor"]
 - !private ["So21UIAppearanceContainerP", "contentMode"]
+- !private ["So21UIAppearanceContainerP", "customAlert"]
 - !private ["So21UIAppearanceContainerP", "delegate"]
 - !private ["So21UIAppearanceContainerP", "dismiss"]
 - !private ["So21UIAppearanceContainerP", "displayActionSheet"]
@@ -1183,6 +1223,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "setupLoginRegisterButton"]
 - !private ["So21UIAppearanceContainerP", "setupLoginRegisterSegmentedControl"]
 - !private ["So21UIAppearanceContainerP", "setupProfileImageView"]
+- !private ["So21UIAppearanceContainerP", "show"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - ["So21UIAppearanceContainerP", "textField"]
 - ["So21UIAppearanceContainerP", "textFieldDidBeginEditing"]
@@ -1199,7 +1240,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "view"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - !private ["So21UIAppearanceContainerP", "widthAnchor"]
-- ["So21UIAppearanceContainerP", ""]
 - !private ["So8UIButtonC", "addTarget"]
 - !private ["So8UIButtonC", "backgroundColor"]
 - !private ["So8UIButtonC", "centerXAnchor"]
@@ -1217,6 +1257,7 @@ depends-member:
 - ["So7UIColorC", "init"]
 - ["So7UIColorC", "white"]
 - !private ["So18UIContentContainerP", "Auth"]
+- !private ["So18UIContentContainerP", "SVProgressHUD"]
 - !private ["So18UIContentContainerP", "UIAlertAction"]
 - !private ["So18UIContentContainerP", "UIAlertController"]
 - !private ["So18UIContentContainerP", "UIAlertControllerStyle"]
@@ -1230,7 +1271,9 @@ depends-member:
 - !private ["So18UIContentContainerP", "UITapGestureRecognizer"]
 - ["So18UIContentContainerP", "UITextField"]
 - ["So18UIContentContainerP", "UIView"]
+- ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "customAlert"]
 - !private ["So18UIContentContainerP", "dismiss"]
 - !private ["So18UIContentContainerP", "displayActionSheet"]
 - !private ["So18UIContentContainerP", "emailSeparatorView"]
@@ -1270,7 +1313,6 @@ depends-member:
 - ["So18UIContentContainerP", "textFieldShouldReturn"]
 - !private ["So18UIContentContainerP", "view"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
-- ["So18UIContentContainerP", ""]
 - !private ["So30UIContentSizeCategoryAdjustingP", "bottomAnchor"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "delegate"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "font"]
@@ -1318,6 +1360,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "centerYAnchor"]
 - !private ["So17UICoordinateSpaceP", "contentMode"]
 - !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "dismiss"]
 - !private ["So17UICoordinateSpaceP", "endEditing"]
 - !private ["So17UICoordinateSpaceP", "font"]
 - !private ["So17UICoordinateSpaceP", "heightAnchor"]
@@ -1332,6 +1375,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "selectedSegmentIndex"]
 - !private ["So17UICoordinateSpaceP", "setTitle"]
 - !private ["So17UICoordinateSpaceP", "setTitleColor"]
+- !private ["So17UICoordinateSpaceP", "show"]
 - !private ["So17UICoordinateSpaceP", "text"]
 - !private ["So17UICoordinateSpaceP", "tintColor"]
 - !private ["So17UICoordinateSpaceP", "titleForSegment"]
@@ -1348,6 +1392,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "centerYAnchor"]
 - !private ["So13UIDynamicItemP", "contentMode"]
 - !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "dismiss"]
 - !private ["So13UIDynamicItemP", "endEditing"]
 - !private ["So13UIDynamicItemP", "font"]
 - !private ["So13UIDynamicItemP", "heightAnchor"]
@@ -1362,6 +1407,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "selectedSegmentIndex"]
 - !private ["So13UIDynamicItemP", "setTitle"]
 - !private ["So13UIDynamicItemP", "setTitleColor"]
+- !private ["So13UIDynamicItemP", "show"]
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So13UIDynamicItemP", "tintColor"]
 - !private ["So13UIDynamicItemP", "titleForSegment"]
@@ -1370,6 +1416,7 @@ depends-member:
 - ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So13UIDynamicItemP", "widthAnchor"]
 - !private ["So18UIFocusEnvironmentP", "Auth"]
+- !private ["So18UIFocusEnvironmentP", "SVProgressHUD"]
 - !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
 - !private ["So18UIFocusEnvironmentP", "UIAlertController"]
 - !private ["So18UIFocusEnvironmentP", "UIAlertControllerStyle"]
@@ -1383,6 +1430,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "UITapGestureRecognizer"]
 - ["So18UIFocusEnvironmentP", "UITextField"]
 - ["So18UIFocusEnvironmentP", "UIView"]
+- ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "addAction"]
 - !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
 - !private ["So18UIFocusEnvironmentP", "addSubview"]
@@ -1392,6 +1440,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "centerXAnchor"]
 - !private ["So18UIFocusEnvironmentP", "centerYAnchor"]
 - !private ["So18UIFocusEnvironmentP", "contentMode"]
+- !private ["So18UIFocusEnvironmentP", "customAlert"]
 - !private ["So18UIFocusEnvironmentP", "delegate"]
 - !private ["So18UIFocusEnvironmentP", "dismiss"]
 - !private ["So18UIFocusEnvironmentP", "displayActionSheet"]
@@ -1436,6 +1485,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "setupLoginRegisterButton"]
 - !private ["So18UIFocusEnvironmentP", "setupLoginRegisterSegmentedControl"]
 - !private ["So18UIFocusEnvironmentP", "setupProfileImageView"]
+- !private ["So18UIFocusEnvironmentP", "show"]
 - !private ["So18UIFocusEnvironmentP", "text"]
 - ["So18UIFocusEnvironmentP", "textField"]
 - ["So18UIFocusEnvironmentP", "textFieldDidBeginEditing"]
@@ -1452,7 +1502,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "view"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - !private ["So18UIFocusEnvironmentP", "widthAnchor"]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["So11UIFocusItemP", "addGestureRecognizer"]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "addTarget"]
@@ -1462,6 +1511,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "centerYAnchor"]
 - !private ["So11UIFocusItemP", "contentMode"]
 - !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "dismiss"]
 - !private ["So11UIFocusItemP", "endEditing"]
 - !private ["So11UIFocusItemP", "font"]
 - !private ["So11UIFocusItemP", "heightAnchor"]
@@ -1476,6 +1526,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "selectedSegmentIndex"]
 - !private ["So11UIFocusItemP", "setTitle"]
 - !private ["So11UIFocusItemP", "setTitleColor"]
+- !private ["So11UIFocusItemP", "show"]
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So11UIFocusItemP", "tintColor"]
 - !private ["So11UIFocusItemP", "titleForSegment"]
@@ -1487,6 +1538,7 @@ depends-member:
 - !private ["So19UIGestureRecognizerC", "init"]
 - !private ["So7UIImageC", "init"]
 - !private ["So31UIImagePickerControllerDelegateP", "Auth"]
+- !private ["So31UIImagePickerControllerDelegateP", "SVProgressHUD"]
 - !private ["So31UIImagePickerControllerDelegateP", "UIAlertAction"]
 - !private ["So31UIImagePickerControllerDelegateP", "UIAlertController"]
 - !private ["So31UIImagePickerControllerDelegateP", "UIAlertControllerStyle"]
@@ -1500,6 +1552,7 @@ depends-member:
 - !private ["So31UIImagePickerControllerDelegateP", "UITapGestureRecognizer"]
 - ["So31UIImagePickerControllerDelegateP", "UITextField"]
 - ["So31UIImagePickerControllerDelegateP", "UIView"]
+- !private ["So31UIImagePickerControllerDelegateP", "customAlert"]
 - !private ["So31UIImagePickerControllerDelegateP", "dismiss"]
 - !private ["So31UIImagePickerControllerDelegateP", "displayActionSheet"]
 - !private ["So31UIImagePickerControllerDelegateP", "emailSeparatorView"]
@@ -1543,6 +1596,7 @@ depends-member:
 - !private ["So11UIImageViewC", "heightAnchor"]
 - !private ["So11UIImageViewC", "image"]
 - !private ["So11UIImageViewC", "init"]
+- !private ["So11UIImageViewC", "isHidden"]
 - !private ["So11UIImageViewC", "isUserInteractionEnabled"]
 - !private ["So11UIImageViewC", "layer"]
 - !private ["So11UIImageViewC", "translatesAutoresizingMaskIntoConstraints"]
@@ -1562,6 +1616,7 @@ depends-member:
 - !private ["So10UIKeyInputP", "widthAnchor"]
 - !private ["So7UILabelC", "font"]
 - !private ["So30UINavigationControllerDelegateP", "Auth"]
+- !private ["So30UINavigationControllerDelegateP", "SVProgressHUD"]
 - !private ["So30UINavigationControllerDelegateP", "UIAlertAction"]
 - !private ["So30UINavigationControllerDelegateP", "UIAlertController"]
 - !private ["So30UINavigationControllerDelegateP", "UIAlertControllerStyle"]
@@ -1575,6 +1630,7 @@ depends-member:
 - !private ["So30UINavigationControllerDelegateP", "UITapGestureRecognizer"]
 - ["So30UINavigationControllerDelegateP", "UITextField"]
 - ["So30UINavigationControllerDelegateP", "UIView"]
+- !private ["So30UINavigationControllerDelegateP", "customAlert"]
 - !private ["So30UINavigationControllerDelegateP", "dismiss"]
 - !private ["So30UINavigationControllerDelegateP", "displayActionSheet"]
 - !private ["So30UINavigationControllerDelegateP", "emailSeparatorView"]
@@ -1612,6 +1668,7 @@ depends-member:
 - ["So30UINavigationControllerDelegateP", "textFieldShouldReturn"]
 - !private ["So30UINavigationControllerDelegateP", "view"]
 - !private ["So30UIPasteConfigurationSupportingP", "Auth"]
+- !private ["So30UIPasteConfigurationSupportingP", "SVProgressHUD"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertControllerStyle"]
@@ -1625,6 +1682,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "UITapGestureRecognizer"]
 - ["So30UIPasteConfigurationSupportingP", "UITextField"]
 - ["So30UIPasteConfigurationSupportingP", "UIView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
 - !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
@@ -1634,6 +1692,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "centerXAnchor"]
 - !private ["So30UIPasteConfigurationSupportingP", "centerYAnchor"]
 - !private ["So30UIPasteConfigurationSupportingP", "contentMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "customAlert"]
 - !private ["So30UIPasteConfigurationSupportingP", "delegate"]
 - !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
 - !private ["So30UIPasteConfigurationSupportingP", "displayActionSheet"]
@@ -1678,6 +1737,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "setupLoginRegisterButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "setupLoginRegisterSegmentedControl"]
 - !private ["So30UIPasteConfigurationSupportingP", "setupProfileImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "show"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - ["So30UIPasteConfigurationSupportingP", "textField"]
 - ["So30UIPasteConfigurationSupportingP", "textFieldDidBeginEditing"]
@@ -1694,11 +1754,11 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "view"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - !private ["So30UIPasteConfigurationSupportingP", "widthAnchor"]
-- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So11UIResponderC", "Auth"]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "MessagesController"]
 - ["So11UIResponderC", "NSLayoutConstraint"]
+- !private ["So11UIResponderC", "SVProgressHUD"]
 - !private ["So11UIResponderC", "UIAlertAction"]
 - !private ["So11UIResponderC", "UIAlertController"]
 - !private ["So11UIResponderC", "UIAlertControllerStyle"]
@@ -1723,6 +1783,7 @@ depends-member:
 - !private ["So11UIResponderC", "centerXAnchor"]
 - !private ["So11UIResponderC", "centerYAnchor"]
 - !private ["So11UIResponderC", "contentMode"]
+- !private ["So11UIResponderC", "customAlert"]
 - !private ["So11UIResponderC", "delegate"]
 - !private ["So11UIResponderC", "dismiss"]
 - ["So11UIResponderC", "displayActionSheet"]
@@ -1771,6 +1832,7 @@ depends-member:
 - ["So11UIResponderC", "setupLoginRegisterButton"]
 - ["So11UIResponderC", "setupLoginRegisterSegmentedControl"]
 - ["So11UIResponderC", "setupProfileImageView"]
+- !private ["So11UIResponderC", "show"]
 - !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "textField"]
 - ["So11UIResponderC", "textFieldDidBeginEditing"]
@@ -1788,6 +1850,7 @@ depends-member:
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So11UIResponderC", "widthAnchor"]
 - !private ["So30UIResponderStandardEditActionsP", "Auth"]
+- !private ["So30UIResponderStandardEditActionsP", "SVProgressHUD"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertControllerStyle"]
@@ -1801,6 +1864,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "UITapGestureRecognizer"]
 - ["So30UIResponderStandardEditActionsP", "UITextField"]
 - ["So30UIResponderStandardEditActionsP", "UIView"]
+- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addAction"]
 - !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
 - !private ["So30UIResponderStandardEditActionsP", "addSubview"]
@@ -1810,6 +1874,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "centerXAnchor"]
 - !private ["So30UIResponderStandardEditActionsP", "centerYAnchor"]
 - !private ["So30UIResponderStandardEditActionsP", "contentMode"]
+- !private ["So30UIResponderStandardEditActionsP", "customAlert"]
 - !private ["So30UIResponderStandardEditActionsP", "delegate"]
 - !private ["So30UIResponderStandardEditActionsP", "dismiss"]
 - !private ["So30UIResponderStandardEditActionsP", "displayActionSheet"]
@@ -1854,6 +1919,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "setupLoginRegisterButton"]
 - !private ["So30UIResponderStandardEditActionsP", "setupLoginRegisterSegmentedControl"]
 - !private ["So30UIResponderStandardEditActionsP", "setupProfileImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "show"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - ["So30UIResponderStandardEditActionsP", "textField"]
 - ["So30UIResponderStandardEditActionsP", "textFieldDidBeginEditing"]
@@ -1870,7 +1936,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "view"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "widthAnchor"]
-- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So20UIScrollViewDelegateP", "fetchUserAndSetUpNavBarTitle"]
 - !private ["So18UISegmentedControlC", "addTarget"]
 - !private ["So18UISegmentedControlC", "bottomAnchor"]
@@ -1901,6 +1966,7 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "widthAnchor"]
 - !private ["So16UIStateRestoringP", "Auth"]
+- !private ["So16UIStateRestoringP", "SVProgressHUD"]
 - !private ["So16UIStateRestoringP", "UIAlertAction"]
 - !private ["So16UIStateRestoringP", "UIAlertController"]
 - !private ["So16UIStateRestoringP", "UIAlertControllerStyle"]
@@ -1914,7 +1980,9 @@ depends-member:
 - !private ["So16UIStateRestoringP", "UITapGestureRecognizer"]
 - ["So16UIStateRestoringP", "UITextField"]
 - ["So16UIStateRestoringP", "UIView"]
+- ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "customAlert"]
 - !private ["So16UIStateRestoringP", "dismiss"]
 - !private ["So16UIStateRestoringP", "displayActionSheet"]
 - !private ["So16UIStateRestoringP", "emailSeparatorView"]
@@ -1954,7 +2022,6 @@ depends-member:
 - ["So16UIStateRestoringP", "textFieldShouldReturn"]
 - !private ["So16UIStateRestoringP", "view"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
-- ["So16UIStateRestoringP", ""]
 - !private ["SC16UIStatusBarStyleO", "lightContent"]
 - !private ["So21UITableViewControllerC", "fetchUserAndSetUpNavBarTitle"]
 - !private ["So21UITableViewDataSourceP", "fetchUserAndSetUpNavBarTitle"]
@@ -1997,6 +2064,7 @@ depends-member:
 - ["So11UITextFieldC", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So11UITextFieldC", "widthAnchor"]
 - !private ["So19UITextFieldDelegateP", "Auth"]
+- !private ["So19UITextFieldDelegateP", "SVProgressHUD"]
 - !private ["So19UITextFieldDelegateP", "UIAlertAction"]
 - !private ["So19UITextFieldDelegateP", "UIAlertController"]
 - !private ["So19UITextFieldDelegateP", "UIAlertControllerStyle"]
@@ -2010,6 +2078,8 @@ depends-member:
 - !private ["So19UITextFieldDelegateP", "UITapGestureRecognizer"]
 - ["So19UITextFieldDelegateP", "UITextField"]
 - ["So19UITextFieldDelegateP", "UIView"]
+- ["So19UITextFieldDelegateP", ""]
+- !private ["So19UITextFieldDelegateP", "customAlert"]
 - !private ["So19UITextFieldDelegateP", "dismiss"]
 - !private ["So19UITextFieldDelegateP", "displayActionSheet"]
 - !private ["So19UITextFieldDelegateP", "emailSeparatorView"]
@@ -2046,7 +2116,6 @@ depends-member:
 - ["So19UITextFieldDelegateP", "textFieldShouldEndEditing"]
 - ["So19UITextFieldDelegateP", "textFieldShouldReturn"]
 - !private ["So19UITextFieldDelegateP", "view"]
-- ["So19UITextFieldDelegateP", ""]
 - !private ["So11UITextInputP", "bottomAnchor"]
 - !private ["So11UITextInputP", "delegate"]
 - !private ["So11UITextInputP", "heightAnchor"]
@@ -2084,6 +2153,7 @@ depends-member:
 - ["So34UITextPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So34UITextPasteConfigurationSupportingP", "widthAnchor"]
 - !private ["So18UITraitEnvironmentP", "Auth"]
+- !private ["So18UITraitEnvironmentP", "SVProgressHUD"]
 - !private ["So18UITraitEnvironmentP", "UIAlertAction"]
 - !private ["So18UITraitEnvironmentP", "UIAlertController"]
 - !private ["So18UITraitEnvironmentP", "UIAlertControllerStyle"]
@@ -2097,6 +2167,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "UITapGestureRecognizer"]
 - ["So18UITraitEnvironmentP", "UITextField"]
 - ["So18UITraitEnvironmentP", "UIView"]
+- ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "addAction"]
 - !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
 - !private ["So18UITraitEnvironmentP", "addSubview"]
@@ -2106,6 +2177,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "centerXAnchor"]
 - !private ["So18UITraitEnvironmentP", "centerYAnchor"]
 - !private ["So18UITraitEnvironmentP", "contentMode"]
+- !private ["So18UITraitEnvironmentP", "customAlert"]
 - !private ["So18UITraitEnvironmentP", "delegate"]
 - !private ["So18UITraitEnvironmentP", "dismiss"]
 - !private ["So18UITraitEnvironmentP", "displayActionSheet"]
@@ -2150,6 +2222,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "setupLoginRegisterButton"]
 - !private ["So18UITraitEnvironmentP", "setupLoginRegisterSegmentedControl"]
 - !private ["So18UITraitEnvironmentP", "setupProfileImageView"]
+- !private ["So18UITraitEnvironmentP", "show"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - ["So18UITraitEnvironmentP", "textField"]
 - ["So18UITraitEnvironmentP", "textFieldDidBeginEditing"]
@@ -2166,7 +2239,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "view"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - !private ["So18UITraitEnvironmentP", "widthAnchor"]
-- ["So18UITraitEnvironmentP", ""]
 - !private ["So6UIViewC", "addGestureRecognizer"]
 - !private ["So6UIViewC", "addSubview"]
 - !private ["So6UIViewC", "addTarget"]
@@ -2176,6 +2248,7 @@ depends-member:
 - !private ["So6UIViewC", "centerYAnchor"]
 - !private ["So6UIViewC", "contentMode"]
 - !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "dismiss"]
 - !private ["So6UIViewC", "endEditing"]
 - !private ["So6UIViewC", "font"]
 - !private ["So6UIViewC", "heightAnchor"]
@@ -2190,6 +2263,7 @@ depends-member:
 - !private ["So6UIViewC", "selectedSegmentIndex"]
 - !private ["So6UIViewC", "setTitle"]
 - !private ["So6UIViewC", "setTitleColor"]
+- !private ["So6UIViewC", "show"]
 - !private ["So6UIViewC", "text"]
 - !private ["So6UIViewC", "tintColor"]
 - !private ["So6UIViewC", "titleForSegment"]
@@ -2202,6 +2276,7 @@ depends-member:
 - ["So16UIViewControllerC", "Bool"]
 - ["So16UIViewControllerC", "MessagesController"]
 - ["So16UIViewControllerC", "NSLayoutConstraint"]
+- !private ["So16UIViewControllerC", "SVProgressHUD"]
 - !private ["So16UIViewControllerC", "UIAlertAction"]
 - !private ["So16UIViewControllerC", "UIAlertController"]
 - !private ["So16UIViewControllerC", "UIAlertControllerStyle"]
@@ -2217,7 +2292,9 @@ depends-member:
 - ["So16UIViewControllerC", "UITextField"]
 - ["So16UIViewControllerC", "UIView"]
 - !private ["So16UIViewControllerC", "Void"]
+- ["So16UIViewControllerC", ""]
 - !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "customAlert"]
 - !private ["So16UIViewControllerC", "dismiss"]
 - ["So16UIViewControllerC", "displayActionSheet"]
 - ["So16UIViewControllerC", "emailSeparatorView"]
@@ -2261,8 +2338,6 @@ depends-member:
 - ["So16UIViewControllerC", "textFieldShouldReturn"]
 - !private ["So16UIViewControllerC", "view"]
 - ["So16UIViewControllerC", "viewDidLoad"]
-- ["So16UIViewControllerC", ""]
-- ["s23_BidirectionalIndexableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addTarget"]
@@ -2272,6 +2347,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "centerYAnchor"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentMode"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dismiss"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "endEditing"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "font"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "heightAnchor"]
@@ -2286,6 +2362,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectedSegmentIndex"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setTitle"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setTitleColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "show"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tintColor"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "titleForSegment"]
@@ -2302,10 +2379,8 @@ depends-member:
 - ["s26_ExpressibleByColorLiteralP", "white"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
-- ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- ["s10_IndexableP", "init"]
-- ["s14_IndexableBaseP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SVProgressHUD"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertControllerStyle"]
@@ -2319,6 +2394,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UITapGestureRecognizer"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UITextField"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
@@ -2333,6 +2409,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "constraint"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "contentMode"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "customAlert"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "displayActionSheet"]
@@ -2379,6 +2456,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setupLoginRegisterButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setupLoginRegisterSegmentedControl"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setupProfileImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "show"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "signIn"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "textField"]
@@ -2397,10 +2475,8 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "white"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "widthAnchor"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - ["s21_ObjectiveCBridgeableP", "init"]
-- ["s26_RangeReplaceableIndexableP", "init"]
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "So4AuthC"
@@ -2439,14 +2515,13 @@ depends-nominal:
 - !private "So17NSLayoutDimensionC"
 - !private "So19NSLayoutXAxisAnchorC"
 - !private "So19NSLayoutYAxisAnchorC"
-- "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - "So14NSSecureCodingP"
-- "So8NSStringC"
 - !private "s9OptionSetP"
 - "s26RangeReplaceableCollectionP"
 - !private "s16RawRepresentableP"
+- !private "So13SVProgressHUDC"
 - "s8SequenceP"
 - !private "s10SetAlgebraP"
 - "SS"
@@ -2505,7 +2580,6 @@ depends-nominal:
 - "So6UIViewC"
 - !private "SC17UIViewContentModeO"
 - "So16UIViewControllerC"
-- "s23_BidirectionalIndexableP"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
@@ -2515,12 +2589,8 @@ depends-nominal:
 - "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - "s33_ExpressibleByStringInterpolationP"
-- "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
-- "s26_RangeReplaceableIndexableP"
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
@@ -2542,71 +2612,92 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/Firebase/Core/Sources/Firebase.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/Firebase/Core/Sources/module.modulemap"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
-- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/Facebook Messenger/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "899c4539a3adea73faa178fed978af5a"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/amithdubbasi/Desktop/fb/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/amithdubbasi/Desktop/fb/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/amithdubbasi/Desktop/fb/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/amithdubbasi/Desktop/fb/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/amithdubbasi/Desktop/fb/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/amithdubbasi/Desktop/fb/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Git/InstagramFirebase/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/Brian/Facebook Messenger/Facebook Messenger/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/fb/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/amithdubbasi/Desktop/fb/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "66b93126b461733d2e766b81e7337c7a"
