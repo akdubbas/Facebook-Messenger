@@ -56,6 +56,16 @@ extension LoginViewController : UIImagePickerControllerDelegate, UINavigationCon
             self.present(imagePicker,animated: true, completion : nil)
         }
     }
+    func customAlert(title:String,message:String)
+    {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        
+        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertController.addAction(defaultAction)
+        
+        present(alertController, animated: true, completion: nil)
+    }
+    
     @objc func handleRegister()
     {
         guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else {
@@ -66,6 +76,10 @@ extension LoginViewController : UIImagePickerControllerDelegate, UINavigationCon
         Auth.auth().createUser(withEmail: email, password: password, completion: { (user, error) in
             
             if error != nil{
+                SVProgressHUD.dismiss()
+                self.customAlert(title: "Email already taken",message: "")
+                self.emailTextField.text = "";
+                self.passwordTextField.text = "";
                 print(error!)
                 return
             }

@@ -322,6 +322,8 @@ SWIFT_CLASS("_TtC18Facebook_Messenger29NewMessageTableViewController")
 
 
 
+
+
 SWIFT_CLASS("_TtC18Facebook_Messenger4User")
 @interface User : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
