@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/amithdubbasi/Desktop/fb/Build/Intermediates/Pods.build/Debug-iphoneos/nanopb.build/DerivedSources/nanopb_vers.c
+  /Users/amithdubbasi/Desktop/Fb/Build/Intermediates/Pods.build/Debug-iphoneos/nanopb.build/DerivedSources/nanopb_vers.c

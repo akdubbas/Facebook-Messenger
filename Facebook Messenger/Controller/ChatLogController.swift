@@ -25,9 +25,7 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
             observeMessages()
         }
     }
-  
-    
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -98,10 +96,7 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
                     })
                     
                 }
-                
-                
-                
-                
+     
             }
         })
         uplaodTask.observe(.progress) { (snapshot) in
@@ -298,7 +293,6 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         var height : CGFloat = 80
-        
         let message = messages[indexPath.row]
         if let text = message.text {
             height = estimateFrameForText(text: text).height + 28
@@ -342,13 +336,6 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
                 }
                 
                 let message = Message(dictionary: dictionary)
-                
-                /*message.fromId = dictionary["fromId"] as? String
-                message.text = dictionary["text"] as? String
-                message.timeStamp = dictionary["timeStamp"] as? NSNumber
-                message.toId = dictionary["toId"] as? String
-                message.imageUrl = dictionary["imageUrl"] as? String*/
-                
                 self.messages.append(message)
                 DispatchQueue.main.async(execute: {
                     self.collectionView?.reloadData()
@@ -357,8 +344,6 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
                     self.collectionView?.scrollToItem(at: indexPath as IndexPath, at: .bottom, animated: true)
                     }
                 })
-                
-                
             }, withCancel: nil)
         }, withCancel: nil)
         
@@ -417,9 +402,6 @@ class ChatLogController : UICollectionViewController, UITextFieldDelegate, UICol
             return
         }
     }
-    
-    
-    
     var startingFrame : CGRect?
     var blackBackgroudView : UIView?
     var startingImageView : UIImageView?

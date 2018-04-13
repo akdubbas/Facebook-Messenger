@@ -738,7 +738,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = M67H5Z9NQV;
 				INFOPLIST_FILE = "Facebook Messenger/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iDiscover.chatmessenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -761,7 +761,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = M67H5Z9NQV;
 				INFOPLIST_FILE = "Facebook Messenger/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iDiscover.chatmessenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
