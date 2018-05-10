@@ -32,11 +32,22 @@ o	Technologies & Tools: Swift 4.0, XCode, MVC, Cocoa Framework, Google’s Fireb
 - Upload Videos to Firebase by implementing AVFoundation and MobileCore Services
 - Added custom layouts in a TableView Cell to list users information like name, email and profile picture
 
-
-
-
 # Note:
-OS_ACTIVITY_MODE is set to disable unnecessary noise in Console
+        OS_ACTIVITY_MODE is set to disable unnecessary noise in Console
+
+# Application Screenshots
+
+<img src ="https://user-images.githubusercontent.com/29175925/39875798-953bf160-543f-11e8-881e-fb076923de57.PNG" width="199" align="left">
+
+<img src ="https://user-images.githubusercontent.com/29175925/39874643-65ebfafc-543c-11e8-824c-99a0c71062ac.PNG" align="left" width="198">
+
+<img src ="https://user-images.githubusercontent.com/29175925/39874741-b1975fbe-543c-11e8-8364-cd2d51056dca.PNG" width = "198" align="left">
+
+<img src ="https://user-images.githubusercontent.com/29175925/39874779-cd88eb84-543c-11e8-9364-8e95b6ec0d44.PNG" width = "198" align="left">
+
+        
+
+
 
 
 
