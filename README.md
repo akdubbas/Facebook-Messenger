@@ -37,7 +37,7 @@ o	Technologies & Tools: Swift 4.0, XCode, MVC, Cocoa Framework, Google’s Fireb
 
 # Application Screenshots
 
-<img src ="https://user-images.githubusercontent.com/29175925/39875798-953bf160-543f-11e8-881e-fb076923de57.PNG" width="199" align="left">
+<img src ="https://user-images.githubusercontent.com/29175925/39875798-953bf160-543f-11e8-881e-fb076923de57.PNG" width="198" align="left">
 
 <img src ="https://user-images.githubusercontent.com/29175925/39874643-65ebfafc-543c-11e8-824c-99a0c71062ac.PNG" align="left" width="198">
 
